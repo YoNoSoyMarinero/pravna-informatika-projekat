@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Akoma_Ntoso document -->
+<akomaNtoso xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://docs.oasis-open.org/legaldocml/ns/akn/3.0/WD17 ../schemas/akomantoso30.xsd " xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0/WD17" xmlns:mods="http://www.loc.gov/standards/mods/v3/mods-3-6.xsd">
+	<judgment>
+		<meta>
+			<identification source="#court">
+				<FRBRWork>
+					<FRBRauthor>
+						Viši sud u Podgorici
+					</FRBRauthor>
+					<FRBRdate date="2017-11-28">
+						2017-11-28
+					</FRBRdate>
+					<FRBRtitle>
+						K 103/2017
+					</FRBRtitle>
+					<FRBRcountry>
+						CG
+					</FRBRcountry>
+				</FRBRWork>
+			</identification>
+			<references>
+				<TLCOrganization eId="vs" href="/ontology/organization/VisiSud.Podgorica" showAs="Visi sud u Podgorici" />
+				<TLCOrganization eId="vdt" href="/ontology/organization/ViseDrzavnoTuzilastvo" showAs="Vise drzavno tuzilastvo" />
+				<TLCPerson eId="ptabas" href="/ontology/person/ptabas" showAs="Predrag Tabaš" />
+                <TLCPerson eId="mpopovic" href="/ontology/person/mpopovic" showAs="Mirjana Popović" /> 
+				<TLCPerson eId="ljsoskic" href="/ontology/person/ljsoskic" showAs="Ljiljana Šoškić" />
+                <TLCPerson eId="snovicic" href="/ontology/person/snovicic" showAs="Slobodanka Novičić" />
+                <TLCPerson eId="ztomkovic" href="/ontology/person/ztomkovic" showAs="Željko Tomković" />
+				<TLCPerson eId="vgjtm" href="/ontology/person/vgjtm" showAs="V.G.J.T.M" />
+                <TLCPerson eId="hg" href="/ontology/person/hg" showAs="H.G" />
+				<TLCRole eId="defendant" href="/ontology/role/defendant" showAs="Defendant" />
+				<TLCRole eId="judge" href="/ontology/role/judge" showAs="Judge" />
+				<TLCRole eId="advisor" href="/ontology/role/advisor" showAs="Advisor" />
+				<TLCRole eId="clerk" href="/ontology/role/clerk" showAs="Clerk" />
+			</references>
+		</meta>
+		<judgmentBody>
+			<p>
+				<organization id="vs" referesTo="#vs">
+					VIŠI SUD U PODGORICI
+				</organization>
+                , kao prvostepeni krivični u vijeću sastavljenom od sudije
+				<party id="ptabas" refersTo="#ptabas" as="#judge">
+					Tabaš Predraga
+				</party>
+				, kao predsjednika veća i sudija
+				<party id="mpopovic" refersTo="#mpopovic" as="#judge">
+					Mirjane Popović
+				</party>
+                i
+                <party id="ljsoskic" refersTo="#ljsoskic" as="#judge">
+					Ljiljane Šoškić
+				</party>
+				, kao članova vijeća, uz učešće
+				<party id="snovicic" refersTo="#snovicic" as="#clerk">
+					Novičić Slobodanke
+				</party>
+				, kao zapisničara, u krivičnom predmetu protiv optuženog
+                <party id="vgjtm" refersTo="#vgjtm" as="#defendant">
+					V.G.J.T.M
+				</party>
+                , koga brani
+                <party id="hg" refersTo="#hg" as="#advisor">
+					H.G.
+				</party>
+                , advokat iz Podgorice po službenoj dužnosti, zbog krivičnog djela neovlašćena proizvodnja, držanje i stavljanje u promet opojnih droga iz
+                <ref href="/krivicni#art_300">
+					čl. 300 st. 2 u vezi st.1  Krivičnog zakonika Crne Gore
+				</ref>
+				, odlučujući po optužnici
+                <organization id="vdt" referesTo="#vdt">
+					Višeg državnog tužilaštva u Podgorici
+				</organization>
+                Kt.br. 90/17 od 15.09.2017. godine, koju je na glavnom pretresu zastupao
+                <party id="ztomkovic" refersTo="#ztomkovic" as="#plaintiff">
+					Željko Tomković
+				</party>
+				- državni tužilac u
+                <organization id="vdt" referesTo="#vdt">
+					Višem državnom tužilaštvu u Podgorici
+				</organization>
+                , nakon održanog usmenog, glavnog i javnog pretresa, dana 22.11.2017. godine, u prisustvu zastupnika optužbe, optuženog i njegovog branioca, nakon tajnog vijećanja i glasanja, dana 28.11.2017. godine, donio je i istog dana javno objavio P R E S U D U Optuženi: 
+                <party id="vgjtm" refersTo="#vgjtm" as="#defendant">
+					V.G.J.T.M
+				</party>
+                , od oca J. i majke P., rodjene D. B., rodjen .... godine u D..., sa prebivalištem u T..., ul. L... br. ... - K... H..., državljanin K... H..., neoženjen, bez djece, završio srednju školu, zaposlen u firmi "R..." u T..., srednjeg imovnog stanja, u pritvoru od 07.07.2017. godine od 18,30 časova, neosudjivan. KRIV JE Zato što je: Dana 07.07.2017. godine, na graničnom prelazu Božaj, neovlašćeno radi prodaje, iz Republike Albanije unio u Crnu Goru opojnu drogu marihuanu-supstancu proglašenu za opojnu drogu Pravilnikom o utvrdjivanju spiska droga, psihotropnih supstanci i bilja koje se može koristiti za proizvodnju droga ("Sl. list CG" br. 56/12 od 09.112012. godine), iako je bio svjestan da postupa neovlašćeno i protivpravno, pa je to i htio, na način što je u putničkom motornom vozilu marke "Volkswagen-Sharan", reg. oznaka GP 744 V, prenosio sedam pakovanja obliku kvadra i jedno pakovanje nepravilnog oblika od plastične kese omotana selotejp trakom, u kojima se nalazila opojna droga marihuana, u količinama od 507,84 grama, 500,56 grama, 499,94 grama, 517,45 grama, 508,03 grama, 510,85 grama, 509,67 grama i 482,57 grama, kao i tri pakovanja nepravilnog oblika i dva pakovanja oblika kvadrata upakovana u plastične kese i omotana selotejp trakom, u kojima se nalazila opojna droga marihuana, u količinama od 490,43 grama, 493,04 grama, 505,95 grama, 513,81 grama i 522,88 grama, koja opojna droga je bila sakrivena u unutrašnjosti navedenog vozila i to u plastičnim spremištima, u patosu ispred zadnjih sjedišta i u prtljažniku vozila iz tapacira, iznad zadnjeg lijevog blatobrana, koja opojna droga je istog dana pronadjena i oduzeta od optuženog prilikom pretresa navedenog vozila izvršenog od strane službenika Uprave policije-Sektor granične policije-Regionalni centar granične policije "Centar" - Odjeljenje granične bezbjednosti Tuzi - Granični prelaz Božaj, a koja opojna droga je bila namijenjena daljoj neovlašćenoj prodaji, čime je izvršio krivično djelo neovlašćena proizvodnja, držanje i stavljanje u promet opojnih droga iz
+                <ref href="/krivicni#art_300">
+					člana 300 st.2 u vezi st.1. Krivičnog zakonika Crne Gore
+				</ref>
+                .
+			</p>
+			<conclusions>
+				<p>
+					Pa ga
+					<organization id="vs" referesTo="#vs">
+						sud
+					</organization>
+                    , primjenom, citirane zakonske odredbe, te odredbe
+					<ref href="/krivicni#art_4">
+						čl. 4
+					</ref>
+					,
+                    <ref href="/krivicni#art_5">
+						5
+					</ref>
+                    ,
+                    <ref href="/krivicni#art_6">
+						6
+					</ref>
+                    ,
+                    <ref href="/krivicni#art_7">
+						7
+					</ref>
+                    ,
+                    <ref href="/krivicni#art_8">
+						8
+					</ref>
+                    ,
+                    <ref href="/krivicni#art_14">
+						14
+					</ref>
+                    ,
+                    <ref href="/krivicni#art_15">
+						15
+					</ref>
+                    ,
+                    <ref href="/krivicni#art_32">
+						32
+					</ref>
+                    ,
+                    <ref href="/krivicni#art_36">
+						36
+					</ref>
+                    ,
+                    <ref href="/krivicni#art_42">
+						42
+					</ref>
+                    ,
+                    <ref href="/krivicni#art_45">
+						45
+					</ref>
+                    ,
+                    <ref href="/krivicni#art_46">
+						46
+					</ref>
+                    i
+                    <ref href="/krivicni#art_51">
+						51. Krivičnog zakonika Crne Gore
+					</ref>
+                    , te odredbi
+					<ref href="/postupak#art_226">
+						čl. 226
+					</ref>
+                    ,
+                    <ref href="/postupak#art_229">
+						229
+					</ref>
+                    i
+                    <ref href="/postupak#art_374">
+						374. Zakonika o krivičnom postupku
+					</ref>
+					, O S U Đ U J E Na kaznu zatvora u trajanju od 1 (jedne) godine i 6 (šest) mjeseci, u koju kaznu mu se uračunava vrijeme provedeno u pritvoru počev od 07.07.2017. godine od 18,30 časova, pa nadalje dok pritvor bude trajao. Dužan je
+                    <party id="vgjtm" refersTo="#vgjtm" as="#defendant">
+                        optuženi
+				    </party>
+                    da na ime roškova krivičnog postupka-sudskog paušala plati ovom sudu novčani iznos od 150,00 eura, sve u roku od 15 dana po pravosnažnosti presude, pod prijetnjom prinudne naplate, dok će o ostalim troškovima krivičnog postupka, Sud odlučiti naknadno, posebnim rješenjem, po pribavljanju podataka o njihovoj visini. II. Na osnovu
+                    <ref href="/krivicni#art_75">
+					    čl. 75.
+				    </ref>
+                    i
+                    <ref href="/krivicni#art_300">
+					    čl. 300 st. 7 Krivičnog zakonika Crne Gore
+				    </ref>
+                    ,
+                    <organization id="vs" referesTo="#vs">
+						sud
+					</organization>
+					<party id="cm" refersTo="#cm" as="#defendant">
+						optuženom
+					</party>
+                    se izriče: MJREA BEZBJEDNOSTI ODUZIMANJE PREDMETA I to: 6.563,02 grama opojne droge marihuana, koja droga se ima uništiti nakon pravosnažnosti presude.
+                </p>
+			</conclusions>
+		</judgmentBody>
+	</judgment>
+</akomaNtoso>

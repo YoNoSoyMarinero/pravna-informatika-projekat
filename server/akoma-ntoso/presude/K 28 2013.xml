@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Akoma_Ntoso document -->
+<akomaNtoso xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://docs.oasis-open.org/legaldocml/ns/akn/3.0/WD17 ../schemas/akomantoso30.xsd " xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0/WD17" xmlns:mods="http://www.loc.gov/standards/mods/v3/mods-3-6.xsd">
+	<judgment>
+		<meta>
+			<identification source="#court">
+				<FRBRWork>
+					<FRBRauthor>
+						Viši sud u Podgorici
+					</FRBRauthor>
+					<FRBRdate date="2015-02-02">
+						2015-02-02
+					</FRBRdate>
+					<FRBRtitle>
+						K 107/2015
+					</FRBRtitle>
+					<FRBRcountry>
+						CG
+					</FRBRcountry>
+				</FRBRWork>
+			</identification>
+			<references>
+				<TLCOrganization eId="vs" href="/ontology/organization/VisiSud.Podgorica" showAs="Visi sud u Podgorici" />
+				<TLCOrganization eId="vdt" href="/ontology/organization/ViseDrzavnoTuzilastvo" showAs="Vise drzavno tuzilastvo" />
+				<TLCPerson eId="vpean" href="/ontology/person/vpean" showAs="Vesna Pean" />
+                <TLCPerson eId="brakovic" href="/ontology/person/brakovic" showAs="Bojana Raković" />
+				<TLCPerson eId="jdj" href="/ontology/person/jdj" showAs="J.Đ" />
+                <TLCPerson eId="zb" href="/ontology/person/zb" showAs="Z.B." /> 
+				<TLCRole eId="defendant" href="/ontology/role/defendant" showAs="Defendant" />
+				<TLCRole eId="judge" href="/ontology/role/judge" showAs="Judge" />
+				<TLCRole eId="advisor" href="/ontology/role/advisor" showAs="Advisor" />
+				<TLCRole eId="clerk" href="/ontology/role/clerk" showAs="Clerk" />
+			</references>
+		</meta>
+		<judgmentBody>
+			<p>
+				<organization id="vs" referesTo="#vs">
+					Viši sud u Podgorici
+				</organization>
+                , kao prvostepeni krivični, po sudiji
+				<party id="vpean" refersTo="#vpean" as="#judge">
+					Vesni Pean
+				</party>
+				, kao sudiji pojedincu, uz učešće namještenika suda
+                <party id="brakovic" refersTo="#brakovic" as="#clerk">
+					Bojane Raković
+				</party>
+				, kao zapisničara, u krivičnom predmetu protiv optuženog
+				<party id="jdj" refersTo="#jdj" as="#defendant">
+					J.Đ.
+				</party>
+				, koga brani po izboru
+                <party id="zb" refersTo="#zb" as="#advisor">
+					Z.B.
+				</party>
+                , advokat iz Podgorice, zbog krivičnog djela neovlašćena proizvodnja, držanje i stavljanje u promet opojnih droga iz
+                <ref href="/krivicni#art_300">
+					člana 300 stav 1 Krivičnog zakonika
+				</ref>
+				, po optužnici
+                <organization id="vdt" referesTo="#vdt">
+					Višeg državnog tužilaštva
+				</organization>
+                u Podgorici Kt.br.100/15 od 20.11.2015.godine, koju je na glavnom pretresu zastupala M. J., državni tužilac u
+                <organization id="vdt" referesTo="#vdt">
+					Višem državnom tužilaštvu
+				</organization>
+                u Podgorici, nakon održanog glavnog i javnog pretresa dana 29.01.2016. godine, u prisustvu zastupnika optužnice, optuženog i njegovog branioca, donio je i javno objavio dana 02.02.2016.godine P R E S U D U Optuženi
+                <party id="jdj" refersTo="#jdj" as="#defendant">
+					J. DJ.
+				</party>
+				, JMBG ., od oca K. i majke Lj. rodjene B., rodjen ..godine, u P., sa prebivalištem u P.-. selo P., državljanin Crne Gore, završio osnovnu školu, oženjen, otac petoro djece, od kojih jedno maloljetno, supruga nezaposlena, nezaposlen, a izdržava porodicu povremenim privatnim radom, lošeg imovnog stanja, u pritvoru proveo vrijeme od 22.09.2015.godine do 02.02.2016.godine K r i v j e Što je: Dana 22.09.2015.godine u Podgorici, u naselju Konik, neovlašćeno radi prodaje držao opojnu drogu heroin-supstancu proglašenu za opojnu drogu Pravilnikom o utvrdjivanju spiska droga, psihotropnih supstanci i bilja koje se može koristiti za proizvodnju droga (Sl.list CG br. 56/12 od 09.11.2012.godine), na način što je u svom vozilu marke "Golf 4", reg. oznaka PG TA 329, kojim je upravljao, ispod peškira na sjedištu vozača, držao sakriveno jedno ručno pravljeno pakovanje oblijepljeno izolir trakom u kojem se nalazilo 128,13 grama heroina, a koja opojna droga je pronadjena prilikom redovne kontrole saobraćaja od strane ovlašćenih policijskih slubženika, pri čemu je bio svjestan svoga djela i htio njegovo izvršenje -čime je izvršio krivično djelo neovlašćena proizvodnja, držanje i stavljanje u promet opojnih droga iz
+                <ref href="/krivicni#art_300">
+					čl.300 st.1 Krivičnog zakonika
+				</ref>
+                ,
+			</p>
+			<conclusions>
+				<p>
+					Pa ga
+					<organization id="vs" referesTo="#vs">
+						sud
+					</organization>
+					na osnovu naprijed navedene krivičnopravne odredbe, te članova
+                    <ref href="/krivicni#art_2">
+                        2
+                    </ref>
+                    ,
+					<ref href="/krivicni#art_4">
+                        4
+                    </ref>
+                    ,
+                    <ref href="/krivicni#art_5">
+                        5
+                    </ref>
+                    ,
+                    <ref href="/krivicni#art_15">
+                        15
+                    </ref>
+                    ,
+                    <ref href="/krivicni#art_32">
+                        32
+                    </ref>
+                    ,
+                    <ref href="/krivicni#art_33">
+                        33
+                    </ref>
+                    ,
+                    <ref href="/krivicni#art_36">
+                        36
+                    </ref>
+                    ,
+                    <ref href="/krivicni#art_42">
+                        42
+                    </ref>
+                    ,
+                    <ref href="/krivicni#art_45">
+                        45
+                    </ref>
+                    ,
+                    <ref href="/krivicni#art_46">
+                        46
+                    </ref>
+                    i
+                    <ref href="/krivicni#art_51">
+                        51 Krivičnog zakonika
+                    </ref>
+					, te člana
+					<ref href="/postupak#art_374">
+						374 ZKP-a
+					</ref>
+					NA KAZNU ZATVORA U TRAJANJU OD 1 (JEDNE) GODINE I 6 (ŠEST) MJESECI, u koju se ima uračunati vrijeme koje je proveo u pritvoru u periodu od 22.09.2015.godine do 02.02.2016.godine, pa će ostatak kazne optuženi izdržati po pravosnažnosti presude. Na osnovnu
+                    <ref href="/krivicni#art_75">
+					    člana 75
+				    </ref>
+                    u vezi
+                    <ref href="/krivicni#art_300">
+					    člana 300 stav 7 Krivičnog zakonika
+				    </ref>
+                    , prema
+					<party id="jdj" refersTo="#jdj" as="#defendant">
+						optuženom
+					</party>
+                    se izriče: MJERA BEZBJEDNOSTI ODUZIMANJA PREDMETA Od
+                    <party id="jdj" refersTo="#jdj" as="#defendant">
+						optuženog
+					</party>
+                    se oduzima opojna droga - heroin u ukupnoj količini od 128,13 grama, koja se ima uništiti, po pravnosnažnosti presude. Dužan je optuženi po osnovu sudskog paušala platiti ovom sudu novčani iznos od 50,00 eura, u roku od 15 dana, po pravnosnažnosti presude pod prijetnjom prinudnog izvršenja, u korist Budžeta Crne Gore.
+                </p>
+			</conclusions>
+		</judgmentBody>
+	</judgment>
+</akomaNtoso>

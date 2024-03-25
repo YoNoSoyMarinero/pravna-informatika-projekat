@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Akoma_Ntoso document -->
+<akomaNtoso xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://docs.oasis-open.org/legaldocml/ns/akn/3.0/WD17 ../schemas/akomantoso30.xsd " xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0/WD17" xmlns:mods="http://www.loc.gov/standards/mods/v3/mods-3-6.xsd">
+	<judgment>
+		<meta>
+			<identification source="#court">
+				<FRBRWork>
+					<FRBRauthor>
+						Viši sud u Podgorici
+					</FRBRauthor>
+					<FRBRdate date="2014-11-04">
+						2014-11-04
+					</FRBRdate>
+					<FRBRtitle>
+						K 90/2014
+					</FRBRtitle>
+					<FRBRcountry>
+						CG
+					</FRBRcountry>
+				</FRBRWork>
+			</identification>
+			<references>
+				<TLCOrganization eId="vs" href="/ontology/organization/VisiSud.Podgorica" showAs="Visi sud u Podgorici" />
+				<TLCOrganization eId="vdt" href="/ontology/organization/ViseDrzavnoTuzilastvo" showAs="Vise drzavno tuzilastvo" />
+				<TLCPerson eId="ptabas" href="/ontology/person/ptabas" showAs="Predrag Tabaš" /> <!--sudija-->
+				<TLCPerson eId="snovicic" href="/ontology/person/snovicic" showAs="Slobodanka Novičić" /> <!--zapisnicar-->
+				<TLCPerson eId="nn" href="/ontology/person/nn" showAs="N.N" /> <!--optuzeni-->
+                <TLCPerson eId="di" href="/ontology/person/di" showAs="D.I" />
+                <TLCPerson eId="lm" href="/ontology/person/lm" showAs="L.M" />
+                <TLCRole eId="plaintiff" href="/ontology/role/plaintiff" showAs="Plaintiff" />
+				<TLCRole eId="defendant" href="/ontology/role/defendant" showAs="Defendant" />
+				<TLCRole eId="judge" href="/ontology/role/judge" showAs="Judge" />
+				<TLCRole eId="advisor" href="/ontology/role/advisor" showAs="Advisor" />
+				<TLCRole eId="clerk" href="/ontology/role/clerk" showAs="Clerk" />
+			</references>
+		</meta>
+		<judgmentBody>
+			<p>
+				<organization id="vs" referesTo="#vs">
+					VIŠI SUD U PODGORICI
+				</organization>
+                , kao prvostepeni krivični, po Sudiji
+				<party id="ptabas" refersTo="#ptabas" as="#judge">
+					Tabaš Predragu
+				</party>
+				, uz učešće
+				<party id="snovicic" refersTo="#snovicic" as="#clerk">
+					Novičić Slobodanke
+				</party>
+				, kao zapisničara, u predmetu protiv optuženog
+				<party id="nn" refersTo="#nn" as="#defendant">
+					N.N
+				</party>
+				, koga brani
+                <party id="di" refersTo="#di" as="#advisor">
+					D.I
+				</party>
+                , advokat iz P... po izboru, zbog krivičnog djela neovlašćena proizvodnja, držanje i stavljanje u promet opojnih droga iz
+                <ref href="/krivicni#art_300">
+					čl. 300 st. 1. Krivičnog zakonika Crne Gore
+				</ref>
+				, odlučujući po optužnici Višeg državnog tužilaštva u Podgorici Kt.br.81/14 od 01.09.2014 godine, koju je na glavnom pretresu zastupala
+                <party id="lm" refersTo="#lm" as="#plaintiff">
+					L.M
+				</party>
+				, zamjenik
+                <organization id="vdt" referesTo="#vdt">
+					VDT-a u Podgorici
+				</organization>
+                , nakon održanog usmenog i javnog glavnog pretresa završenog dana 31.10.2014 godine, u prisustvu zastupnika optužbe, optuženog i njegovog branioca, dana 04.11.2014 godine, donio je i istog dana javno objavio P R E S U D U Optuženi
+                <party id="nn" refersTo="#nn" as="#defendant">
+					N.N
+				</party>
+                , JMBG ..., od oca S. i majke L., rodjene J., rodjen .... godine u P..., sa prebivalištem u P..., ul. F... P... br. ..., državljanin Crne Gore, oženjen, otac jednog mldb. djeteta, zaposlen, pismen, završio srednju elektrotehničku školu, lošeg imovnog stanja, neosudjivan. KRIV JE Zato što je: Dana 03.07.2014. godine u Podgorici, neovlašćeno radi prodaje držao opojnu drogu marihuanu-supstancu proglašenu za opojnu drogu Pravilnikom o utvrdjivanju spiska droga psihotropnih supstanci i bilja koje se može koristiti za proizvodnju droga ("Sl. list CG" br. 56/12 od 09.11.2012. godine), iako je bio svjestan da postupa neovlašćeno i protivpravno, pa je to i htio, na način što je predmetnu opojnu drogu, zapakovanu u jedan ručno pravljeni zamotuljak od aluminijske folije, ukupne neto mase 2,34 grama držao sakrivenu u ručnoj torbici crne boje, a koju drogu su prilikom pretresa okrivljenog u ul. F... P... pronašli i oduzeli ovlašćeni policijski službenici Uprave policije-CB Podgorica, dok su istog dana prilikom pretresa porodične kuće, u ul. F... P... u P... pronašli opojnu drogu marihuanu, koju je okrivljeni držao sakrivenu u svojoj sobi, u plakaru i to u torbici 2 zamotuljka od aluminijske folije, ukupne nego mase 4,99 grama, dok je u dvije staklene tegle neovlašćeno držao 90,89 grama opojne droge marihuanu i to: 13 zamotuljaka od aluminijske folije ukupne neto mase 40,6 grama koji su se nalazili u staklenoj tegli sa natpisom "ajvar" i 17 zamotuljaka od aluminijske folije ukupne nego mase 50,83 grama zapakovanih u staklenoj tegli bez natpisa, a koja opojna droga je od strane okrivljenog bila namijenjena neovlašćenoj prodaji, čime je izvršio krivično djelo neovlašćena proizvodnja, držanje i stavljanje u promet opojnih droga iz
+                <ref href="/krivicni#art_300">
+					čl.300 st.1 Krivičnog zakonika Crne Gore
+				</ref>
+                .
+			</p>
+			<conclusions>
+				<p>
+					Pa ga
+					<organization id="vs" referesTo="#vs">
+						sud
+					</organization>
+                    primjenom, citirane zakonske odredbe, te odredbe
+                    <ref href="/krivicni#art_4">
+						čl.4
+					</ref>
+                    ,
+                    <ref href="/krivicni#art_5">
+						5
+					</ref>
+                    ,
+                    <ref href="/krivicni#art_6">
+						6
+					</ref>
+                    ,
+                    <ref href="/krivicni#art_7">
+						7
+					</ref>
+                    ,
+                    <ref href="/krivicni#art_8">
+						8
+					</ref>
+                    ,
+                    <ref href="/krivicni#art_14">
+						14
+					</ref>
+                    ,
+                    <ref href="/krivicni#art_15">
+						15
+					</ref>
+                    ,
+                    <ref href="/krivicni#art_32">
+						32
+					</ref>
+                    ,
+                    <ref href="/krivicni#art_36">
+						36
+					</ref>
+                    ,
+                    <ref href="/krivicni#art_42">
+						42
+					</ref>
+                    ,
+                    <ref href="/krivicni#art_45">
+						45
+					</ref>
+                    i
+                    <ref href="/krivicni#art_46">
+						46 Krivičnog zakonika Crne Gore
+					</ref>
+                    , te odredbi
+					<ref href="/postupak#art_226">
+						čl.226
+					</ref>
+					,
+					<ref href="/postupak#art_229">
+						čl.229
+					</ref>
+					i
+					<ref href="/postupak#art_374">
+						374. Zakonika o krivičnom postupku
+					</ref>
+					, O S U Đ U J E Na kaznu zatvora u trajanju od 7 (sedam) mjeseci. Dužan je optuženi da na ime troškova krivičnog postupka-sudskog paušala plati ovom sudu novčani iznos od 100,00 eura, sve u roku od 15 dana po pravosnažnosti presude, pod prijetnjom prinudne naplate, dok će o ostalim troškovima krivičnog postupka, Sud odlučiti naknadno, posebnim rješenjem, po pribavljanju podataka o njihovoj visini. Na osnovu
+                    <ref href="/krivicni#art_75">
+					    čl.75
+				    </ref>
+                    i
+                    <ref href="/krivicni#art_300">
+					    čl.300.st.7 Krivičnog zakonika Crne Gore
+				    </ref>
+                    , 
+                    <organization id="vs" referesTo="#vs">
+						sud
+					</organization>
+					<party id="aaleksic" refersTo="#aaleksic" as="#defendant">
+						optuženom
+					</party>
+                    i z r i č e: MJREA BEZBJEDNOSTI ODUZIMANJE PREDMETA I to: 98,22 grama opojne droge marihuane, koja droga se ima uništiti nakon pravosnažnosti presude.
+                </p>
+			</conclusions>
+		</judgmentBody>
+	</judgment>
+</akomaNtoso>

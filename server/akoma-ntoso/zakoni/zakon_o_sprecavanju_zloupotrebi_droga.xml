@@ -1,0 +1,2404 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0/WD17" xsi:schemaLocation="http://docs.oasis-open.org/legaldocml/ns/akn/3.0/WD17 ../schemas/akomantoso30.xsd">
+	<act id="droga" name="Zakon o sprecavanju zloupotrebi droga">
+		<meta>
+			<identification source="#vlamil">
+				<FRBRWork>
+					<FRBRthis value="/akoma-ntoso/zakon_o_sprecavanju_zloupotrebi_droga/!main" />
+					<FRBRuri value="/droga" />
+					<FRBRdate date="2011-05-26" />
+					<FRBRauthor href="#congress" as="#author" />
+					<FRBRcountry value="cg" />
+					<FRBRnumber value="35/2013" />
+					<FRBRname value="zakon_o_sprecavanju_zloupotrebi_droga" />
+					<FRBRprescriptive value="true" />
+					<FRBRauthoritative value="true" />
+				</FRBRWork>
+				<FRBRExpression>
+					<FRBRdate date="2015-07-29" />
+					<FRBRauthor href="#vlamil" as="#editor" />
+					<FRBRlanguage language="cg" />
+				</FRBRExpression>
+				<FRBRManifestation>
+					<FRBRdate date="2015-07-15" />
+					<FRBRauthor href="#vlamil" as="#editor" />
+					<FRBRformat value="xml" />
+				</FRBRManifestation>
+			</identification>
+			<publication name="sl" date="2008-08-11" showAs="Službeni list Crne Gore" number="76/2008" />
+			<classification source="#vlamil">
+				<keyword value="droga" showAs="Droga" dictionary="CG" />
+			</classification>
+			<references>
+				<TLCOrganization eId="sl" href="/akn/rs/ontology/organization/sg" showAs="Službeni list Crne Gore" />
+			</references>
+		</meta>
+        <body>
+            <heading>
+                Zakon o sprječavanju zloupotrebe droga
+            </heading>
+            <chapter eId="chp_1">
+                <num>
+                    I.
+                </num>
+                <heading>
+                    OSNOVNE ODREDBE
+                </heading>
+                <section eId= "chp_1_sec_1">
+                    <article eId = "art_1">
+                        <num>
+                            Član 1
+                        </num>
+                        <paragraph eId = "art_1_para_1">
+                            <intro eId = "art_1_para_1_intro">
+                                <p>
+                                    Ovim zakonom se, radi zaštite života i zdravlja ljudi, utvrđuju mjere za prevenciju i
+                                    sprječavanje zloupotrebe droga, uslovi za proizvodnju i promet droga, mjere za pružanje
+                                    stručne pomoći zavisnicima od droga i druga pitanja od značaja za sprječavanje zloupotrebe
+                                    droga.
+                                </p>
+                            </intro>
+                        </paragraph>
+                    </article>
+                    <article eId = "art_2">
+                        <num>
+                            Član 2
+                        </num>
+                        <paragraph eId = "art_2_para_1">
+                            <content eId = "art_2_para_1_content">
+                                <p>
+                                    Droga je svako bilje ili supstanca prirodnog ili sintetičkog porijekla, kao i psihotropne
+                                    supstance koje mogu da izazovu promjenu ili poremećaj fizičkog i mentalnog zdravlja čovjeka,
+                                    a koje su obuhvaćene Spiskom droga, psihotropnih supstanci i bilja koje se može koristiti za
+                                    proizvodnju droga (u daljem tekstu: Spisak droga).
+                                </p>
+                            </content>
+                        </paragraph>
+                        <paragraph eId = "art_2_para_2">
+                            <content eId = "art_2_para_2_content">
+                                <p>
+                                    Drogom, u smislu ovog zakona, smatra se i preparat koji sadrži jednu ili više droga.
+                                </p>
+                            </content>
+                        </paragraph>
+                    </article>
+                    <article eId = "art_2">
+                        <num>
+                            Član 4
+                        </num>
+                        <paragraph eId = "art_4_para_1">
+                            <content eId = "art_2_para_1_content">
+                                <p>
+                                    Spisak droga se sačinjava u skladu sa međunarodnim standardima i konvencijama
+                                    Ujedinjenih nacija, kao i preporukama Evropske informacione mreže za droge i zavisnosti od
+                                    droga (Reitox) i Sistema ranog upozorenja na nove sintetičke droge.
+                                </p>
+                            </content>
+                        </paragraph>
+                        <paragraph eId = "art_4_para_2">
+                            <content eId = "art_4_para_2_content">
+                                <p>
+                                    Spisak droga donosi organ državne uprave nadležan za poslove zdravlja (u daljem tekstu:
+                                    Ministarstvo), uz mišljenje organa uprave nadležnog za poslove policije i Agencije za ljekove i
+                                    medicinska sredstva (u daljem tekstu: Agencija).
+                                </p>
+                            </content>
+                        </paragraph>
+                    </article>
+                    <article eId = "art_5">
+                        <num>
+                            Član 5
+                        </num>
+                        <paragraph eId = "art_5_para_1">
+                            <intro eId = "art_5_para_1_intro">
+                                <p>
+                                    Pojedini izrazi upotrijebljeni u ovom zakonu imaju sljedeće značenje:
+                                </p>
+                            </intro>
+                            <point eId="art_5_para_1_point_1">
+								<num>
+									1)
+								</num>
+								<content eId="art_5_para_1_point_1_content">
+									<p>
+										preparat je bilo koji rastvor ili mješavina, u bilo kom fizičkom stanju, koji sadrži jednu ili
+                                        više droga, psihotropnih supstanci, bilja ili djelova bilja, preparata ili derivata bilja koji se mogu
+                                        koristiti za proizvodnju droga;
+									</p>
+								</content>
+							</point>
+                            <point eId="art_5_para_1_point_2">
+								<num>
+									2)
+								</num>
+								<content eId="art_5_para_1_point_2_content">
+									<p>
+                                        gajenje bilja za dobijanje droge obuhvata nabavku i posjedovanje sjemena, sjetvu,
+                                        sađenje, uzimanje i posjedovanje djelova bilja ili bilo koji postupak koji služi za dobijanje droge;
+									</p>
+								</content>
+							</point>
+                            <point eId="art_5_para_1_point_3">
+								<num>
+									3)
+								</num>
+								<content eId="art_5_para_1_point_3_content">
+									<p>
+                                        sredstvo za izradu droge je predmet ili sprava koji su namijenjeni ili se upotrebljavaju za
+                                        izradu droge;
+									</p>
+								</content>
+							</point>
+                            <point eId="art_5_para_1_point_4">
+								<num>
+									4)
+								</num>
+								<content eId="art_5_para_1_point_4_content">
+									<p>
+                                        uvoznik je svako pravno lice koje je odgovorno za poslove uvoza droga i koje podnosi
+                                        carinsku deklaraciju;
+									</p>
+								</content>
+							</point>
+                            <point eId="art_5_para_1_point_5">
+								<num>
+									5)
+								</num>
+								<content eId="art_5_para_1_point_5_content">
+									<p>
+                                        izvoznik je svako pravno lice odgovorno za poslove izvoza droga i koje podnosi carinsku
+                                        deklaraciju;
+									</p>
+								</content>
+							</point>
+                            <point eId="art_5_para_1_point_6">
+								<num>
+									6)
+								</num>
+								<content eId="art_5_para_1_point_6_content">
+									<p>
+                                        tranzit je prevoz droga preko teritorije Crne Gore, bez pretovara, istovara ili zamjene
+                                        pošiljke od ulaska do izlaska sa teritorije Crne Gore;
+									</p>
+								</content>
+							</point>
+                            <point eId="art_5_para_1_point_7">
+								<num>
+									7)
+								</num>
+								<content eId="art_5_para_1_point_7_content">
+									<p>
+                                        upotreba je uzimanje (jednokratno, višekratno, povremeno ili redovno) ili izlaganje
+                                        djelovanju droga u skladu sa terapeutskim indikacijama;
+									</p>
+								</content>
+							</point>
+                            <point eId="art_5_para_1_point_8">
+								<num>
+									8)
+								</num>
+								<content eId="art_5_para_1_point_8_content">
+									<p>
+                                        komorbiditet označava postojanje ili udruženost dva ili više poremećaja kod istog lica
+                                        bez obzira na redosljed njihove pojave i bez obzira da li su se kod istog lica javljali ili
+                                        smjenjivali u različitim periodima života;
+									</p>
+								</content>
+							</point>
+                            <point eId="art_5_para_1_point_9">
+								<num>
+									9)
+								</num>
+								<content eId="art_5_para_1_point_9_content">
+									<p>
+                                        resocijalizacija je planski i sistematski proces korigovanja društveno neprilagođenih
+                                        stavova, uvjerenja, sistema vrijednosti i asocijalnog ponašanja, sa ciljem ponovnog
+                                        integrisanja zavisnika u društvenu sredinu;
+									</p>
+								</content>
+							</point>
+                            <point eId="art_5_para_1_point_10">
+								<num>
+									10)
+								</num>
+								<content eId="art_5_para_1_point_10_content">
+									<p>
+                                        rehabilitacija je primjena metoda psihofizičke i socijalne pomoći zavisnicima koja se
+                                        oslanja na osposobljavanje zavisnika za optimalno korišćenje njihovih kapaciteta i
+                                        sposobnosti, što zahtijeva timski rad stručnjaka različitih profila, a posebno socijalnih radnika;
+									</p>
+								</content>
+							</point>
+                            <point eId="art_5_para_1_point_11">
+								<num>
+									11)
+								</num>
+								<content eId="art_5_para_1_point_11_content">
+									<p>
+                                        sistem ranog upozorenja na nove sintetičke droge je mehanizam za brzu razmjenu
+                                        informacija o pojavi, proizvodnji, prodaji, korišćenju i rizicima od novih supstanci koje nijesu
+                                        navedene u spiskovima konvencija Ujedinjenih nacija, a predstavljaju opasnost po ljudsko
+                                        zdravlje;
+									</p>
+								</content>
+							</point>
+                            <point eId="art_5_para_1_point_12">
+								<num>
+									12)
+								</num>
+								<content eId="art_5_para_1_point_12_content">
+									<p>
+                                        Evropski centar za praćenje droga i zavisnosti od droga je referentna agencija
+                                        Evropske Unije koja ima ulogu da obezbijedi naučno utemeljene, objektivne i uporedive
+                                        informacije u cilju sprječavanja zloupotrebe droga;
+									</p>
+								</content>
+							</point>
+                            <point eId="art_5_para_1_point_13">
+								<num>
+									13)
+								</num>
+								<content eId="art_5_para_1_point_13_content">
+									<p>
+                                        Evropska informaciona mreža za droge i zavisnosti od droga predstavlja kadrovsku i
+                                        informacionu povezanost nacionalnih informacionih jedinica.
+									</p>
+								</content>
+							</point>
+                        </paragraph>
+                    </article>
+                </section>
+            </chapter>
+            <chapter eId="chp_2">
+                <num>
+                    II.
+                </num>
+                <heading>
+                    MJERE PREVENCIJE I SPRJEČAVANJA ZLOUPOTREBE DROGA I POMOĆI ZAVISNICIMA OD DROGA
+                </heading>
+                <section eId= "chp_2_sec_1">
+                    <article eId = "art_6">
+                        <num>
+                            Član 6
+                        </num>
+                        <paragraph eId = "art_6_para_1">
+                            <content eId = "art_6_para_1_content">
+                                <p>
+                                    Mjere za prevenciju i sprječavanje zloupotrebe droga su skup stručno osmišljenih,
+                                    sistematizovanih i planiranih mjera i postupaka usmjerenih ka sprječavanju pojave zloupotrebe
+                                    droga, kao i smanjenju ponude i potražnje droga.
+                                </p>
+                            </content>
+                        </paragraph>
+                        <paragraph eId = "art_6_para_2">
+                            <content eId = "art_6_para_2_content">
+                                <p>
+                                    Zloupotreba droga je gajenje ili prerada bilja za dobijanje droga, posjedovanje sredstava za
+                                    izradu droga, namjerna i prekomjerna upotreba droga van terapeutskih indikacija, kao i
+                                    proizvodnja i promet droga suprotno odredbama ovog zakona.
+                                </p>
+                            </content>
+                        </paragraph>
+                        <paragraph eId = "art_6_para_3">
+                            <content eId = "art_6_para_3_content">
+                                <p>
+                                    Roditelji, usvojioci, staratelji, nastavnici, vaspitači, zdravstveni radnici, radnici u socijalnim
+                                    službama, sportski radnici i poslodavci dužni su da preduzmu mjere za prevenciju i suzbijanje
+                                    zloupotrebe droga kod djece i omladine.
+                                </p>
+                            </content>
+                        </paragraph>
+                        <paragraph eId = "art_6_para_4">
+                            <content eId = "art_6_para_4_content">
+                                <p>
+                                    U cilju suzbijanja zloupotrebe droga državni organi, organi državne uprave i lokalne uprave
+                                    dužni su da svaku okolnost koja izaziva sumnju u zakonitost postupanja u vezi sa drogom, a
+                                    koju saznaju tokom obavljanja svojih dužnosti i poslova, prijave policiji odmah po saznanju.
+                                </p>
+                            </content>
+                        </paragraph>
+                        <paragraph eId = "art_6_para_5">
+                            <content eId = "art_6_para_5_content">
+                                <p>
+                                    U cilju suzbijanja zloupotrebe droga državni organi, organi državne uprave i lokalne uprave
+                                    dužni su da svaku okolnost koja izaziva sumnju u zakonitost postupanja u vezi sa drogom, a
+                                    koju saznaju tokom obavljanja svojih dužnosti i poslova, prijave policiji odmah po saznanju.
+                                </p>
+                            </content>
+                        </paragraph>
+                        <paragraph eId = "art_6_para_6">
+                            <content eId = "art_6_para_6_content">
+                                <p>
+                                    Fizička lica, odgovorna lica u pravnim licima, zaposleni u poštama i druga lica koja
+                                    učestvuju u prenosu i dostavljanju stvari, agenti, špediteri, transportni i skladišni radnici i sva
+                                    druga lica koja učestvuju u prevozu lica i stvari dužna su da svaku okolnost koja izaziva
+                                    sumnju u zakonitost postupanja u vezi sa drogom, a koju saznaju tokom obavljanja svojih
+                                    dužnosti i poslova, prijave policiji odmah po saznanju.
+                                </p>
+                            </content>
+                        </paragraph>
+                        <paragraph eId = "art_6_para_7">
+                            <content eId = "art_6_para_7_content">
+                                <p>
+                                    Posada broda ili aviona, kao i putnici na tim objektima, dužni su da u slučaju pronalaska
+                                    droge, bilja ili dijela bilja iz koga se može dobiti droga ili sumnje da je postupljeno suprotno
+                                    odredbama ovog zakona, odmah obavijeste kapetana broda ili aviona, koji će nakon prijema
+                                    obavještenja prijaviti policiji.
+                                </p>
+                            </content>
+                        </paragraph>
+                    </article>
+                    <article eId = "art_7">
+                        <num>
+                            Član 7
+                        </num>
+                        <paragraph eId = "art_7_para_1">
+                            <content eId = "art_7_para_1_content">
+                                <p>
+                                    U cilju prevencije i sprječavanja zloupotrebe droga, očuvanja i unaprjeđenja zdravog načina
+                                    života, zdravlja, informisanja i edukacije o opasnostima zloupotrebe droga, pomoći zavisnicima
+                                    od droga i njihovim porodicama, efikasnog i koordiniranog pristupa i unaprjeđenja stanja u
+                                    oblasti droga, Vlada Crne Gore (u daljem tekstu: Vlada) donosi Nacionalnu strategiju za
+                                    sprječavanje zloupotrebe droga (u daljem tekstu: Strategija).
+                                </p>
+                            </content>
+                        </paragraph>
+                        <paragraph eId = "art_7_para_2">
+                            <content eId = "art_7_para_2_content">
+                                <p>
+                                    Strategijom se određuju organi i organizacije i utvrđuju aktivnosti, kao i mjere i rokovi za
+                                    izvršavanje utvrđenih obaveza.
+                                </p>
+                            </content>
+                        </paragraph>
+                        <paragraph eId = "art_7_para_3">
+                            <content eId = "art_7_para_3_content">
+                                <p>
+                                    Strategijom se određuju organi i organizacije i utvrđuju aktivnosti, kao i mjere i rokovi za
+                                    izvršavanje utvrđenih obaveza.
+                                </p>
+                            </content>
+                        </paragraph>
+                        <paragraph eId = "art_7_para_4">
+                            <content eId = "art_7_para_4_content">
+                                <p>
+                                    Subjekti iz stava 2 ovog člana donose programe za ostvarivanje ciljeva iz Strategije, uz
+                                    mišljenje Komisije za droge.
+                                </p>
+                            </content>
+                        </paragraph>
+                    </article>
+                    <article eId = "art_8">
+                        <num>
+                            Član 8
+                        </num>
+                        <paragraph eId = "art_8_para_1">
+                            <content eId = "art_8_para_1_content">
+                                <p>
+                                    Radi sprovođenja aktivnosti iz oblasti prevencije zloupotrebe droga, u jedinicama lokalne
+                                    samouprave obrazuju se kancelarije za prevenciju bolesti zavisnosti (u daljem tekstu:
+                                    kancelarije).
+                                </p>
+                            </content>
+                        </paragraph>
+                        <paragraph eId = "art_8_para_2">
+                            <content eId = "art_8_para_2_content">
+                                <p>
+                                    Nevladine organizacije koje sprovode programe iz oblasti prevencije zloupotrebe droga
+                                    sarađuju sa kancelarijama.
+                                </p>
+                            </content>
+                        </paragraph>
+                    </article>
+                    <article eId = "art_9">
+                        <num>
+                            Član 9
+                        </num>
+                        <paragraph eId = "art_9_para_1">
+                            <intro eId = "art_9_para_1_intro">
+                                <p>
+                                    Radi praćenja i pružanja podrške aktivnostima koje su usmjerene na sprječavanje
+                                    zloupotrebe droga, Vlada osniva Državni savjet za sprječavanje zloupotrebe droga (u daljem
+                                    tekstu: Savjet).
+                                </p>
+                            </intro>
+                        </paragraph>
+                        <paragraph eId = "art_9_para_2">
+                            <content eId = "art_9_para_2_content">
+                                <p>
+                                    Savjet:
+                                    - promoviše preventivne aktivnosti i javne informacije vezane za štete nastale zloupotrebom
+                                    droga;
+                                    - prati sprovođenje Strategije;
+                                    - pruža podršku aktivnostima opštinskih kancelarija za prevenciju bolesti zavisnosti;
+                                    - razmatra i usvaja programske aktivnosti pojedinih organa i organizacija nadležnih za
+                                    sprovođenje Strategije;
+                                    - razmatra prijedloge Komisije za droge;
+                                    - prati međunarodnu saradnju i razvoj sistema za prikupljanje podataka;
+                                    - predlaže unaprjeđenje zakonskih rješenja;
+                                    - obavlja i druge poslove u skladu sa Strategijom.
+                                    Stručne i administrativne poslove za potrebe Savjeta obavlja Ministarstvo.
+                                    Bliži sastav, broj članova i način rada Savjeta utvrđuje se aktom o obrazovanju.
+                                </p>
+                            </content>
+                        </paragraph>
+                    </article>
+                    <article eId = "art_10">
+                        <num>
+                            Član 10
+                        </num>
+                        <paragraph eId = "art_10_para_1">
+                            <content eId = "art_10_para_1_content">
+                                <p>
+                                    Obavljanje stručnih poslova u oblasti sprječavanja zloupotrebe droga vrši Komisija za droge
+                                    koju obrazuje Ministarstvo.
+                                </p>
+                            </content>
+                        </paragraph>
+                        <paragraph eId = "art_10_para_2">
+                            <content eId = "art_10_para_2_content">
+                                <p>
+                                    Komisiju iz stava 1 ovog člana čine stručnjaci iz oblasti psihijatrije, narkologije, socijalne
+                                    zaštite, farmakologije, toksikologije, obrazovanja, kao i predstavnici iz drugih oblasti.
+                                </p>
+                            </content>
+                        </paragraph>
+                        <paragraph eId = "art_10_para_3">
+                            <content eId = "art_10_para_3_content">
+                                <p>
+                                    Aktom o obrazovanju Komisije iz stava 1 ovog člana bliže se uređuje njen sastav i način
+                                    rada.
+                                </p>
+                            </content>
+                        </paragraph>
+                        <paragraph eId = "art_10_para_4">
+                            <content eId = "art_10_para_4_content">
+                                <p>
+                                    Komisija iz stava 1 ovog člana:
+                                    - prati stanje u oblasti prevencije i sprječavanja zloupotrebe droga;
+                                    - prati stanje koje se tiče zdravstvene i socijalne zaštite zavisnika;
+                                    - daje stručna mišljenja na predloge programskih aktivnosti organa i organizacija utvrđenih
+                                    Strategijom, u cilju prevencije i sprječavanja zloupotrebe droga, pomoći licima koja su zavisnici
+                                    i njihovim porodicama;
+                                    - predlaže Ministarstvu stručne smjernice za pomoć zavisnicima;
+                                    - sarađuje sa naučno-istraživačkim ustanovama, medijima, nevladinim organizacijama,
+                                    pravnim licima u vezi sa prevencijom, liječenjem, pomoći, rehabilitacijom i socijalnom
+                                    reintegracijom zavisnika i njihovih porodica;
+                                    - daje mišljenja u postupku inspekcijskog nadzora;
+                                    - prati savremena naučna i stručna dostignuća u oblasti droga,
+                                    - obavlja i druge poslove u skladu sa zakonom.
+                                </p>
+                            </content>
+                        </paragraph>
+                    </article>
+                    <article eId = "art_11">
+                        <num>
+                            Član 11
+                        </num>
+                        <paragraph eId = "art_11_para_1">
+                            <content eId = "art_11_para_1_content">
+                                <p>
+                                    Zavisnik je lice koje se zloupotrebom droga dovelo u stanje zavisnosti od droga, odnosno
+                                    nekontrolisane fizičke i psihičke potrebe za upotrebom droga.
+                                </p>
+                            </content>
+                        </paragraph>
+                        <paragraph eId = "art_11_para_2">
+                            <content eId = "art_11_para_2_content">
+                                <p>
+                                    Zavisniku od droga se pruža pomoć, u skladu sa stručnim smjernicama, koja obuhvata
+                                    postupke i mjere zdravstvene i socijalne zaštite, kao što su detekcija, dijagnostika, urgentne
+                                    intervencije, detoksikacija, psihofarmakološko liječenje osnovne bolesti i komorbiditeta,
+                                    produženo liječenje, socijalna rehabilitacija i resocijalizacija, obezbjeđenje stalne stručne
+                                    pomoći, savjetovanje, prevencija i saniranje štetnih posljedica nastalih zloupotrebom droga,
+                                    praćenje, kao i porodična terapija.
+                                </p>
+                            </content>
+                        </paragraph>
+                        <paragraph eId = "art_11_para_3">
+                            <content eId = "art_11_para_3_content">
+                                <p>
+                                    Pomoć zavisniku koja obuhvata postupke i mjere zdravstvene zaštite pružaju zdravstvene
+                                    ustanove, u skladu sa stručnim smjernicama koje propisuje Ministarstvo.
+                                </p>
+                            </content>
+                        </paragraph>
+                        <paragraph eId = "art_11_para_4">
+                            <content eId = "art_11_para_4_content">
+                                <p>
+                                    Zdravstvene ustanove i nevladine organizacije registrovane za pružanje pomoći zavisniku
+                                    mogu da pružaju pomoć i sprovođenjem programa smanjenja štetnih posljedica zloupotrebe
+                                    droga, u skladu sa stručnim smjernicama iz stava 3 ovog člana.
+                                </p>
+                            </content>
+                        </paragraph>
+                    </article>
+                    <article eId = "art_12">
+                        <num>
+                            Član 12
+                        </num>
+                        <paragraph eId = "art_12_para_1">
+                            <content eId = "art_12_para_1_content">
+                                <p>
+                                    Zavisnik je lice koje se zloupotrebom droga dovelo u stanje zavisnosti od droga, odnosno
+                                    nekontrolisane fizičke i psihičke potrebe za upotrebom droga.
+                                </p>
+                            </content>
+                        </paragraph>
+                        <paragraph eId = "art_12_para_2">
+                            <content eId = "art_12_para_2_content">
+                                <p>
+                                    Zavisnicima koji su liječeni od bolesti zavisnosti obezbijeđuje se rehabilitacija i
+                                    resocijalizacija u posebnim ustanovama, u skladu sa zakonom.
+                                </p>
+                            </content>
+                        </paragraph>
+                        <paragraph eId = "art_12_para_3">
+                            <content eId = "art_12_para_3_content">
+                                <p>
+                                    U ustanovama iz stava 1 ovog člana zavisnicima koji su liječeni od bolesti zavisnosti pruža
+                                    se pomoć u rehabilitaciji i resocijalizaciji primjenom metoda i postupaka, u skladu sa
+                                    programima iz <ref href="/droga#art_7"> člana 7 </ref>stav 3 ovog zakona i stručnim smjernicama koje donosi organ državne
+                                    uprave nadležan za poslove socijalnog staranja, uz mišljenje Ministarstva.
+                                </p>
+                            </content>
+                        </paragraph>
+                        <paragraph eId = "art_12_para_3">
+                            <content eId = "art_12_para_3_content">
+                                <p>
+                                    Uslove koje moraju da ispunjavaju ustanove iz stava 1 ovog člana, u pogledu prostora,
+                                    kadra i opreme, propisuje organ državne uprave nadležan za poslove socijalnog staranja.
+                                </p>
+                            </content>
+                        </paragraph>
+                    </article>
+                    <article eId = "art_13">
+                        <num>
+                            Član 13
+                        </num>
+                        <paragraph eId = "art_13_para_1">
+                            <content eId = "art_13_para_1_content">
+                                <p>
+                                    Na osnivanje i način rada, kao i vršenje nadzora nad ustanovama iz <ref href="/droga#art_12"> člana 12 </ref> ovog zakona
+                                    primjenjuju se odredbe Zakona o socijalnoj i dječjoj zaštiti.
+                                </p>
+                            </content>
+                        </paragraph>
+                    </article>
+                </section>
+            </chapter>
+            <chapter eId="chp_3">
+                <num>
+                    III.
+                </num>
+                <heading>
+                    PRAĆENJE ZLOUPOTREBE DROGA
+                </heading>
+                <section eId= "chp_3_sec_1">
+                    <article eId = "art_14">
+                        <num>
+                            Član 14
+                        </num>
+                        <paragraph eId = "art_14_para_1">
+                            <content eId = "art_14_para_1_content">
+                                <p>
+                                    Praćenje zloupotrebe droga se ostvaruje kroz informacionu mrežu za droge koja predstavlja
+                                    sistemski mehanizam za standardizovano praćenje problematike droga, prikupljanje i analizu
+                                    podataka i informacija vezanih za indikatore Evropskog centra za praćenje droga i zavisnosti
+                                    od droga, radi njihovog upoređivanja na evropskom nivou, istovremeno i razvoja
+                                    informacionog sistema u skladu sa potrebama, interesima i specifičnostima Crne Gore.
+                                </p>
+                            </content>
+                        </paragraph>
+                        <paragraph eId = "art_14_para_2">
+                            <content eId = "art_14_para_2_content">
+                                <p>
+                                    Prikupljene i obrađene informacije i podaci koriste se redovno za evaluaciju potreba i
+                                    planiranja mjera prevencije, liječenja, pomoći, programa smanjenja šteta, nadzora i
+                                    sprječavanja kriminaliteta zbog zloupotrebe droga i cjelokupne politike suzbijanja zloupotrebe
+                                    droga na nacionalnom nivou.
+                                </p>
+                            </content>
+                        </paragraph>
+                        <paragraph eId = "art_14_para_3">
+                            <content eId = "art_14_para_3_content">
+                                <p>
+                                    Radi ostvarivanja aktivnosti iz stava 1 ovog člana u Ministarstvu se organizuje informaciona
+                                    jedinica za droge (u daljem tekstu: informaciona jedinica).
+                                </p>
+                            </content>
+                        </paragraph>
+                        <paragraph eId = "art_14_para_4">
+                            <content eId = "art_14_para_4_content">
+                                <p>
+                                    U informacionoj jedinici se objedinjavaju podaci iz stava 1 ovog člana, u skladu sa
+                                    propisanim standardima i dostavljaju i razmjenjuju sa međunarodnim tijelima.
+                                </p>
+                            </content>
+                        </paragraph>
+                    </article>
+                    <article eId = "art_15">
+                        <num>
+                            Član 15
+                        </num>
+                        <paragraph eId = "art_15_para_1">
+                            <content eId = "art_15_para_1_content">
+                                <p>
+                                    Organi i organizacije, u skladu sa utvrđenim obavezama iz Strategije, čine informacionu
+                                    mrežu iz <ref href="/droga#art_14"> člana 14 </ref> stav 1 ovog zakona i dužne su da prikupljaju i dostavljaju podatke
+                                    informacionoj jedinici.
+                                </p>
+                            </content>
+                        </paragraph>
+                        <paragraph eId = "art_15_para_2">
+                            <content eId = "art_15_para_2_content">
+                                <p>
+                                    Nevladine organizacije iz <ref href="/droga#art_11"> člana 11 </ref> stav 4 i ustanove iz <ref href="/droga#art_12"> člana 12 </ref> stav 2 ovog zakona dužne
+                                    su da popunjavaju prijavu o zavisnicima i dostavljaju Institutu za javno zdravlje, u skladu sa
+                                    Zakonom o zbirkama podataka u oblasti zdravstva.
+                                </p>
+                            </content>
+                        </paragraph>
+                        <paragraph eId = "art_15_para_3">
+                            <content eId = "art_15_para_3_content">
+                                <p>
+                                    Podaci iz st. 1 i 2 ovog člana dostavljaju se bez ličnih podataka o zavisnicima, u skladu sa
+                                    zakonom.
+                                </p>
+                            </content>
+                        </paragraph>
+                        <paragraph eId = "art_15_para_4">
+                            <content eId = "art_15_para_4_content">
+                                <p>
+                                    Rokove, vrstu, način prikupljanja, obrade i analize podataka i dostavljanja informacija po
+                                    utvrđenim smjernicama, standardima i obaveznim indikatorima Evropskog centra za praćenje
+                                    droga i zavisnosti na droge, propisuje Ministarstvo.
+                                </p>
+                            </content>
+                        </paragraph>
+                    </article>
+                    <article eId = "art_16">
+                        <num>
+                            Član 16
+                        </num>
+                        <paragraph eId = "art_16_para_1">
+                            <content eId = "art_16_para_1_content">
+                                <p>
+                                    Ministarstvo sarađuje sa Evropskim centrom za praćenje droga i zavisnosti od droga i
+                                    drugim referentnim evropskim organima i agencijama, organima Ujedinjenih nacija i drugim
+                                    međunarodnim organizacijama u oblasti droga.
+                                </p>
+                            </content>
+                        </paragraph>
+                    </article>
+                </section>
+            </chapter>
+            <chapter eId="chp_4">
+                <num>
+                    IV.
+                </num>
+                <heading>
+                    GAJENJE BILJA KOJE MOŽE DA SE KORISTI ZA PROIZVODNJU DROGA
+                </heading>
+                <section eId= "chp_4_sec_1">
+                    <article eId = "art_17">
+                        <num>
+                            Član 17
+                        </num>
+                        <paragraph eId = "art_17_para_1">
+                            <content eId = "art_17_para_1_content">
+                                <p>
+                                    Od bilja iz kojeg se može dobiti droga može se gajiti mak i konoplja, u svrhu i pod uslovima
+                                    propisanim ovim zakonom.
+                                </p>
+                            </content>
+                        </paragraph>
+                        <paragraph eId = "art_17_para_2">
+                            <content eId = "art_17_para_2_content">
+                                <p>
+                                    Samoniklo bilje koje može da se koristi za proizvodnju droga mora biti uništeno.
+                                </p>
+                            </content>
+                        </paragraph>
+                        <paragraph eId = "art_17_para_3">
+                            <content eId = "art_17_para_3_content">
+                                <p>
+                                    Lice koje je po bilo kom osnovu vlasnik, odnosno korisnik zemljišta na kojem se nalazi
+                                    samoniklo bilje dužno je da to bilje uništi.
+                                </p>
+                            </content>
+                        </paragraph>
+                        <paragraph eId = "art_17_para_4">
+                            <content eId = "art_17_para_4_content">
+                                <p>
+                                    Ukoliko lice iz stava 3 ovog člana ne uništi bilje, bilje će uništiti organ uprave nadležan za
+                                    fitosanitarne poslove, o trošku vlasnika, odnosno korisnika zemljišta.
+                                </p>
+                            </content>
+                        </paragraph>
+                    </article>
+                    <article eId = "art_18">
+                        <num>
+                            Član 18
+                        </num>
+                        <paragraph eId = "art_18_para_1">
+                            <content eId = "art_18_para_1_content">
+                                <p>
+                                    Gajenje maka i konoplje dozvoljeno je za prehrambene i industrijske svrhe.
+                                </p>
+                            </content>
+                        </paragraph>
+                        <paragraph eId = "art_18_para_2">
+                            <content eId = "art_18_para_2_content">
+                                <p>
+                                    Mak i konoplju mogu da gaje pravna i fizička lica koja imaju dozvolu za gajenje maka i
+                                    konoplje i zaključen ugovor o otkupu cjelokupnog roda sa pravnim licem registrovanim za
+                                    promet maka i /ili konoplje, u skladu sa zakonom.
+                                </p>
+                            </content>
+                        </paragraph>
+                        <paragraph eId = "art_18_para_3">
+                            <content eId = "art_18_para_3_content">
+                                <p>
+                                    Evidenciju o izdatim dozvolama za gajenje maka i konoplje vodi organ uprave nadležan za
+                                    fitosanitarne poslove.
+                                </p>
+                            </content>
+                        </paragraph>
+                        <paragraph eId = "art_18_para_4">
+                            <content eId = "art_18_para_4_content">
+                                <p>
+                                    Organ iz stava 4 ovog člana dužan je da o izdatim dozvolama za gajenje maka i konoplje
+                                    obavještava i organ uprave nadležan za poslove policije, u roku od sedam dana od dana
+                                    izdavanja dozvole.
+                                </p>
+                            </content>
+                        </paragraph>
+                        <paragraph eId = "art_18_para_5">
+                            <content eId = "art_18_para_5_content">
+                                <p>
+                                    Izuzetno od stava 2 ovog člana, pravno lice koje koristi mak i/ili konoplju u naučne svrhe
+                                    može bez dozvole da gaji mak i/ili konoplju, ukoliko za te namjene registruje površine za
+                                    uzgajanje kod organa uprave nadležnog za fitosanitarne poslove.
+                                </p>
+                            </content>
+                        </paragraph>
+                        <paragraph eId = "art_18_para_6">
+                            <content eId = "art_18_para_6_content">
+                                <p>
+                                    Oblik i sadržaj zahtjeva za gajenje maka i konoplje, obrazac i sadržaj dozvole iz stava 2
+                                    ovog člana, postupak prijavljivanja površina na kojima se uzgaja mak i konoplja i vođenje
+                                    evidencije o izdatim dozvolama za gajenje maka i konoplje propisuje organ državne uprave
+                                    nadležan za poslove poljoprivrede.
+                                </p>
+                            </content>
+                        </paragraph>
+                    </article>
+                    <article eId = "art_19">
+                        <num>
+                            Član 19
+                        </num>
+                        <paragraph eId = "art_19_para_1">
+                            <content eId = "art_19_para_1_content">
+                                <p>
+                                    Lice koje gaji mak i /ili konoplju dužno je da, u roku od četiri mjeseca od dana ubiranja roda,
+                                    preda pravnom licu sa kojim ima zaključen ugovor o otkupu cjelokupan rod.
+                                </p>
+                            </content>
+                        </paragraph>
+                        <paragraph eId = "art_19_para_2">
+                            <content eId = "art_19_para_2_content">
+                                <p>
+                                    Pravno lice koje vrši otkup dužno je da od lica iz stava 1 ovog člana otkupi cjelokupan rod, u
+                                    roku utvrđenom u stavu 1 ovog člana.
+                                </p>
+                            </content>
+                        </paragraph>
+                    </article>
+                    <article eId = "art_20">
+                        <num>
+                            Član 20
+                        </num>
+                        <paragraph eId = "art_20_para_1">
+                            <content eId = "art_20_para_1_content">
+                                <p>
+                                    Lice koje gaji mak i/ili konoplju dužno je da prijavi organu uprave nadležnom za poslove
+                                    policije okolnosti koje mogu da ukažu na sumnju da su mak ili djelovi maka, odnosno konoplje
+                                    neovlašćeno upotrijebljeni ili da bi se mogli neovlašćeno upotrijebiti za proizvodnju droge
+                                    (rezanje, branje zelenih čahura maka).
+                                </p>
+                            </content>
+                        </paragraph>
+                    </article>
+                    <article eId = "art_21">
+                        <num>
+                            Član 21
+                        </num>
+                        <paragraph eId = "art_21_para_1">
+                            <content eId = "art_21_para_1_content">
+                                <p>
+                                    Promet prerađevina maka i/ili konoplje koje se koriste za medicinske ili faramaceutske
+                                    namjene može da vrši pravno lice kome, po zaključenom ugovoru o kupovini maka i/ili
+                                    konoplje sa uzgajivačem, Agencija izda dozvolu za promet prerađevina maka i/ili konoplje.
+                                </p>
+                            </content>
+                        </paragraph>
+                        <paragraph eId = "art_21_para_2">
+                            <content eId = "art_21_para_2_content">
+                                <p>
+                                    Pravno lice iz stava 1 ovog člana dužno je da vodi evidenciju o količini kupljenih prerađevina
+                                    maka, odnosno konoplje.
+                                </p>
+                            </content>
+                        </paragraph>
+                    </article>
+                </section>
+            </chapter>
+            <chapter eId="chp_5">
+                <num>
+                    V.
+                </num>
+                <heading>
+                    USLOVI ZA PROIZVODNJU I PROMET DROGA
+                </heading>
+                <section eId= "chp_5_sec_1">
+                    <article eId = "art_22">
+                        <num>
+                            Član 22
+                        </num>
+                        <paragraph eId = "art_22_para_1">
+                            <content eId = "art_22_para_1_content">
+                                <p>
+                                    Proizvodnja droga obuhvata pripremu, obradu, miješanje, pročišćavanje i bilo koji postupak
+                                    kojim se dobija droga ili koji može doprinijeti proizvodnji droga.
+                                </p>
+                            </content>
+                        </paragraph>
+                        <paragraph eId = "art_22_para_2">
+                            <content eId = "art_22_para_2_content">
+                                <p>
+                                    Promet droga obuhvata uvoz, izvoz, tranzit, prevoz, skladištenje, isporuku, kupovinu,
+                                    prodaju, posredovanje pri kupovini ili prodaji, kao i svako rukovanje drogama, zamjenu,
+                                    izdavanje na recept ili bilo koji način stavljanja u promet droge.
+                                </p>
+                            </content>
+                        </paragraph>
+                    </article>
+                    <article eId = "art_23">
+                        <num>
+                            Član 23
+                        </num>
+                        <paragraph eId = "art_23_para_1">
+                            <content eId = "art_23_para_1_content">
+                                <p>
+                                    Proizvodnju i promet droga za medicinske i farmaceutske namjene može da vrši pravno lice
+                                    koje ima dozvolu za proizvodnju i promet ljekova.
+                                </p>
+                            </content>
+                        </paragraph>
+                        <paragraph eId = "art_23_para_2">
+                            <content eId = "art_23_para_2_content">
+                                <p>
+                                    Dozvolu iz stava 1 ovog člana, na zahtjev pravnog lica, izdaje Agencija, na period od pet
+                                    godina i ne može se prenijeti na drugo pravno lice.
+                                </p>
+                            </content>
+                        </paragraph>
+                        <paragraph eId = "art_23_para_3">
+                            <content eId = "art_23_para_3_content">
+                                <p>
+                                    Zahtjev za produženje dozvole za proizvodnju i promet droga pravno lice podnosi Agenciji,
+                                    šest mjeseci prije isteka roka važenja dozvole.
+                                </p>
+                            </content>
+                        </paragraph>
+                        <paragraph eId = "art_23_para_4">
+                            <content eId = "art_23_para_4_content">
+                                <p>
+                                    Troškovi za izdavanje dozvole iz stava 1 ovog člana padaju na teret pravnog lica koje je
+                                    podnijelo zahtjev za dobijanje dozvole za proizvodnju, odnosno promet droga.
+                                </p>
+                            </content>
+                        </paragraph>
+                        <paragraph eId = "art_23_para_5">
+                            <content eId = "art_23_para_5_content">
+                                <p>
+                                    Na uslove koje moraju da ispunjavaju pravna lica za proizvodnju i promet droga iz stava 1
+                                    ovog člana shodno se primjenjuju propisi koji se odnose na proizvodnju i promet ljekova.
+                                </p>
+                            </content>
+                        </paragraph>
+                    </article>
+                    <article eId = "art_24">
+                        <num>
+                            Član 24
+                        </num>
+                        <paragraph eId = "art_24_para_1">
+                            <content eId = "art_24_para_1_content">
+                                <p>
+                                    Odobrenje za korišćenje droga u industriji može se izdati pod uslovom da pravno lice
+                                    obezbijedi da se proizvedena roba neće zloupotrijebiti, kao i da se ta droga korišćena kao
+                                    sastojak ne može jednostavno izdvojiti.
+                                </p>
+                            </content>
+                        </paragraph>
+                        <paragraph eId = "art_23_para_2">
+                            <content eId = "art_23_para_2_content">
+                                <p>
+                                    Dozvolu iz stava 1 ovog člana, na zahtjev pravnog lica, izdaje Agencija, na period od pet
+                                    godina i ne može se prenijeti na drugo pravno lice.
+                                </p>
+                            </content>
+                        </paragraph>
+                        <paragraph eId = "art_23_para_3">
+                            <content eId = "art_23_para_3_content">
+                                <p>
+                                    Zahtjev za produženje dozvole za proizvodnju i promet droga pravno lice podnosi Agenciji,
+                                    šest mjeseci prije isteka roka važenja dozvole.
+                                </p>
+                            </content>
+                        </paragraph>
+                        <paragraph eId = "art_23_para_4">
+                            <content eId = "art_23_para_4_content">
+                                <p>
+                                    Troškovi za izdavanje dozvole iz stava 1 ovog člana padaju na teret pravnog lica koje je
+                                    podnijelo zahtjev za dobijanje dozvole za proizvodnju, odnosno promet droga.
+                                </p>
+                            </content>
+                        </paragraph>
+                        <paragraph eId = "art_23_para_4">
+                            <content eId = "art_23_para_4_content">
+                                <p>
+                                    Na uslove koje moraju da ispunjavaju pravna lica za proizvodnju i promet droga iz stava 1
+                                    ovog člana shodno se primjenjuju propisi koji se odnose na proizvodnju i promet ljekova.
+                                </p>
+                            </content>
+                        </paragraph>
+                    </article>
+                    <article eId = "art_25">
+                        <num>
+                            Član 25
+                        </num>
+                        <paragraph eId = "art_25_para_1">
+                            <content eId = "art_25_para_1_content">
+                                <p>
+                                    Pravna lica koja se bave naučnim, istraživačkim i obrazovnim radom, policija, forenzičke i
+                                    toksikološke laboratorije, specijalizovane dijagnostičke laboratorije, mogu da gaje, proizvode,
+                                    kupuju, uvoze, posjeduju, odnosno koriste droge u količinama koje su dovoljne za obavljanje
+                                    djelatnosti, ukoliko za ovu namjenu dobiju odobrenje za korišćenje droga.
+                                </p>
+                            </content>
+                        </paragraph>
+                        <paragraph eId = "art_25_para_2">
+                            <content eId = "art_25_para_2_content">
+                                <p>
+                                    Pravnom licu iz stava 1 ovog člana Ministarstvo izdaje odobrenje za korišćenje droga, u
+                                    roku od 30 dana od dana podnošenja zahtjeva, na period od godinu dana.
+                                </p>
+                            </content>
+                        </paragraph>
+                        <paragraph eId = "art_25_para_3">
+                            <content eId = "art_25_para_3_content">
+                                <p>
+                                    Sadržinu zahtjeva i dokumentaciju potrebnu za dobijanje odobrenja za korišćenje droga,
+                                    kao i oblik i sadržinu odobrenja iz <ref href="/droga#art_24"> člana 24 </ref> stav 2 ovog zakona i stava 2 ovog člana propisuje
+                                    Ministarstvo.
+                                </p>
+                            </content>
+                        </paragraph>
+                    </article>
+                    <article eId = "art_25a">
+                        <num>
+                            Član 25a
+                        </num>
+                        <paragraph eId = "art_25a_para_1">
+                            <content eId = "art_25a_para_1_content">
+                                <p>
+                                    Slanje uzoraka zaplijenjenih droga preko državne granice za otkrivanje, istragu i krivično
+                                    gonjenje, kao i za forenzičke analize i razmjenu informacija sa nadležnim organima drugih
+                                    država vrši organ državne uprave nadležan za unutrašnje poslove (u daljem tekstu: nadležni
+                                    organ).
+                                </p>
+                            </content>
+                        </paragraph>
+                        <paragraph eId = "art_25a_para_2">
+                            <content eId = "art_25a_para_2_content">
+                                <p>
+                                    Prenošenje droga iz stava 1 ovog člana vrši nadležni organ, odnosno organ za čije potrebe
+                                    se vrši prenošenje, na osnovu ovlašćenja koje izdaje nadležni organ.
+                                </p>
+                            </content>
+                        </paragraph>
+                        <paragraph eId = "art_25a_para_3">
+                            <content eId = "art_25a_para_3_content">
+                                <p>
+                                    Nadležni organ dostavlja Ministarstvu šestomjesečne izvještaje o prenesenim uzorcima
+                                    droga, koji sadrže podatke o vrsti, količini, namjeni i drugim činjenicama od značaja za ove
+                                    aktivnosti.
+                                </p>
+                            </content>
+                        </paragraph>
+                        <paragraph eId = "art_25a_para_4">
+                            <content eId = "art_25a_para_4_content">
+                                <p>
+                                    Način slanja zaplijenjenih uzoraka droga preko državne granice i količine koje su dovoljne
+                                    za svrhe iz stava 1 ovog člana, kao i oblik i sadržinu obrasca za prenošenje uzoraka droga
+                                    preko državne granice propisuje nadležni organ, uz mišljenje Ministarstva.
+                                </p>
+                            </content>
+                        </paragraph>
+                    </article>
+                    <article eId = "art_26">
+                        <num>
+                            Član 26
+                        </num>
+                        <paragraph eId = "art_26_para_1">
+                            <content eId = "art_26_para_1_content">
+                                <p>
+                                    Dozvola za proizvodnju i promet droga iz <ref href="/droga#art_23"> člana 23 </ref> ovog zakona i odobrenje za korišćenje
+                                    droga iz <ref href="/droga#art_24"> člana 24 </ref> i <ref href="/droga#art_25"> člana 25 </ref> ovog zakona ne može se izdati pravnom licu koje je kažnjavano za krivična
+                                    djela zloupotrebe droga ili pranja novca, ni pravnom licu čiji su zaposleni osuđivani za ta
+                                    krivična djela.
+                                </p>
+                            </content>
+                        </paragraph>
+                        <paragraph eId = "art_26_para_2">
+                            <content eId = "art_26_para_2_content">
+                                <p>
+                                    Ministarstvo, odnosno Agencija pribavlja od nadležnog organa za vođenje kaznene
+                                    evidencije dokaz da pravno lice, osnivač, odgovorno lice i zaposleni nijesu osuđivani, odnosno
+                                    da se ne vodi krivični postupak zbog krivičnih djela iz stava 1 ovog člana.
+                                </p>
+                            </content>
+                        </paragraph>
+                    </article>
+                    <article eId = "art_27">
+                        <num>
+                            Član 27
+                        </num>
+                        <paragraph eId = "art_27_para_1">
+                            <content eId = "art_27_para_1_content">
+                                <p>
+                                    Godišnje potrebe za drogama iz <ref href="/droga#art_23"> člana 23 </ref> ovog zakona utvrđuje Agencija, a iz <ref href="/droga#art_24"> člana 24 </ref> i <ref href="/droga#art_25"> člana 25 </ref>
+                                    ovog zakona Ministarstvo.
+                                </p>
+                            </content>
+                        </paragraph>
+                        <paragraph eId = "art_27_para_2">
+                            <content eId = "art_27_para_2_content">
+                                <p>
+                                    Pravna lica koja vrše proizvodnju i promet droga iz <ref href="/droga#art_23"> člana 23 </ref> ovog zakona, kao i pravna lica
+                                    iz <ref href="/droga#art_24"> člana 24 </ref> i <ref href="/droga#art_25"> člana 25 </ref> ovog zakona dostavljaju godišnje potrebe za drogama Agenciji, odnosno
+                                    Ministarstvu, do 31. marta tekuće godine, za narednu godinu.
+                                </p>
+                            </content>
+                        </paragraph>
+                        <paragraph eId = "art_27_para_3">
+                            <content eId = "art_27_para_3_content">
+                                <p>
+                                    Odluku o ukupnim godišnjim potrebama za drogama iz stava 1 ovog člana donosi
+                                    Ministarstvo.
+                                </p>
+                            </content>
+                        </paragraph>
+                    </article>
+                    <article eId = "art_28">
+                        <num>
+                            Član 28
+                        </num>
+                        <paragraph eId = "art_28_para_1">
+                            <content eId = "art_28_para_1_content">
+                                <p>
+                                    Agencija odobrava maksimalnu količinu droga koju pravno lice koje ima dozvolu za
+                                    proizvodnju i promet droga može da proizvede, odnosno da drži u skladištu tokom kalendarske
+                                    godine.
+                                </p>
+                            </content>
+                        </paragraph>
+                        <paragraph eId = "art_28_para_2">
+                            <content eId = "art_28_para_2_content">
+                                <p>
+                                    Pravno lice iz <ref href="/droga#art_23"> člana 23 </ref> ovog zakona je dužno da četiri puta godišnje podnese Agenciji
+                                    izvještaj o količinama droga koje su uvezene ili izvezene, uz podatak o državi porijekla i državi
+                                    koja je odredište, u roku od 15 dana po isteku kvartala.
+                                </p>
+                            </content>
+                        </paragraph>
+                        <paragraph eId = "art_28_para_3">
+                            <content eId = "art_28_para_3_content">
+                                <p>
+                                    Pravna lica iz <ref href="/droga#art_24"> člana 24 </ref> i <ref href="/droga#art_25"> člana 25 </ref> ovog zakona dužna su da vode evidenciju o količini droge koju
+                                    proizvode, uvoze, koriste, posjeduju ili koju će da unište.
+                                </p>
+                            </content>
+                        </paragraph>
+                        <paragraph eId = "art_28_para_4">
+                            <content eId = "art_28_para_4_content">
+                                <p>
+                                    Evidencija iz stava 3 ovog člana sadrži i vrijeme kada se ove aktivnosti sprovode, kao i
+                                    imena isporučilaca.
+                                </p>
+                            </content>
+                        </paragraph>
+                        <paragraph eId = "art_28_para_5">
+                            <content eId = "art_28_para_5_content">
+                                <p>
+                                    Evidencije iz stava 3 ovog člana kao i cjelokupna poslovna i carinska dokumentacija čuvaju
+                                    se najmanje pet kalendarskih godina.
+                                </p>
+                            </content>
+                        </paragraph>
+                        <paragraph eId = "art_28_para_6">
+                            <content eId = "art_28_para_6_content">
+                                <p>
+                                    Pravna lica iz <ref href="/droga#art_24"> člana 24 </ref> i <ref href="/droga#art_25"> člana 25 </ref> ovog zakona dužna su da Ministarstvu dostave izvještaj o
+                                    korišćenim, uništenim ili skladištenim količinama droga do 31. januara tekuće za prethodnu
+                                    godinu, a na zahtjev i češće.
+                                </p>
+                            </content>
+                        </paragraph>
+                        <paragraph eId = "art_28_para_7">
+                            <content eId = "art_28_para_7_content">
+                                <p>
+                                    Bliži način vođenja i čuvanja evidencija iz stava 3 i dostavljanja izvještaja iz st. 2 i 6 ovog
+                                    člana propisuje Ministarstvo.
+                                </p>
+                            </content>
+                        </paragraph>
+                    </article>
+                    <article eId = "art_29">
+                        <num>
+                            Član 29
+                        </num>
+                        <paragraph eId = "art_29_para_1">
+                            <content eId = "art_29_para_1_content">
+                                <p>
+                                    Proizvodnju i promet droga može da vrši pravno lice samo u postrojenjima i prostorijama
+                                    namijenjenim za tu svrhu, koje ispunjavaju bezbjedonosne uslove kojima se olakšava kontrola
+                                    i sprječavanje neovlašćenog otuđenja droga.
+                                </p>
+                            </content>
+                        </paragraph>
+                        <paragraph eId = "art_29_para_2">
+                            <content eId = "art_29_para_2_content">
+                                <p>
+                                    Bliže bezbjedonosne uslove koje moraju da ispune postrojenja i prostorije iz stava 1 ovog
+                                    člana propisuje Ministarstvo, uz saglasnost nadležnog organa.
+                                </p>
+                            </content>
+                        </paragraph>
+                    </article>
+                    <article eId = "art_30">
+                        <num>
+                            Član 30
+                        </num>
+                        <paragraph eId = "art_30_para_1">
+                            <content eId = "art_30_para_1_content">
+                                <p>
+                                    Pakovanje koje se koristi za promet droga mora da sadrži naziv proizvođača, naziv droga iz
+                                    Spiska droga, hemijski sastav (ako se radi o smješi i/ili prirodnom proizvodu), jačinu droge,
+                                    količinu, kao i druge podatke u skladu sa zakonom.
+                                </p>
+                            </content>
+                        </paragraph>
+                    </article>
+                    <article eId = "art_31">
+                        <num>
+                            Član 31
+                        </num>
+                        <paragraph eId = "art_31_para_1">
+                            <content eId = "art_31_para_1_content">
+                                <p>
+                                    Pravno lice koje vrši proizvodnju, odnosno promet droga dužno je da, bez odlaganja,
+                                    obavijesti Ministarstvo, odnosno Agenciju i organ uprave nadležan za poslove policije o svim
+                                    činjenicama koje upućuju na sumnju o zloupotrebi droga u proizvodnji, odnosno prometu, kao i
+                                    o neuobičajenim porudžbinama, krađi droga ili o drugim nedozvoljenim aktivnostima u vezi
+                                    proizvodnje, odnosno prometa droga.
+                                </p>
+                            </content>
+                        </paragraph>
+                    </article>
+                </section>
+            </chapter>
+            <chapter eId="chp_6">
+                <num>
+                    VI.
+                </num>
+                <heading>
+                    UVOZ, IZVOZ I TRANZIT DROGA
+                </heading>
+                <section eId= "chp_6_sec_1">
+                    <article eId = "art_32">
+                        <num>
+                            Član 32
+                        </num>
+                        <paragraph eId = "art_32_para_1">
+                            <content eId = "art_32_para_1_content">
+                                <p>
+                                    Uvoz, izvoz i tranzit droga mogu da vrše pravna lica iz <ref href="/droga#art_23"> člana 23 </ref> ovog zakona, koja imaju
+                                    dozvolu za proizvodnju i promet droga, na osnovu posebne dozvole za uvoz, izvoz ili tranzit
+                                    droga koju izdaje Agencija.
+                                </p>
+                            </content>
+                        </paragraph>
+                        <paragraph eId = "art_32_para_2">
+                            <content eId = "art_32_para_2_content">
+                                <p>
+                                    Uvoz droga mogu da vrše i pravna lica iz <ref href="/droga#art_24"> člana 24 </ref> i <ref href="/droga#art_25"> člana 25 </ref> ovog zakona na osnovu posebne
+                                    dozvole koju izdaje Ministarstvo.
+                                </p>
+                            </content>
+                        </paragraph>
+                        <paragraph eId = "art_32_para_3">
+                            <content eId = "art_32_para_3_content">
+                                <p>
+                                    Dozvola za uvoz droga izdaje se na period od šest mjeseci i važi od dana izdavanja
+                                    dozvole.
+                                </p>
+                            </content>
+                        </paragraph>
+                        <paragraph eId = "art_32_para_4">
+                            <content eId = "art_32_para_4_content">
+                                <p>
+                                    Dozvola za izvoz i tranzit droga izdaje se na period važenja dozvole za uvoz, koju je izdao
+                                    nadležni organ države u koju se uvozi droga.
+                                </p>
+                            </content>
+                        </paragraph>
+                        <paragraph eId = "art_32_para_5">
+                            <content eId = "art_32_para_5_content">
+                                <p>
+                                    Pravno lice iz st. 1 i 2 ovog člana je dužno da, na osnovu dobijene dozvole, izvrši uvoz,
+                                    odnosno izvoz ili tranzit droga u roku važenja dozvole i to jednovremeno.
+                                </p>
+                            </content>
+                        </paragraph>
+                        <paragraph eId = "art_32_para_6">
+                            <content eId = "art_32_para_6_content">
+                                <p>
+                                    Sadržinu i obrazac dozvole iz st. 1 i 2 ovog člana propisuje Ministarstvo.
+                                </p>
+                            </content>
+                        </paragraph>
+                    </article>
+                    <article eId = "art_33">
+                        <num>
+                            Član 33
+                        </num>
+                        <paragraph eId = "art_33_para_1">
+                            <intro eId = "art_33_para_1_intro">
+                                <p>
+                                    Dozvola iz <ref href="/droga#art_32"> člana 32 </ref> st. 1 i 2 ovog zakona izdaje se na zahtjev pravnog lica. 
+                                    Zahtjev iz stava 1 ovog člana sadrži:
+                                </p>
+                            </intro>
+                            <point eId="art_33_para_1_point_1">
+                                <num>
+                                    1)
+                                </num>
+                                <content eId="art_33_para_1_point_1_content">
+                                    <p>
+                                        naziv i adresu uvoznika ili izvoznika;
+                                    </p>
+                                </content>
+                            </point>
+                            <point eId="art_33_para_1_point_2">
+                                <num>
+                                    2)
+                                </num>
+                                <content eId="art_33_para_1_point_2_content">
+                                    <p>
+                                        međunarodni nezaštićeni naziv (INN) droge, farmaceutski oblik, ukoliko se radi o
+                                        preparatu, njegov prodajni naziv, kao i količinu svake supstance, biljke i preparata;
+                                    </p>
+                                </content>
+                            </point>
+                            <point eId="art_33_para_1_point_3">
+                                <num>
+                                    3)
+                                </num>
+                                <content eId="art_33_para_1_point_3_content">
+                                    <p>
+                                        rok u kojem će se uvoz ili izvoz izvršiti;
+                                    </p>
+                                </content>
+                            </point>
+                            <point eId="art_33_para_1_point_4">
+                                <num>
+                                    4)
+                                </num>
+                                <content eId="art_33_para_1_point_4_content">
+                                    <p>
+                                        transportno sredstvo koje će biti korišćeno i naziv graničnog prelaza.
+                                    </p>
+                                </content>
+                            </point>
+                        </paragraph>
+                        <paragraph eId = "art_33_para_2">
+                            <content eId = "art_33_para_2_content">
+                                <p>
+                                    Uz zahtjev za izvoz pravno lice prilaže i dozvolu za uvoz od strane države u koju se uvozi
+                                    droga.
+                                </p>
+                            </content>
+                        </paragraph>
+                    </article>
+                    <article eId = "art_34">
+                        <num>
+                            Član 34
+                        </num>
+                        <paragraph eId = "art_34_para_1">
+                            <content eId = "art_34_para_1_content">
+                                <p>
+                                    U slučajevima prirodnih i drugih katastrofa ili u hitnim slučajevima, Ministarstvo može da
+                                    izda odobrenje za uvoz droga, ako međunarodnim sporazumom nije drukčije regulisano.
+                                </p>
+                            </content>
+                        </paragraph>
+                    </article>
+                    <article eId = "art_35">
+                        <num>
+                            Član 35
+                        </num>
+                        <paragraph eId = "art_35_para_1">
+                            <content eId = "art_35_para_1_content">
+                                <p>
+                                    Uz svaku pošiljku droge koja se uvozi mora biti dostavljen primjerak ili ovjerena kopija
+                                    dozvole za izvoz države izvoznice.
+                                </p>
+                            </content>
+                        </paragraph>
+                        <paragraph eId = "art_35_para_2">
+                            <content eId = "art_35_para_2_content">
+                                <p>
+                                    Ukoliko je količina droge koja se uvozi manja od količine navedene u dozvoli za izvoz,
+                                    carinski organ je dužan da o tome sačini zabilješku na dozvoli i na svakoj ovjerenoj kopiji, kao i
+                                    u dokumentaciji koju vodi carinski organ.
+                                </p>
+                            </content>
+                        </paragraph>
+                        <paragraph eId = "art_35_para_3">
+                            <content eId = "art_35_para_3_content">
+                                <p>
+                                    Ministarstvo, odnosno Agencija su dužni da dozvolu za izvoz uz priloženu dokumentaciju
+                                    dostave državi iz koje se droga uvozi.
+                                </p>
+                            </content>
+                        </paragraph>
+                        <paragraph eId = "art_35_para_4">
+                            <content eId = "art_35_para_4_content">
+                                <p>
+                                    Droge se mogu izvoziti iz Crne Gore, ukoliko država u koju se droge uvoze potvrdi da je
+                                    izdata dozvola za uvoz takve pošiljke.
+                                </p>
+                            </content>
+                        </paragraph>
+                    </article>
+                    <article eId = "art_36">
+                        <num>
+                            Član 36
+                        </num>
+                        <paragraph eId = "art_36_para_1">
+                            <intro eId = "art_36_para_1_intro">
+                                <p>
+                                    Dokumentacija za uvoz, izvoz i tranzit droga (fakture, tovarni listovi, potvrde, carinske ili
+                                    dozvole za transport i druge vrste dozvola) sadrži:
+                                </p>
+                            </intro>
+                            <point eId="art_36_para_1_point_1">
+                                <num>
+                                    1)
+                                </num>
+                                <content eId="art_36_para_1_point_1_content">
+                                    <p>
+                                        naziv droge kako je naveden u Spisku droga, kao i prodajni naziv preparata ako postoji;
+                                    </p>
+                                </content>
+                            </point>
+                            <point eId="art_36_para_1_point_2">
+                                <num>
+                                    2)
+                                </num>
+                                <content eId="art_36_para_1_point_2_content">
+                                    <p>
+                                        količine koje se izvoze iz Crne Gore, odnosno koje se uvoze;
+                                    </p>
+                                </content>
+                            </point>
+                            <point eId="art_36_para_1_point_3">
+                                <num>
+                                    3)
+                                </num>
+                                <content eId="art_36_para_1_point_3_content">
+                                    <p>
+                                        naziv i adresu izvoznika, odnosno uvoznika.
+                                    </p>
+                                </content>
+                            </point>
+                        </paragraph>
+                    </article>
+                    <article eId = "art_37">
+                        <num>
+                            Član 37
+                        </num>
+                        <paragraph eId = "art_37_para_1">
+                            <intro eId = "art_37_para_1_intro">
+                                <p>
+                                    Pravno lice koje vrši tranzit droga mora da ima:
+                                </p>
+                            </intro>
+                            <point eId="art_37_para_1_point_1">
+                                <num>
+                                    1)
+                                </num>
+                                <content eId="art_37_para_1_point_1_content">
+                                    <p>
+                                        dozvolu za izvoz od države iz koje se droga izvozi;
+                                    </p>
+                                </content>
+                            </point>
+                            <point eId="art_37_para_1_point_2">
+                                <num>
+                                    2)
+                                </num>
+                                <content eId="art_37_para_1_point_2_content">
+                                    <p>
+                                        dozvolu za uvoz od države u koju se droga uvozi;
+                                    </p>
+                                </content>
+                            </point>
+                            <point eId="art_37_para_1_point_3">
+                                <num>
+                                    3)
+                                </num>
+                                <content eId="art_37_para_1_point_3_content">
+                                    <p>
+                                        dozvolu za tranzit preko teritorije treće države prema krajnjem odredištu, odnosno
+                                        potvrdu nadležnog organa te države da tranzit kroz tu državu nije uslovljen posebnom
+                                        dozvolom.
+                                    </p>
+                                </content>
+                            </point>
+                        </paragraph>
+                    </article>
+                    <article eId = "art_38">
+                        <num>
+                            Član 38
+                        </num>
+                        <paragraph eId = "art_38_para_1">
+                            <intro eId = "art_38_para_1_intro">
+                                <p>
+                                    Prilikom tranzita droga iz <ref href="/droga#art_37"> člana 37 </ref> ovog zakona carinski organ je dužan da:
+                                </p>
+                            </intro>
+                            <point eId="art_38_para_1_point_1">
+                                <num>
+                                    1)
+                                </num>
+                                <content eId="art_38_para_1_point_1_content">
+                                    <p>
+                                        utvrdi vrstu i količinu droge za svaki paket;
+                                    </p>
+                                </content>
+                            </point>
+                            <point eId="art_38_para_1_point_2">
+                                <num>
+                                    2)
+                                </num>
+                                <content eId="art_38_para_1_point_2_content">
+                                    <p>
+                                        odmah obavijesti Ministarstvo, odnosno Agenciju o pošiljci.
+                                    </p>
+                                </content>
+                            </point>
+                            <point eId="art_38_para_1_point_3">
+                                <num>
+                                    3)
+                                </num>
+                                <content eId="art_38_para_1_point_3_content">
+                                    <p>
+                                        odmah obavijesti Ministarstvo, odnosno Agenciju o pošiljci.
+                                    </p>
+                                </content>
+                            </point>
+                        </paragraph>
+                    </article>
+                    <article eId = "art_39">
+                        <num>
+                            Član 39
+                        </num>
+                        <paragraph eId = "art_39_para_1">
+                            <content eId = "art_39_para_1_content">
+                                <p>
+                                    Zabranjen je tranzit droga preko Crne Gore do odredišta različitog od onog koje je dato na
+                                    dozvoli za izvoz.
+                                </p>
+                            </content>
+                        </paragraph>
+                        <paragraph eId = "art_39_para_2">
+                            <content eId = "art_39_para_2_content">
+                                <p>
+                                    U slučaju podnošenja zahtjeva za promjenu rute ili promjene vezane za primaoca pošiljke,
+                                    smatraće se da se radi o izvozu iz Crne Gore u državu različitu od one koja je prethodno
+                                    utvrđena.
+                                </p>
+                            </content>
+                        </paragraph>
+                        <paragraph eId = "art_39_para_3">
+                            <content eId = "art_39_para_3_content">
+                                <p>
+                                    Pravno lice koje vrši tranzit dužno je da obezbijedi da se osobine (fizičke, hemijske ili
+                                    mikrobiološke) droga neće promijeniti tokom tranzita ili da neće biti stavljene pod uticaj koji bi
+                                    mogao da promijeni njihove osobine, kao i da obezbijedi da originalno pakovanje i pečat ne
+                                    budu promijenjeni.
+                                </p>
+                            </content>
+                        </paragraph>
+                    </article>
+                    <article eId = "art_40">
+                        <num>
+                            Član 40
+                        </num>
+                        <paragraph eId = "art_40_para_1">
+                            <content eId = "art_40_para_1_content">
+                                <p>
+                                    Odredbe <ref href="/droga#art_37"> člana 37 </ref>, <ref href="/droga#art_38"> člana 38 </ref> i <ref href="/droga#art_39"> člana 39 </ref> ovog zakona ne primjenjuju se na pošiljke droga prema drugim
+                                    državama koje se prenose avionom.
+                                </p>
+                            </content>
+                        </paragraph>
+                        <paragraph eId = "art_40_para_2">
+                            <content eId = "art_40_para_2_content">
+                                <p>
+                                    Ukoliko avion treba da sleti na teritoriju Crne Gore, uključujući i slijetanje u hitnim
+                                    slučajevima, smatraće se da se radi o izvozu pošiljke droga u državu odredišta samo ako je
+                                    pošiljka iznijeta iz aviona ili ako okolnosti to nalažu.
+                                </p>
+                            </content>
+                        </paragraph>
+                    </article>
+                    <article eId = "art_41">
+                        <num>
+                            Član 41
+                        </num>
+                        <paragraph eId = "art_41_para_1">
+                            <content eId = "art_41_para_1_content">
+                                <p>
+                                    Prilikom uvoza, izvoza i tranzita droga carinski organ je dužan da pri puštanju robe, na
+                                    dozvoli za uvoz, izvoz i tranzit droga upiše datum, mjesto carinjenja i ime carinskog službenika
+                                    koji je izvršio carinjenje.
+                                </p>
+                            </content>
+                        </paragraph>
+                        <paragraph eId = "art_41_para_2">
+                            <content eId = "art_41_para_2_content">
+                                <p>
+                                    Carinski organ iz stava 1 ovog člana je dužan da primjerak ili kopiju dozvole iz stava 1 ovog
+                                    člana dostavi Agenciji, odnosno Ministarstvu, u roku od 15 dana od dana kad je izvršeno
+                                    carinjenje.
+                                </p>
+                            </content>
+                        </paragraph>
+                        <paragraph eId = "art_41_para_3">
+                            <content eId = "art_41_para_3_content">
+                                <p>
+                                    Pošiljke droga koje se uvoze, odnosno izvoze carinski organ će privremeno zadržati,
+                                    odnosno oduzeti, ukoliko utvrdi da ne postoji potrebna dozvola za uvoz, odnosno izvoz droga
+                                    ili ukoliko dozvola nije usklađena sa propisanim sadržajem, dok se ne utvrdi drukčije.
+                                </p>
+                            </content>
+                        </paragraph>
+                    </article>
+                </section>
+            </chapter>
+            <chapter eId="chp_7">
+                <num>
+                    VII.
+                </num>
+                <heading>
+                    USLOVI ZA POSJEDOVANJE DROGA
+                </heading>
+                <section eId= "chp_7_sec_1">
+                    <article eId = "art_42">
+                        <num>
+                            Član 42
+                        </num>
+                        <paragraph eId = "art_42_para_1">
+                            <content eId = "art_42_para_1_content">
+                                <p>
+                                    Brodovi i avioni u međunarodnom saobraćaju mogu da posjeduju droge koje se koriste za
+                                    ukazivanje prve medicinske pomoći, u količinama neophodnim za tu namjenu, uz prethodno
+                                    dobijeno odobrenje koje izdaje Agencija.
+                                </p>
+                            </content>
+                        </paragraph>
+                        <paragraph eId = "art_42_para_2">
+                            <content eId = "art_42_para_2_content">
+                                <p>
+                                    Odobrenje iz stava 1 ovog člana izdaje se odgovornom licu u pravnom licu koje posjeduje
+                                    prevozno sredstvo.
+                                </p>
+                            </content>
+                        </paragraph>
+                        <paragraph eId = "art_42_para_2">
+                            <content eId = "art_42_para_2_content">
+                                <p>
+                                    Odobrenje iz stava 1 ovog člana sadrži naziv pravnog lica, ime odgovornog lica, vrstu i
+                                    količinu droga, kao i uslove pod kojima se droge skladište i prevoze.
+                                </p>
+                            </content>
+                        </paragraph>
+                        <paragraph eId = "art_42_para_3">
+                            <content eId = "art_42_para_3_content">
+                                <p>
+                                    Odgovorno lice iz stava 2 ovog člana dužno je da vodi evidenciju o drogama iz stava 1 ovog
+                                    člana, koja se čuva najmanje dvije kalendarske godine.
+                                </p>
+                            </content>
+                        </paragraph>
+                    </article>
+                    <article eId = "art_42a">
+                        <num>
+                            Član 42a
+                        </num>
+                        <paragraph eId = "art_42a_para_1">
+                            <content eId = "art_42a_para_1_content">
+                                <p>
+                                    Lice može posjedovati lijek koji sadrži drogu za ličnu terapiju u količini koju odredi ljekar.
+                                </p>
+                            </content>
+                        </paragraph>
+                    </article>
+                    <article eId = "art_43">
+                        <num>
+                            Član 43
+                        </num>
+                        <paragraph eId = "art_43_para_1">
+                            <content eId = "art_43_para_1_content">
+                                <p>
+                                    Lice koje prelazi državnu granicu može da posjeduje lijek koji sadrži drogu u količini
+                                    potrebnoj za ličnu terapiju, za period od najviše 30 dana na osnovu potvrde (izvještaja)
+                                    izabranog doktora ili doktora medicine specijaliste iz oblasti metalnog zdravlja.
+                                </p>
+                            </content>
+                        </paragraph>
+                        <paragraph eId = "art_43_para_2">
+                            <content eId = "art_43_para_2_content">
+                                <p>
+                                    Lice koje prelazi državnu granicu može da posjeduje lijek koji sadrži drogu u količini
+                                    potrebnoj za terapiju životinje koja putuje sa njim, za period od najviše 30 dana na osnovu
+                                    potvrde (izvještaja) doktora veterinarske medicine.
+                                </p>
+                            </content>
+                        </paragraph>
+                        <paragraph eId = "art_43_para_2">
+                            <content eId = "art_43_para_2_content">
+                                <p>
+                                    Prilikom prelaska državne granice, lice iz stava 1 ovog člana je dužno da posjeduje potvrdu
+                                    (izvještaj) o neophodnosti lijeka. Potvrda o neophodnosti posjedovanja lijeka ne može biti
+                                    starija od 90 dana.
+                                </p>
+                            </content>
+                        </paragraph>
+                        <paragraph eId = "art_43_para_3">
+                            <content eId = "art_43_para_3_content">
+                                <p>
+                                    Prilikom prelaska državne granice, lice iz stava 1 ovog člana je dužno da posjeduje potvrdu
+                                    (izvještaj) o neophodnosti lijeka. Potvrda o neophodnosti posjedovanja lijeka ne može biti
+                                    starija od 90 dana.
+                                </p>
+                            </content>
+                        </paragraph>
+                    </article>
+                    <article eId = "art_44">
+                        <num>
+                            Član 44
+                        </num>
+                        <paragraph eId = "art_44_para_1">
+                            <content eId = "art_44_para_1_content">
+                                <p>
+                                    Policijski službenici mogu da posjeduju droge u svrhu otkrivanja učinioca krivičnog djela i
+                                    prekršaja, uz saglasnost nadležnog državnog tužioca, odnosno suda.
+                                </p>
+                            </content>
+                        </paragraph>
+                    </article>
+                    <article eId = "art_45">
+                        <num>
+                            Član 45
+                        </num>
+                        <paragraph eId = "art_45_para_1">
+                            <content eId = "art_45_para_1_content">
+                                <p>
+                                    Zabranjena je upotreba, proizvodnja, promet, posjedovanje droga za ličnu upotrebu i
+                                    sredstava za proizvodnju droga, kao i gajenje bilja koje se može koristiti za proizvodnju droga,
+                                    osim pod uslovima propisanim ovim zakonom.
+                                </p>
+                            </content>
+                        </paragraph>
+                        <paragraph eId = "art_45_para_2">
+                            <content eId = "art_45_para_2_content">
+                                <p>
+                                    Zabranjeno je izdavati ljekove koji sadrže droge licima mlađim od 18 godina života.
+                                </p>
+                            </content>
+                        </paragraph>
+                    </article>
+                    <article eId = "art_45a">
+                        <num>
+                            Član 45a
+                        </num>
+                        <paragraph eId = "art_45a_para_1">
+                            <content eId = "art_45a_para_1_content">
+                                <p>
+                                    Zabranjeno je izlagati drugog djelovanju droge, osim u slučaju propisanog liječenja.
+                                </p>
+                            </content>
+                        </paragraph>
+                    </article>
+                    <article eId = "art_46">
+                        <num>
+                            Član 46
+                        </num>
+                        <paragraph eId = "art_46_para_1">
+                            <content eId = "art_46_para_1_content">
+                                <p>
+                                    Zabranjeno je direktno i indirektno oglašavanje i davanje informacija posredstvom medija,
+                                    interneta ili na bilo koji drugi način (poštom, posjetom i sl.), koje se odnose na proizvodnju,
+                                    promet, upotrebu droga i metoda pomoći.
+                                </p>
+                            </content>
+                        </paragraph>
+                    </article>
+                    <article eId = "art_47">
+                        <num>
+                            Član 47
+                        </num>
+                        <paragraph eId = "art_47_para_1">
+                            <content eId = "art_47_para_1_content">
+                                <p>
+                                    Na postupke propisane ovim zakonom shodno se primjenjuju odredbe zakona kojim je
+                                    uređen opšti upravni postupak, ako ovim zakonom nije drukčije propisano.
+                                </p>
+                            </content>
+                        </paragraph>
+                    </article>
+                </section>
+            </chapter>
+            <chapter eId="chp_8">
+                <num>
+                    VIII.
+                </num>
+                <heading>
+                    ODUZIMANJE I UNIŠTAVANJE DROGA
+                </heading>
+                <section eId= "chp_8_sec_1">
+                    <article eId = "art_48">
+                        <num>
+                            Član 48
+                        </num>
+                        <paragraph eId = "art_48_para_1">
+                            <content eId = "art_48_para_1_content">
+                                <p>
+                                    Droge koje se gaje, proizvode, stavljaju u promet ili nađu u posjedu suprotno odredbama
+                                    ovog zakona oduzeće se.
+                                </p>
+                            </content>
+                        </paragraph>
+                        <paragraph eId = "art_48_para_2">
+                            <content eId = "art_48_para_2_content">
+                                <p>
+                                    Ako se droge koje su oduzete mogu koristiti kao sirovine za proizvodnju i dalju preradu,
+                                    organ koji je donio odluku o oduzimanju, po okončanju prekršajnog ili krivičnog postupka,
+                                    predaje droge, uz naknadu, pravnom licu koje ima dozvolu za proizvodnju droga ili ustupa, bez
+                                    naknade, pravnim licima iz <ref href="/droga#art_25"> člana 25 </ref> ovog zakona.
+                                </p>
+                            </content>
+                        </paragraph>
+                        <paragraph eId = "art_48_para_3">
+                            <content eId = "art_48_para_3_content">
+                                <p>
+                                    Organ koji vodi postupak može odlučiti da se droge iz stava 1 ovog člana, koje se zbog
+                                    njihovog svojstva ne mogu skladištiti na duži period, prodaju ili unište komisijski prije
+                                    okončanja postupka, nakon što se uzorci droga prethodno zaštite.
+                                </p>
+                            </content>
+                        </paragraph>
+                        <paragraph eId = "art_48_para_4">
+                            <content eId = "art_48_para_4_content">
+                                <p>
+                                    Komisiju iz stava 3 ovog člana imenuje organ koji je odlučio o oduzimanju droga.
+                                    Komisija šestomjesečno podnosi izvještaj Ministarstvu o količini oduzete i uništene droge.
+                                    Sredstva od prodaje droga iz stava 2 ovog člana su prihod budžeta Crne Gore.
+                                    Ukoliko se oduzete droge ne mogu upotrijebiti u skladu sa ovim zakonom, uništavaju se.
+                                    Sredstva za uništavanje droga obezbjeđuju se iz budžeta Crne Gore.
+                                </p>
+                            </content>
+                        </paragraph>
+                    </article>
+                    <article eId = "art_49">
+                        <num>
+                            Član 49
+                        </num>
+                        <paragraph eId = "art_49_para_1">
+                            <content eId = "art_49_para_1_content">
+                                <p>
+                                    Organ koji oduzima drogu vodi evidenciju o količini oduzete droge.
+                                </p>
+                            </content>
+                        </paragraph>
+                        <paragraph eId = "art_49_para_2">
+                            <content eId = "art_49_para_2_content">
+                                <p>
+                                    Organ koji odlučuje u krivičnom ili prekršajnom postupku vrši nadzor nad skladištenjem
+                                    oduzetih droga.
+                                </p>
+                            </content>
+                        </paragraph>
+                        <paragraph eId = "art_49_para_3">
+                            <content eId = "art_49_para_3_content">
+                                <p>
+                                    Način uništavanja droga i vođenja evidencije o oduzetim i uništenim drogama iz <ref href="/droga#art_37"> člana 48 </ref>
+                                    ovog zakona propisuje Ministarstvo, uz mišljenje Agencije za zaštitu životne sredine.
+                                </p>
+                            </content>
+                        </paragraph>
+                        <paragraph eId = "art_49_para_4">
+                            <content eId = "art_49_para_4_content">
+                                <p>
+                                    Podaci iz evidencije iz stava 3 ovog člana dostavljaju se Ministarstvu kvartalno, u roku od
+                                    15 dana, od isteka kvartala.
+                                </p>
+                            </content>
+                        </paragraph>
+                    </article>
+                </section>
+            </chapter>
+            <chapter eId="chp_9">
+                <num>
+                    IX.
+                </num>
+                <heading>
+                    NADZOR
+                </heading>
+                <section eId= "chp_9_sec_1">
+                    <article eId = "art_50">
+                        <num>
+                            Član 50
+                        </num>
+                        <paragraph eId = "art_50_para_2">
+                            <content eId = "art_50_para_2_content">
+                                <p>
+                                    Poslove inspekcijskog nadzora iz stava 1 ovog člana vrši organ uprave nadležan za poslove
+                                    inspekcijskog nadzora, preko zdravstvene inspekcije.
+                                </p>
+                            </content>
+                        </paragraph>
+                        <paragraph eId = "art_50_para_3">
+                            <content eId = "art_50_para_3_content">
+                                <p>
+                                    Poslove inspekcijskog nadzora u odnosu na gajenje bilja koje može da se koristi za
+                                    proizvodnju droga vrši organ uprave nadležan za poslove inspekcijskog nadzora, preko
+                                    fitosanitarne inspekcije.
+                                </p>
+                            </content>
+                        </paragraph>
+                        <paragraph eId = "art_50_para_4">
+                            <content eId = "art_50_para_4_content">
+                                <p>
+                                    Nadzor u odnosu na posjedovanje lijeka koji sadrži drogu za ličnu terapiju, kao i
+                                    posjedovanje droga za ličnu upotrebu vrši organ uprave nadležan za poslove policije.
+                                </p>
+                            </content>
+                        </paragraph>
+                    </article>
+                </section>
+            </chapter>
+            <chapter eId="chp_9">
+                <num>
+                    X.
+                </num>
+                <heading>
+                    KAZNENE ODREDBE
+                </heading>
+                <section eId= "chp_10_sec_1">
+                    <article eId = "art_51">
+                        <num>
+                            Član 51
+                        </num>
+                        <paragraph eId = "art_51_para_1">
+                            <intro eId = "art_51_para_1_intro">
+                                <p>
+                                    Novčanom kaznom od 2.000 eura do 20.000 eura kazniće se za prekršaj pravno lice, ako:
+                                </p>
+                            </intro>
+                            <point eId="art_51_para_1_point_1">
+                                <num>
+                                    1)
+                                </num>
+                                <content eId="art_51_para_1_point_1_content">
+                                    <p>
+                                        prilikom pružanja pomoći zavisnicima zdravstvena ustanova ne primjenjuje metode i
+                                        postupke koji su u skladu sa stručnim smjernicama koje utvrđuje Ministarstvo (član 11 stav 3);
+                                    </p>
+                                </content>
+                            </point>
+                            <point eId="art_51_para_1_point_2">
+                                <num>
+                                    2)
+                                </num>
+                                <content eId="art_51_para_1_point_2_content">
+                                    <p>
+                                        sprovodi programe smanjenja štetnih posljedica zloupotrebe droga koji nije u skladu sa
+                                        stručnim smjernicama (član 11 stav 4);
+                                    </p>
+                                </content>
+                            </point>
+                            <point eId="art_51_para_1_point_3">
+                                <num>
+                                    3)
+                                </num>
+                                <content eId="art_51_para_1_point_3_content">
+                                    <p>
+                                        ne uništi samoniklo bilje koje se može koristiti za proizvodnju droge (član 17 stav 3);
+                                    </p>
+                                </content>
+                            </point>
+                            <point eId="art_51_para_1_point_4">
+                                <num>
+                                    4)
+                                </num>
+                                <content eId="art_51_para_1_point_4_content">
+                                    <p>
+                                        ne zaključi ugovor o otkupu cjelokupnog roda sa pravnim licem registrovanim za promet
+                                        maka i/ili konoplje (član 18 stav 2);
+                                    </p>
+                                </content>
+                            </point>
+                            <point eId="art_51_para_1_point_5">
+                                <num>
+                                    5)
+                                </num>
+                                <content eId="art_51_para_1_point_5_content">
+                                    <p>
+                                        ne registruje površine na kojima uzgaja mak i/ili konoplju u naučne svrhe kod organa
+                                        uprave nadležnog za fitosanitarne poslove (član 18 stav 6);
+                                    </p>
+                                </content>
+                            </point>
+                            <point eId="art_51_para_1_point_6">
+                                <num>
+                                    6)
+                                </num>
+                                <content eId="art_51_para_1_point_6_content">
+                                    <p>
+                                        ne preda pravnom licu sa kojim ima zaključen ugovor o otkupu maka i/ili konoplje
+                                        cjelokupan rod u roku od 4 mjeseca od dana ubiranja roda (član 19 stav 1);
+                                    </p>
+                                </content>
+                            </point>
+                            <point eId="art_51_para_1_point_7">
+                                <num>
+                                    7)
+                                </num>
+                                <content eId="art_51_para_1_point_7_content">
+                                    <p>
+                                        ne otkupi cjelokupan rod od lica koje uzgaja mak i/ili konoplju u roku utvrđenom u članu
+                                        19 stav 1 (član 19 stav 2);
+                                    </p>
+                                </content>
+                            </point>
+                            <point eId="art_51_para_1_point_8">
+                                <num>
+                                    8)
+                                </num>
+                                <content eId="art_51_para_1_point_8_content">
+                                    <p>
+                                        gaji mak i/ili konoplju, a ne prijavi organu uprave nadležnom za poslove policije okolnosti
+                                        koje mogu da ukažu na sumnju da su mak ili djelovi maka, odnosno konoplje neovlašćeno
+                                        upotrijebljeni ili da bi se mogli neovlašćeno upotrijebiti za proizvodnju droge (rezanje, branje
+                                        zelenih čahura maka) (član 20);
+                                    </p>
+                                </content>
+                            </point>
+                            <point eId="art_51_para_1_point_9">
+                                <num>
+                                    9)
+                                </num>
+                                <content eId="art_51_para_1_point_9_content">
+                                    <p>
+                                        ne vodi evidenciju o količini kupljenih prerađevina maka, odnosno konoplje (član 21 stav
+                                        2);
+                                    </p>
+                                </content>
+                            </point>
+                            <point eId="art_51_para_1_point_10">
+                                <num>
+                                    10)
+                                </num>
+                                <content eId="art_51_para_1_point_10_content">
+                                    <p>
+                                        ne vodi evidenciju o količini kupljenih prerađevina maka, odnosno konoplje (član 21 stav
+                                        2);
+                                    </p>
+                                </content>
+                            </point>
+                            <point eId="art_51_para_1_point_11">
+                                <num>
+                                    11)
+                                </num>
+                                <content eId="art_51_para_1_point_11_content">
+                                    <p>
+                                        ne podnese Agenciji izvještaj o količinama droga koje su uvezene ili izvezene, četiri
+                                        puta godišnje, uz podatak o državi porijekla i državi koja je odredište u roku od 15 dana po
+                                        isteku kvartala (član 28 stav 2);
+                                    </p>
+                                </content>
+                            </point>
+                            <point eId="art_51_para_1_point_12">
+                                <num>
+                                    12)
+                                </num>
+                                <content eId="art_51_para_1_point_12_content">
+                                    <p>
+                                        ne vodi evidenciju o količini droge koju proizvodi, uvozi, koristi, posjeduje ili koju će da
+                                        uništi (član 28 stav 3);
+                                    </p>
+                                </content>
+                            </point>
+                            <point eId="art_51_para_1_point_13">
+                                <num>
+                                    13)
+                                </num>
+                                <content eId="art_51_para_1_point_13_content">
+                                    <p>
+                                        ne evidentira vrijeme svake aktivnosti vezane za proizvodnju, korišćenje, posjedovanje
+                                        droga kao i imena isporučilaca (član 28 stav 4);
+                                    </p>
+                                </content>
+                            </point>
+                            <point eId="art_51_para_1_point_14">
+                                <num>
+                                    14)
+                                </num>
+                                <content eId="art_51_para_1_point_14_content">
+                                    <p>
+                                        ne čuva evidenciju o drogama i cjelokupnu poslovnu i carinsku dokumentaciju najmanje
+                                        pet kalendarskih godina (član 28 stav 5);
+                                    </p>
+                                </content>
+                            </point>
+                            <point eId="art_51_para_1_point_15">
+                                <num>
+                                    15)
+                                </num>
+                                <content eId="art_51_para_1_point_15_content">
+                                    <p>
+                                        ne dostavi Ministarstvu izvještaj o korišćenim, uništenim ili skladištenim količinama
+                                        droga do 31. januara tekuće za prethodnu godinu (član 28 stav 6);
+                                    </p>
+                                </content>
+                            </point>
+                            <point eId="art_51_para_1_point_16">
+                                <num>
+                                    16)
+                                </num>
+                                <content eId="art_51_para_1_point_16_content">
+                                    <p>
+                                        vrši proizvodnju i promet droga, a ne obavijesti Ministarstvo, odnosno Agenciju i organ
+                                        uprave nadležan za poslove policije o svim činjenicama koje upućuju na sumnju o zloupotrebi
+                                        droga u proizvodnji, odnosno prometu, kao i o neuobičajenim porudžbinama, krađi droga ili o
+                                        drugim nedozvoljenim aktivnostima u vezi proizvodnje, odnosno prometa droga (član 31);
+                                    </p>
+                                </content>
+                            </point>
+                            <point eId="art_51_para_1_point_16a">
+                                <num>
+                                    16a)
+                                </num>
+                                <content eId="art_51_para_1_point_16a_content">
+                                    <p>
+                                        u roku od 15 dana od dana izvršenog uvoza, odnosno izvoza ne obavijesti
+                                        Ministarstvo, odnosno Agenciju o količini uvezene, odnosno izvezene droge (član 32a stav 1);
+                                    </p>
+                                </content>
+                            </point>
+                            <point eId="art_51_para_1_point_16b">
+                                <num>
+                                    16b)
+                                </num>
+                                <content eId="art_51_para_1_point_16b_content">
+                                    <p>
+                                        u roku od 15 dana od dana prestanka važenja dozvole za uvoz, odnosno izvoz droge
+                                        ne obavijesti Ministarstvo, odnosno Agenciju da nije izvršilo uvoz, odnosno izvoz droge u
+                                        periodu određenom u dozvoli za uvoz, odnosno izvoz i ne vrati sve primjerke dozvole za uvoz,
+                                        odnosno izvoz droge koje posjeduje (član 32a stav 2);
+                                    </p>
+                                </content>
+                            </point>
+                            <point eId="art_51_para_1_point_17">
+                                <num>
+                                    17)
+                                </num>
+                                <content eId="art_51_para_1_point_17_content">
+                                    <p>
+                                        ne obezbijedi da se osobine droga ne promijene tokom tranzita ili da se ne stave pod
+                                        uticaj koji bi mogao da promijeni njihove osobine i ne obezbijedi da originalno pakovanje i
+                                        pečat ne budu promijenjeni (član 39 stav 3);
+                                    </p>
+                                </content>
+                            </point>
+                            <point eId="art_51_para_1_point_18">
+                                <num>
+                                    18)
+                                </num>
+                                <content eId="art_51_para_1_point_18_content">
+                                    <p>
+                                        u brodu i avionu u međunarodnom saobraćaju posjeduje droge koje se koriste za
+                                        ukazivanje prve medicinske pomoći, u količinama neophodnim za tu namjenu, bez prethodno
+                                        dobijene dozvole koju izdaje Agencija (član 42 stav 1);
+                                    </p>
+                                </content>
+                            </point>
+                            <point eId="art_51_para_1_point_19">
+                                <num>
+                                    19)
+                                </num>
+                                <content eId="art_51_para_1_point_19_content">
+                                    <p>
+                                        direktno ili indirektno oglašava ili daje informacije posredstvom medija, interneta ili na
+                                        bilo koji drugi način, koje se odnose na proizvodnju, promet, upotrebu droga i metoda pomoći
+                                        (član 46).
+                                    </p>
+                                </content>
+                            </point>
+                        </paragraph>
+                        <paragraph eId = "art_51_para_2">
+                            <content eId = "art_51_para_2_content">
+                                <p>
+                                    Za prekršaj iz stava 1 ovog člana kazniće se i odgovorno lice u pravnom licu novčanom
+                                    kaznom od 200 eura do 2.000 eura.
+                                </p>
+                            </content>
+                        </paragraph>
+                        <paragraph eId = "art_51_para_3">
+                            <content eId = "art_51_para_3_content">
+                                <p>
+                                    Za prekršaj iz stava 1 ovog člana kazniće se i preduzetnik novčanom kaznom od 600 eura
+                                    do 6.000 eura.
+                                </p>
+                            </content>
+                        </paragraph>
+                    </article>
+                    <article eId = "art_52">
+                        <num>
+                            Član 52
+                        </num>
+                        <paragraph eId = "art_52_para_1">
+                            <intro eId = "art_52_para_1_intro">
+                                <p>
+                                    Novčanom kaznom od 100 eura do 2.000 eura kazniće se za prekršaj fizičko lice, ako:
+                                </p>
+                            </intro>
+                            <point eId="art_52_para_1_point_1">
+                                <num>
+                                    1)
+                                </num>
+                                <content eId="art_52_para_1_point_1_content">
+                                    <p>
+                                        kao vlasnik, odnosno korisnik zemljišta ne uništi samoniklo bilje koje može da se koristi
+                                        za proizvodnju droge (član 17 stav 3);
+                                    </p>
+                                </content>
+                            </point>
+                            <point eId="art_52_para_1_point_2">
+                                <num>
+                                    2)
+                                </num>
+                                <content eId="art_52_para_1_point_2_content">
+                                    <p>
+                                        gaji mak i/ili konoplju bez dozvole za gajenje maka i/ili konoplje i zaključenog ugovora o
+                                        otkupu cjelokupnog roda sa pravnim licem registrovanim za promet maka i/ili konoplje (član 18
+                                        stav 2);
+                                    </p>
+                                </content>
+                            </point>
+                            <point eId="art_52_para_1_point_3">
+                                <num>
+                                    3)
+                                </num>
+                                <content eId="art_52_para_1_point_3_content">
+                                    <p>
+                                        ne preda pravnom licu sa kojim ima zaključen ugovor o otkupu maka i/ili konoplje
+                                        cjelokupan rod u roku od četiri mjeseca od dana ubiranja roda (član 19 stav 1);
+                                    </p>
+                                </content>
+                            </point>
+                            <point eId="art_52_para_1_point_4">
+                                <num>
+                                    4)
+                                </num>
+                                <content eId="art_52_para_1_point_4_content">
+                                    <p>
+                                        gaji mak i/ili konoplju, a ne prijavi organu uprave nadležnom za poslove policije okolnosti
+                                        koje mogu da ukažu na sumnju da su mak ili djelovi maka, odnosno konoplje neovlašćeno
+                                        upotrijebljeni ili da bi se mogli neovlašćeno upotrijebiti za proizvodnju droge (rezanje, branje
+                                        zelenih čahura maka) (član 20);
+                                    </p>
+                                </content>
+                            </point>
+                            <point eId="art_52_para_1_point_5">
+                                <num>
+                                    5)
+                                </num>
+                                <content eId="art_52_para_1_point_5_content">
+                                    <p>
+                                        posjeduje lijek koji sadrži drogu za ličnu terapiju u količini većoj od one koju odredi ljekar
+                                        (član 42a);
+                                    </p>
+                                </content>
+                            </point>
+                            <point eId="art_52_para_1_point_6">
+                                <num>
+                                    6)
+                                </num>
+                                <content eId="art_52_para_1_point_6_content">
+                                    <p>
+                                        posjeduje drogu za ličnu upotrebu suprotno ovom zakonu (član 45 stav 1);
+                                    </p>
+                                </content>
+                            </point>
+                            <point eId="art_51_para_1_point_7">
+                                <num>
+                                    7)
+                                </num>
+                                <content eId="art_51_para_1_point_7_content">
+                                    <p>
+                                        izda lijek koji sadrži droge licu mlađem od 18 godina života (član 45 stav 2);
+                                    </p>
+                                </content>
+                            </point>
+                            <point eId="art_51_para_1_point_8">
+                                <num>
+                                    8)
+                                </num>
+                                <content eId="art_51_para_1_point_8_content">
+                                    <p>
+                                        izda lijek koji sadrži droge licu mlađem od 18 godina života (član 45 stav 2);
+                                    </p>
+                                </content>
+                            </point>
+                        </paragraph>
+                    </article>
+                    <article eId = "art_52a">
+                        <num>
+                            Član 52a
+                        </num>
+                        <paragraph eId = "art_52a_para_1">
+                            <content eId = "art_52a_para_1_content">
+                                <p>
+                                    Novčanom kaznom u iznosu od 100 eura kazniće se za prekršaj fizičko lice ako prilikom
+                                    prelaska državne granice ne prijavi carinskom organu potvrdu o neophodnosti posjedovanja
+                                    lijeka koji sadrži drogu koju izdaje doktor veterinarske medicine (član 43 st. 2 i 4).
+                                </p>
+                            </content>
+                        </paragraph>
+                    </article>
+                </section>
+            </chapter>
+            <chapter eId="chp_11">
+                <num>
+                    XI.
+                </num>
+                <heading>
+                    PRELAZNE I ZAVRŠNE ODREDBE
+                </heading>
+                <section eId= "chp_11_sec_1">
+                    <article eId = "art_53">
+                        <num>
+                            Član 53
+                        </num>
+                        <paragraph eId = "art_53_para_1">
+                            <content eId = "art_53_para_1_content">
+                                <p>
+                                    Propisi za sprovođenje ovog zakona donijeće se u roku od devet mjeseci od dana stupanja
+                                    na snagu ovog zakona.
+                                </p>
+                            </content>
+                        </paragraph>
+                        <paragraph eId = "art_53_para_2">
+                            <content eId = "art_53_para_2_content">
+                                <p>
+                                    Do donošenja propisa iz stava 1 ovog člana primjenjivaće se propisi koji su važili do dana
+                                    stupanja na snagu ovog zakona.
+                                </p>
+                            </content>
+                        </paragraph>
+                    </article>
+                    <article eId = "art_53a">
+                        <num>
+                            Član 53a
+                        </num>
+                        <paragraph eId = "art_53a_para_1">
+                            <content eId = "art_53a_para_1_content">
+                                <p>
+                                    Propis iz <ref href="/droga#art_25a"> člana 25a </ref> stav 4 ovog zakona donijeće se u roku od šest mjeseci od dana
+                                    stupanja na snagu ovog zakona.
+                                </p>
+                            </content>
+                        </paragraph>
+                    </article>
+                    <article eId = "art_54">
+                        <num>
+                            Član 54
+                        </num>
+                        <paragraph eId = "art_54_para_1">
+                            <content eId = "art_54_para_1_content">
+                                <p>
+                                    Državni savjet za sprječavanje zloupotrebe droga, u skladu sa ovim zakonom, obrazovaće
+                                    se u roku od tri mjeseca od dana stupanja na snagu ovog zakona.
+                                </p>
+                            </content>
+                        </paragraph>
+                        <paragraph eId = "art_54_para_2">
+                            <content eId = "art_54_para_2_content">
+                                <p>
+                                    Danom obrazovanja Državnog savjeta za sprječavanje zloupotrebe droga prestaje sa
+                                    radom Nacionalni savjet za sprječavanje zloupotrebe droga, obrazovan Odlukom o
+                                    obrazovanju Nacionalnog savjeta za sprječavanje zloupotrebe droga ("Službeni list CG", br.
+                                    11/10 i 75/10).
+                                </p>
+                            </content>
+                        </paragraph>
+                    </article>
+                    <article eId = "art_55">
+                        <num>
+                            Član 55
+                        </num>
+                        <paragraph eId = "art_55_para_1">
+                            <content eId = "art_55_para_1_content">
+                                <p>
+                                    Danom stupanja na snagu ovog zakona prestaje primjena Zakona o proizvodnji i prometu
+                                    opojnih droga ("Službeni list SRJ", br. 46/96 i 37/02).
+                                </p>
+                            </content>
+                        </paragraph>
+                    </article>
+                    <article eId = "art_56">
+                        <num>
+                            Član 56
+                        </num>
+                        <paragraph eId = "art_56_para_1">
+                            <content eId = "art_56_para_1_content">
+                                <p>
+                                    Ovaj zakon stupa na snagu osmog dana od dana objavljivanja u "Službenom listu Crne
+                                    Gore".
+                                </p>
+                            </content>
+                        </paragraph>
+                    </article>
+                </section>
+            </chapter>
+        </body>
+	</act>
+</akomaNtoso>

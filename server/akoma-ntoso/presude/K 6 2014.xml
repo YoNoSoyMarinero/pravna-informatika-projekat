@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Akoma_Ntoso document -->
+<akomaNtoso xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://docs.oasis-open.org/legaldocml/ns/akn/3.0/WD17 ../schemas/akomantoso30.xsd " xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0/WD17" xmlns:mods="http://www.loc.gov/standards/mods/v3/mods-3-6.xsd">
+	<judgment>
+		<meta>
+			<identification source="#court">
+				<FRBRWork>
+					<FRBRauthor>
+						Viši sud u Bijelom Polju
+					</FRBRauthor>
+					<FRBRdate date="2014-03-10">
+						2014-03-10
+					</FRBRdate>
+					<FRBRtitle>
+						K 6/2014
+					</FRBRtitle>
+					<FRBRcountry>
+						CG
+					</FRBRcountry>
+				</FRBRWork>
+			</identification>
+			<references>
+				<TLCOrganization eId="vs" href="/ontology/organization/VisiSud.BijeloPolje" showAs="Visi sud u Bijelom Polju" />
+				<TLCOrganization eId="vdt" href="/ontology/organization/ViseDrzavnoTuzilastvo" showAs="Vise drzavno tuzilastvo" />
+				<TLCPerson eId="jvaragic" href="/ontology/person/jvaragic" showAs="Jokan Varagic" /> <!--sudija--> 
+                <TLCPerson eId="gdjalovic" href="/ontology/person/gdjalovic" showAs="Gorica Djalovic" />
+                <TLCPerson eId="vboskovic" href="/ontology/person/vboskovic" showAs="Vidomir Boskovic" />
+				<TLCPerson eId="sdizdarevic" href="/ontology/person/sdizdarevic" showAs="Sanela Dizdarevic" /> <!--zapisnicar-->
+				<TLCPerson eId="vmedojevic" href="/ontology/person/vmedojevic" showAs="Visnja Medojevic" /> 
+				<TLCPerson eId="gja" href="/ontology/person/gja" showAs="Gj. A." /> <!--optuzeni-->
+                <TLCPerson eId="rm" href="/ontology/person/rm" showAs="R. M." />
+                <TLCPerson eId="gjr" href="/ontology/person/gjr" showAs="Gj. R." />
+                <TLCPerson eId="ms" href="/ontology/person/ms" showAs="M. S." />
+				<TLCRole eId="plaintiff" href="/ontology/role/plaintiff" showAs="Plaintiff" />
+				<TLCRole eId="defendant" href="/ontology/role/defendant" showAs="Defendant" />
+				<TLCRole eId="judge" href="/ontology/role/judge" showAs="Judge" />
+				<TLCRole eId="advisor" href="/ontology/role/advisor" showAs="Advisor" />
+				<TLCRole eId="clerk" href="/ontology/role/clerk" showAs="Clerk" />
+			</references>
+		</meta>
+		<judgmentBody>
+			<p>
+				<organization id="vs" referesTo="#vs">
+					Viši sud u Bijelom Polju
+				</organization>
+				, u vijeću sastavljenom od sudija
+				<party id="jvaragic" refersTo="#jvaragic" as="#judge">
+					Jokana Varagića
+				</party>
+				, kao predsjednika vijeća,
+                <party id="gdjalovic" refersTo="#gdjalovic" as="#judge">
+					Gorice Đalović
+				</party>
+                i
+                <party id="vboskovic" refersTo="#vboskovic" as="#judge">
+					Vidomira Boškovića
+				</party>
+                , kao članova vijeća, uz učešće najmesnika suda
+				<party id="sdizdarevic" refersTo="#sdizdarevic" as="#clerk">
+					Sanele Dizdarević
+				</party>
+				, kao zapisničara, u krivičnom predmetu protiv optuženih
+				<party id="gja" refersTo="#gja" as="#defendant">
+					Gj . A .
+				</party>
+                i
+                <party id="gjr" refersTo="#gjr" as="#defendant">
+					Gj . R .
+				</party>
+                iz A., po optužnici
+                <organization id="vdt" referesTo="#vdt">
+					Višeg državnog tužilaštva u Bijelom Polju
+				</organization>
+                Kt.br.57/13 od 21.01.2014.godine, zbog krivičnog djela neovlašćena proizvodnja, držanje i stavljanje u promet opojnih droga iz
+                <ref href="/krivicni#art_300">
+					čl. 300 st. 2 u vezi st.1 Krivičnog zakonika CG
+				</ref>
+				, nakon održanog usmenog i javnog pretresa, dana 10.03.2014. godine, u prisustvu zamjenika iz
+                <organization id="vdt" referesTo="#vdt">
+					Višeg državnog tužilaštva u Bijelom Polju
+				</organization>
+                <party id="vmedojevic" refersTo="#vmedojevic" as="#plaintiff">
+					Višnje Medojević
+				</party>
+                , optuženih
+                <party id="gja" refersTo="#gja" as="#defendant">
+					Gj . A .
+				</party>
+                i njegovog branioca, advokata
+                <party id="rm" refersTo="#rm" as="#advisor">
+					R . M .
+				</party>
+                ,
+                <party id="gjr" refersTo="#gjr" as="#defendant">
+					Gj . R .
+				</party>
+                i njenog branioca, advokata
+                <party id="ms" refersTo="#ms" as="#advisor">
+					M . S .
+				</party>
+                , donio je i istog dana javno objavio P R E S U D U 1. Optuženi
+                <party id="gja" refersTo="#gja" as="#defendant">
+					GJ. A
+				</party>
+                , od oca P, i majke D, rodjene J, rodjen ......godine u B, P, Republika A, broj putne isprave ..... sa prebivalištem u D, R. A, L... , državljanin R. A, navodno neosudjivan, oženjen, otac troje djece, taksi vozač, lošeg imovnog stanja, nalazi se u pritvoru od 29.12.2013.godine pa na dalje, K R I V J E Što je: Noću 28/29.12.2013.godine, iz pravca Republike K, preko graničnog prelaza ''K'' u C G, u svom putničkom motornom vozilu marke ''M'' Tip ''V'', reg. oznaka ...., neovlašćeno radi prodaje unio i prenosio u neto masi 18.030 grama opojne droge-marihuane, supstance koja je Pravilnikom o utvrdjivanju spiska droga, psihotropnih stupstanci i bilja koje se može koristiti za proizvodnju droga (Sl.List. CG br.56/2012) proglašena za opojnu drogu, zapakovanu u 50 ručno pravljenih pakovanja oblika kvadra od plastičnih kesa i folija, koju su dana 29.12.2013.godine oko 07,30 h, na graničnom prelazu ''D. B.'', Opština H. N, ovlašćena službena lica Uprave policije-Grupe za suzbijanje droga-H. N, K. i T, prilikom pretresa vozila pronašli sakrivenu u spoljašnjem donjem dijelu vozila, ispod zaštitne plastike i oduzeli, čime je izvršio krivično djelo neovlašćena proizvodnja, držanje i stavljanje u promet opojnih droga iz
+				<ref href="/krivicni#art_300">
+					čl . 300 st . 2 u vezi st.1 Krivičnog zakonika
+				</ref>
+			</p>
+			<conclusions>
+				<p>
+                    , za koje ga
+                    <organization id="vdt" referesTo="#vdt">
+                        sud
+				    </organization>
+                    primjenom tog zakonskog propisa,
+                    <ref href="/krivicni#art_15">
+                        čl. 15
+                    </ref>
+                    ,
+                    <ref href="/krivicni#art_32">
+                        32
+                    </ref>
+                    ,
+                    <ref href="/krivicni#art_36">
+                        36
+                    </ref>
+                    ,
+                    <ref href="/krivicni#art_42">
+                        42
+                    </ref>
+                    ,
+                    <ref href="/krivicni#art_15">
+                        51 istog zakonika
+                    </ref>
+                    , te
+                    <ref href="/postupak#art_226">
+                        čl. 226
+                    </ref>
+                    i
+                    <ref href="/postupak#art_229">
+                        čl. 229 Zakonika o krivičnom postupku (ZKP)
+                    </ref>
+                    O S U DJ U J E Na kaznu zatvora u trajanju od 3 /tri/ godine u koju mu se ima uračunati vrijeme provedeno u pritvoru u periodu od 29.12.2013.godine pa nadalje. Optuženi se obavezuje da plati na ime paušala iznos od 50,00 €, i troškova krivičnog postupka iznos od 724,00 € / u korist budžeta Crne Gore u roku od 15 /petnaeset/ dana od dana pravnosnažnosti, dok će o neopredijeljenim troškovima, sud naknadno odlučiti. Opojna droga marihuana neto mase od 18.030 grama privremeno oduzeta od
+                    <party id="gja" refersTo="#gja" as="#defendant">
+                        Gj. A
+                    </party>
+                    , trajno se oduzima i odredjuje da se po pravnosnažnosti ove presude ima uništiti, na osnovu
+                    <ref href="/krivicni#art_66">
+                        čl. 66
+                    </ref>
+                    i
+                    <ref href="/krivicni#art_75">
+                        75
+                    </ref>
+                    , a u vezi 
+                    <ref href="/krivicni#art_300">
+                        čl. 300 st. 7 KZ
+                    </ref>
+                    , a izriče se i mjera oduzimanja putničkog motornog vozila marke M. ''tip V.'', reg. oznaka ..., kao predmet izvršenja krivičnog djela. Naprotiv, Optužena
+                    <party id="gjr" refersTo="#gjr" as="#defendant">
+                        Gj. R 
+                    </party>
+                    , od oca M i majke M, rodjene B, rodjena ....godine u L, R. A, broj putne isprave .... sa prebivalištem u D, R. A, L. .., državljanka A, nalazila se u pritvoru od 29.12.2013. do 10.03.2014. godine. Na osnovu
+                    <ref href="/postupak#art_373">
+                        čl. 373 tač. 2 Zakonika o krivičnom postupku
+                    </ref>
+                    , OSLOBADJA SE OPTUŽBE Kojom je predstavljeno da je: Noću 28/29.12.2013.godine, iz pravca R. K, preko graničnog prelaza ''K.'' u C. G, u putničkom motornom vozilu marke ''M'' Tip ''V', reg. oznaka ..., kojim je upravljao okrivljeni 
+                    <party id="gja" refersTo="#gja" as="#defendant">
+                        Gj. A
+                    </party>
+                    , neovlašćeno radi prodaje unili i prenijeli u neto masi 18.030 grama opojne droge-marihuane, supstancu koja je Pravilnikom o utvrdjivanju spiska droga, psihotropnih stupstanci i bilja koje se može koristiti za proizvodnju droga (Sl.List. CG br.56/2012) proglašena za opojnu drogu, zapakovanu u 50 ručno pravljenih pakovanja oblika kvadra od plastičnih kesa i folija, koju su dana 29.12.2013.godine oko 07,30 h, na graničnom prelazu ''D.B'', Opština H. N, ovlašćena službena lica Uprave policije-Grupe za suzbijanje droga-H. N, K. i T, prilikom pretresa vozila pronašli sakrivenu u spoljašnjem donjem dijelu vozila, ispod zaštitne plastike i oduzeli, čime bi izvršila krivično djelo nevlašćena proizvodnja, držanje i stavljanje u promet opojnih droga iz 
+                    <ref href="/krivicni#art_300">
+                        čl . 300 st . 2 u vezi st.1 KZ CG
+                    </ref>
+                    , jer nije dokazano da je izvršila krivično djelo za koje je optužena. Troškovi krivičnog postupka padaju na teret budžetskih sredstava shodno odredbi 
+                    <ref href="/postupak#art_230">
+                        čl. 230 ZKP
+                    </ref>
+                    .
+				</p>
+			</conclusions>
+		</judgmentBody>
+	</judgment>
+</akomaNtoso>

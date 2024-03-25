@@ -1,0 +1,606 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0/WD17" xsi:schemaLocation="http://docs.oasis-open.org/legaldocml/ns/akn/3.0/WD17 ../schemas/akomantoso30.xsd">
+	<act id="droga" name="Zakon o sprecavanju zloupotrebi droga">
+		<meta>
+			<identification source="#vlamil">
+				<FRBRWork>
+					<FRBRthis value="/akoma-ntoso/krivicni_zakonik/!main" />
+					<FRBRuri value="/krivicni_zakonik" />
+					<FRBRdate date="2021-03-31" />
+					<FRBRauthor href="#congress" as="#author" />
+					<FRBRcountry value="cg" />
+					<FRBRnumber value="70/2003" />
+					<FRBRname value="krivicni_zakonik" />
+					<FRBRprescriptive value="true" />
+					<FRBRauthoritative value="true" />
+				</FRBRWork>
+				<FRBRExpression>
+					<FRBRdate date="2021-03-31" />
+					<FRBRauthor href="#vlamil" as="#editor" />
+					<FRBRlanguage language="cg" />
+				</FRBRExpression>
+				<FRBRManifestation>
+					<FRBRdate date="2021-03-31" />
+					<FRBRauthor href="#vlamil" as="#editor" />
+					<FRBRformat value="xml" />
+				</FRBRManifestation>
+			</identification>
+			<publication name="sl" date="2008-08-11" showAs="Službeni list Crne Gore" number="76/2008" />
+			<classification source="#vlamil">
+				<keyword value="krivicni_zakonik" showAs="Krivicni" dictionary="CG" />
+			</classification>
+			<references>
+				<TLCOrganization eId="sl" href="/akn/rs/ontology/organization/sg" showAs="Službeni list Crne Gore" />
+			</references>
+		</meta>
+        <body>
+            <heading>
+                KRIVIČNI ZAKONIK CRNE GORE
+            </heading>
+            <chapter eId="chp_1">
+                <num>
+                    I.
+                </num>
+                <heading>
+                    OSNOVNE ODREDBE
+                </heading>
+                <section eId= "chp_1_sec_1">
+                    <heading>
+                        Osnov i granice krivičnopravne prinude
+                    </heading>
+                    <article eId = "art_4">
+                        <num>
+                            Član 4
+                        </num>
+                        <paragraph eId = "art_4_para_1">
+                            <point eId="art_4_para_1_point_1">
+								<num>
+									1)
+								</num>
+								<content eId="art_4_para_1_point_1_content">
+									<p>
+                                        Krivične sankcije su: kazne, mjere upozorenja, mjere bezbjednosti i vaspitne mjere.
+									</p>
+								</content>
+							</point>
+                            <point eId="art_4_para_1_point_2">
+								<num>
+									2)
+								</num>
+								<content eId="art_4_para_1_point_2_content">
+									<p>
+                                        Opšta svrha propisivanja i izricanja krivičnih sankcija je suzbijanje djela kojima se povređuju ili ugrožavaju vrijednosti zaštićene krivičnim zakonodavstvom.
+									</p>
+								</content>
+							</point>
+                        </paragraph>
+                    </article>
+                </section>
+            </chapter>
+            <chapter eId="chp_2">
+                <num>
+                    II.
+                </num>
+                <heading>
+                    KRIVIČNO DJELO
+                </heading>
+                <section eId= "chp_1_sec_1">
+                    <heading>
+                        Opšte odredbe o krivičnom djelu
+                    </heading>
+                    <article eId = "art_15">
+                        <num>
+                            Član 15
+                        </num>
+                        <paragraph eId = "art_15_para_1">
+                            <content eId = "art_15_para_1_content">
+                                <p>
+                                    Krivično djelo je učinjeno sa umišljajem kad je učinilac bio svjestan svog djela i htio njegovo izvršenje ili kad je učinilac bio svjestan da može učiniti djelo pa je na to pristao.
+                                </p>
+                            </content>
+                        </paragraph>
+                    </article>
+                </section>
+            </chapter>
+            <chapter eId="chp_3">
+                <num>
+                    III.
+                </num>
+                <heading>
+                    KAZNE
+                </heading>
+                <section eId= "chp_1_sec_1">
+                    <heading>
+                        Svrha kažnjavanja, vrste kazni i uslovi za njihovo izricanje
+                    </heading>
+                    <article eId = "art_32">
+                        <num>
+                            Član 32
+                        </num>
+                        <paragraph eId = "art_32_para_1">
+                            <intro eId = "art_32_para_1_intro">
+                                <p>
+                                    U okviru opšte svrhe krivičnih sankcija (<ref href="/krivicni#art_4"> člana 4 </ref> stav 2) , svrha kažnjavanja je:
+                                </p>
+                            </intro>
+                            <point eId="art_32_para_1_point_1">
+								<num>
+									1)
+								</num>
+								<content eId="art_32_para_1_point_1_content">
+									<p>
+                                        sprječavanje učinioca da čini krivična djela i uticanje na njega da ubuduće ne čini krivična djela;
+									</p>
+								</content>
+							</point>
+                            <point eId="art_32_para_1_point_2">
+								<num>
+									2)
+								</num>
+								<content eId="art_32_para_1_point_2_content">
+									<p>
+                                        uticanje na druge da ne čine krivična djela;
+									</p>
+								</content>
+							</point>
+                            <point eId="art_32_para_1_point_3">
+								<num>
+									3)
+								</num>
+								<content eId="art_32_para_1_point_3_content">
+									<p>
+                                        izražavanje društvene osude za krivično djelo i obaveze poštovanja zakona;
+									</p>
+								</content>
+							</point>
+                            <point eId="art_32_para_1_point_4">
+								<num>
+									4)
+								</num>
+								<content eId="art_32_para_1_point_4_content">
+									<p>
+                                        jačanje morala i uticaj na razvijanje društvene odgovornosti.
+									</p>
+								</content>
+							</point>
+                        </paragraph>
+                    </article>
+                    <article eId = "art_36">
+                        <num>
+                            Član 36
+                        </num>
+                        <paragraph eId = "art_36_para_1">
+                            <point eId="art_36_para_1_point_1">
+								<num>
+									1)
+								</num>
+								<content eId="art_36_para_1_point_1_content">
+									<p>
+                                        Kazna zatvora ne može biti kraća od trideset dana niti duža od dvadeset godina.
+									</p>
+								</content>
+							</point>
+                            <point eId="art_36_para_1_point_2">
+								<num>
+									2)
+								</num>
+								<content eId="art_36_para_1_point_2_content">
+									<p>
+                                        Kazna zatvora iz stava 1 ovog člana izriče se na pune godine i mjesece, a do šest mjeseci i na dane.
+									</p>
+								</content>
+							</point>
+                        </paragraph>
+                    </article>
+                    <article eId = "art_42">
+                        <num>
+                            Član 42
+                        </num>
+                        <paragraph eId = "art_42_para_1">
+                            <point eId="art_42_para_1_point_1">
+								<num>
+									1)
+								</num>
+								<content eId="art_42_para_1_point_1_content">
+									<p>
+                                        Sud će učiniocu krivičnog djela odmjeriti kaznu u granicama koje su zakonom propisane za to djelo, imajući u vidu svrhu kažnjavanja i uzimajući u obzir sve okolnosti koje utiču da kazna bude manja ili veća (olakšavajuće i otežavajuće okolnosti) , a naročito: stepen krivice, pobude iz kojih je djelo učinjeno, jačinu ugrožavanja ili povrede zaštićenog dobra, okolnosti pod kojima je djelo učinjeno, raniji život učinioca, njegove lične prilike, njegovo držanje poslije učinjenog krivičnog djela, a naročito njegov odnos prema žrtvi krivičnog djela kao i druge okolnosti koje se odnose na ličnost učinioca.
+									</p>
+								</content>
+							</point>
+                            <point eId="art_42_para_1_point_2">
+								<num>
+									2)
+								</num>
+								<content eId="art_42_para_1_point_2_content">
+									<p>
+                                        Pri odmjeravanju novčane kazne sud će posebno uzeti u obzir i imovno stanje učinioca.
+									</p>
+								</content>
+							</point>
+                            <point eId="art_42_para_1_point_3">
+								<num>
+									3)
+								</num>
+								<content eId="art_42_para_1_point_3_content">
+									<p>
+                                        Okolnost koja je obilježje krivičnog djela ne može se uzeti u obzir i kao otežavajuća, odnosno olakšavajuća okolnost, izuzev ako prelazi mjeru koja je potrebna za postojanje krivičnog djela ili određenog oblika krivičnog djela ili ako postoje dvije ili više ovakvih okolnosti, pa je samo jedna dovoljna za postojanje težeg, odnosno lakšeg oblika krivičnog djela.
+									</p>
+								</content>
+							</point>
+                        </paragraph>
+                    </article>
+                    <article eId = "art_45">
+                        <num>
+                            Član 45
+                        </num>
+                        <paragraph eId = "art_45_para_1">
+                            <intro eId = "art_45_para_1_intro">
+                                <p>
+                                    Sud može učiniocu krivičnog djela izreći kaznu ispod granice propisane zakonom ili blažu vrstu kazne, kad:
+                                </p>
+                            </intro>
+                            <point eId="art_45_para_1_point_1">
+								<num>
+									1)
+								</num>
+								<content eId="art_45_para_1_point_1_content">
+									<p>
+                                        zakon predviđa da se učinilac može blaže kazniti;
+									</p>
+								</content>
+							</point>
+                            <point eId="art_45_para_1_point_2">
+								<num>
+									2)
+								</num>
+								<content eId="art_45_para_1_point_2_content">
+									<p>
+                                        zakon predviđa da se učinilac može osloboditi od kazne, a sud ga ne oslobodi od kazne;
+									</p>
+								</content>
+							</point>
+                            <point eId="art_45_para_1_point_3">
+								<num>
+									3)
+								</num>
+								<content eId="art_45_para_1_point_3_content">
+									<p>
+                                        utvrdi da postoje naročito olakšavajuće okolnosti i ocijeni da se i sa ublaženom kaznom može postići svrha kažnjavanja.
+									</p>
+								</content>
+							</point>
+                        </paragraph>
+                    </article>
+                    <article eId = "art_46">
+                        <num>
+                            Član 46
+                        </num>
+                        <paragraph eId = "art_46_para_1">
+                            <intro eId = "art_46_para_1_intro">
+                                <p>
+                                    (1) Kad postoje uslovi za ublažavanje kazne iz člana 45 ovog zakonika, sud će ublažiti kaznu u ovim granicama:
+                                </p>
+                            </intro>
+                            <point eId="art_46_para_1_point_1">
+								<num>
+									1)
+								</num>
+								<content eId="art_46_para_1_point_1_content">
+									<p>
+                                        ako je za krivično djelo kao najmanja mjera kazne propisan zatvor u trajanju od pet ili više godina, kazna se može ublažiti do dvije godine zatvora;
+									</p>
+								</content>
+							</point>
+                            <point eId="art_46_para_1_point_2">
+								<num>
+									2)
+								</num>
+								<content eId="art_46_para_1_point_2_content">
+									<p>
+                                        ako je za krivično djelo kao najmanja mjera kazne propisan zatvor u trajanju od tri ili više godina, kazna se može ublažiti do jedne godine zatvora;
+									</p>
+								</content>
+							</point>
+                            <point eId="art_46_para_1_point_3">
+								<num>
+									3)
+								</num>
+								<content eId="art_46_para_1_point_3_content">
+									<p>
+                                        ako je za krivično djelo kao najmanja mjera kazne propisan zatvor od dvije godine, kazna se može ublažiti do šest mjeseci zatvora;
+									</p>
+								</content>
+							</point>
+                            <point eId="art_46_para_1_point_4">
+								<num>
+									4)
+								</num>
+								<content eId="art_46_para_1_point_4_content">
+									<p>
+                                        ako je za krivično djelo kao najmanja mjera kazne propisan zatvor od jedne godine, kazna se može ublažiti do tri mjeseca zatvora;
+									</p>
+								</content>
+							</point>
+                            <point eId="art_46_para_1_point_5">
+								<num>
+									5)
+								</num>
+								<content eId="art_46_para_1_point_5_content">
+									<p>
+                                        ako je za krivično djelo kao najmanja kazna propisan zatvor ispod jedne godine, kazna se može ublažiti do trideset dana zatvora;
+									</p>
+								</content>
+							</point>
+                            <point eId="art_46_para_1_point_6">
+								<num>
+									6)
+								</num>
+								<content eId="art_46_para_1_point_6_content">
+									<p>
+                                        ako je za krivično djelo propisana kazna zatvora bez naznačenja najmanje mjere, umjesto zatvora može se izreći novčana kazna;
+									</p>
+								</content>
+							</point>
+                            <point eId="art_46_para_1_point_7">
+								<num>
+									7)
+								</num>
+								<content eId="art_46_para_1_point_7_content">
+									<p>
+                                        ako je za krivično djelo propisana novčana kazna sa naznačenjem najmanje mjere, kazna se može ublažiti do šest stotina eura.
+									</p>
+								</content>
+							</point>
+                        </paragraph>
+                    </article>
+                    <article eId = "art_51">
+                        <num>
+                            Član 51
+                        </num>
+                        <paragraph eId = "art_51_para_1">
+                            <point eId="art_51_para_1_point_1">
+								<num>
+									1)
+								</num>
+								<content eId="art_51_para_1_point_1_content">
+									<p>
+                                        Vrijeme provedeno u pritvoru, kao i svako drugo lišenje slobode u vezi sa krivičnim djelom uračunavaju se u izrečenu kaznu zatvora, maloljetničkog zatvora, kaznu rada u javnom interesu i novčanu kaznu.
+									</p>
+								</content>
+							</point>
+                            <point eId="art_51_para_1_point_2">
+								<num>
+									2)
+								</num>
+								<content eId="art_51_para_1_point_2_content">
+									<p>
+                                        Ako je krivični postupak vođen za više krivičnih djela u sticaju, a pritvor nije određen za svako od njih, vrijeme provedeno u pritvoru uračunava se u izrečenu kaznu zatvora, maloljetničkog zatvora, kaznu rada u javnom interesu i novčanu kaznu za krivično djelo za koje je okrivljeni osuđen.
+									</p>
+								</content>
+							</point>
+                            <point eId="art_51_para_1_point_3">
+								<num>
+									3)
+								</num>
+								<content eId="art_51_para_1_point_3_content">
+									<p>
+                                        Zatvor ili novčana kazna koju je osuđeni izdržao, odnosno platio za prekršaj ili privredni prestup, kao i kazna ili disciplinska mjera lišenja slobode koju je izdržao zbog povrede vojne discipline uračunava se u kaznu izrečenu za krivično djelo čija obilježja obuhvataju i obilježja prekršaja, privrednog prestupa, odnosno povrede vojne discipline
+									</p>
+								</content>
+							</point>
+                            <point eId="art_51_para_1_point_4">
+								<num>
+									4)
+								</num>
+								<content eId="art_51_para_1_point_4_content">
+									<p>
+                                        Pri svakom uračunavanju izjednačava se dan pritvora, dan lišenja slobode, dan maloljetničkog zatvora, dan zatvora, osam časova rada u javnom interesu i dvadeset pet eura novčane kazne.
+									</p>
+								</content>
+							</point>
+                        </paragraph>
+                    </article>
+                </section>
+            </chapter>
+            <chapter eId="chp_5">
+                <num>
+                    V.
+                </num>
+                <heading>
+                    MJERE BEZBJEDNOSTI
+                </heading>
+                <section eId= "chp_5_sec_1">
+                    <heading>
+                        Svrha mjera bezbjednosti
+                    </heading>
+                    <article eId = "art_66">
+                        <num>
+                            Član 66
+                        </num>
+                        <paragraph eId = "art_66_para_1">
+                            <content eId = "art_66_para_1_content">
+                                <p>
+                                    U okviru opšte svrhe krivičnih sankcija (član 4 stav 2) , svrha mjera bezbjednosti je da se otklone stanja ili uslovi koji mogu biti od uticaja da učinilac ubuduće vrši krivična dj ela.
+                                </p>
+                            </content>
+                        </paragraph>
+                    </article>
+                    <article eId = "art_75">
+                        <num>
+                            Član 75
+                        </num>
+                        <paragraph eId = "art_75_para_1">
+                            <point eId="art_75_para_1_point_1">
+								<num>
+									1)
+								</num>
+								<content eId="art_75_para_1_point_1_content">
+									<p>
+                                        Predmeti koji su upotrijebljeni ili su bili namijenjeni za izvršenje krivičnog djela ili koji su nastali izvršenjem krivičnog djela mogu se oduzeti, ako su svojina učinioca.
+									</p>
+								</content>
+							</point>
+                            <point eId="art_75_para_1_point_2">
+								<num>
+									2)
+								</num>
+								<content eId="art_75_para_1_point_2_content">
+									<p>
+                                        Predmeti iz stava 1 ovog člana mogu se oduzeti i kad nijesu svojina učinioca, ako to zahtijevaju razlozi bezbjednosti ljudi ili imovine ili razlozi morala ili kada i dalje postoji opasnost da će biti upotrijebljeni za izvršenje krivičnog djela, a time se ne dira u pravo trećih lica na naknadu štete od učinioca.
+									</p>
+								</content>
+							</point>
+                            <point eId="art_75_para_1_point_3">
+								<num>
+									3)
+								</num>
+								<content eId="art_75_para_1_point_3_content">
+									<p>
+                                        Zakonom se može odrediti obavezno oduzimanje predmeta i uslovi za njihovo oduzimanje.
+									</p>
+								</content>
+							</point>
+                            <point eId="art_75_para_1_point_4">
+								<num>
+									4)
+								</num>
+								<content eId="art_75_para_1_point_4_content">
+									<p>
+                                        Zakonom se može odrediti obavezno uništavanje oduzetih predmeta.
+									</p>
+								</content>
+							</point>
+                        </paragraph>
+                    </article>
+                </section>
+            </chapter>
+            <chapter eId="chp_24">
+                <num>
+                    XIV.
+                </num>
+                <heading>
+                    KRIVIČNA DJELA PROTIV ZDRAVLjA LjUDI
+                </heading>
+                <section eId= "chp_24_sec_1">
+                    <heading>
+                        Neovlašćena proizvodnja, držanje i stavljanje u promet opojnih droga
+                    </heading>
+                    <article eId = "art_300">
+                        <num>
+                            Član 300
+                        </num>
+                        <paragraph eId = "art_300_para_1">
+                            <point eId="art_300_para_1_point_1">
+								<num>
+									1)
+								</num>
+								<content eId="art_300_para_1_point_1_content">
+									<p>
+                                        Ko neovlašćeno proizvodi, prerađuje, prodaje ili nudi na prodaju ili ko radi prodaje kupuje, drži ili prenosi ili ko posreduje u prodaji ili kupovini ili na drugi način neovlašćeno stavlja u promet supstance koje su proglašene za opojne droge ili biljke koje sadrže takve supstance, kazniće se zatvorom od dvije do deset godina.
+									</p>
+								</content>
+							</point>
+                            <point eId="art_300_para_1_point_2">
+								<num>
+									2)
+								</num>
+								<content eId="art_300_para_1_point_2_content">
+									<p>
+                                        Ko u namjeri vršenja djela iz stava 1 ovog člana unese u Crnu Goru supstance koje su iroglašene za opojne droge ili biljke koje sadrže takve supstance, kazniće se zatvorom od dvije do dvanaest godina.
+									</p>
+								</content>
+							</point>
+                            <point eId="art_300_para_1_point_3">
+								<num>
+									3)
+								</num>
+								<content eId="art_300_para_1_point_3_content">
+									<p>
+                                        Ako je učinilac djela iz st. 1 i 2 ovog člana organizovao mrežu preprodavaca ili posrednika, kazniće se zatvorom od tri do petnaest godina.
+									</p>
+								</content>
+							</point>
+                            <point eId="art_300_para_1_point_4">
+								<num>
+									4)
+								</num>
+								<content eId="art_300_para_1_point_4_content">
+									<p>
+                                        Kaznom iz stava 3 ovog člana kazniće se ko prodaje, nudi na prodaju ili bez naknade radi daljeg stavljanja u promet daje opojne droge maloljetnom licu, duševno bolesnom licu, licu koje je privremeno duševno poremećeno, licu koje je teže duševno zaostalo ili licu koje se liječi od zavisnosti od opojnih droga, ili ko stavlja u promet opojnu drogu pomiješanu sa supstancom koja može dovesti do teškog narušavanja zdravlja, ili ko izvrši djelo iz stava 1 ovog člana u vaspitnoj ili obrazovnoj ustanovi ili u njenoj neposrednoj blizini ili ustanovi za izvršenje krivičnih sankcija ili u javnom lokalu ili na javnoj priredbi, ili ako djelo iz st. 1 i 2 ovog člana učini službeno lice, ljekar, socijalni radnik, sveštenik, nastavnik ili vaspitač iskorišćavanjem svog položaja ili ko za izvršenje tog djela koristi maloljetno lice.
+									</p>
+								</content>
+							</point>
+                            <point eId="art_300_para_1_point_5">
+								<num>
+									5)
+								</num>
+								<content eId="art_300_para_1_point_5_content">
+									<p>
+                                        Učinilac djela iz st. 1 do 4 ovog člana koji otkrije od koga nabavlja drogu može se osloboditi od kazne.
+									</p>
+								</content>
+							</point>
+                            <point eId="art_300_para_1_point_6">
+								<num>
+									6)
+								</num>
+								<content eId="art_300_para_1_point_6_content">
+									<p>
+                                        Ko neovlašćeno pravi, nabavlja, posjeduje, prevozi ili daje na upotrebu opremu, materijal ili supstance za koje zna da su namijenjene za proizvodnju opojnih droga, kazniće se zatvorom od šest mjeseci do pet godina.
+									</p>
+								</content>
+							</point>
+                            <point eId="art_300_para_1_point_7">
+								<num>
+									7)
+								</num>
+								<content eId="art_300_para_1_point_7_content">
+									<p>
+                                        Opojne droge i sredstva za njihovo pravljenje oduzeće se i uništiti.
+									</p>
+								</content>
+							</point>
+                        </paragraph>
+                    </article>
+                    <article eId = "art_301">
+                        <num>
+                            Član 301
+                        </num>
+                        <paragraph eId = "art_301_para_1">
+                            <point eId="art_301_para_1_point_1">
+								<num>
+									1)
+								</num>
+								<content eId="art_301_para_1_point_1_content">
+									<p>
+                                        Ko navodi drugog na uživanje opojne droge ili mu daje opojnu drogu da je uživa on ili drugo lice ili stavi na raspolaganje prostorije radi uživanja opojne droge ili na drugi način omogućuje drugom da uživa opojnu drogu, kazniće se zatvorom od šest mjeseci do pet godina.
+									</p>
+								</content>
+							</point>
+                            <point eId="art_301_para_1_point_2">
+								<num>
+									2)
+								</num>
+								<content eId="art_301_para_1_point_2_content">
+									<p>
+                                        Ako je djelo iz stava 1 ovog člana učinjeno prema maloljetnom licu, duševno bolesnom licu, licu koje je privremeno duševno poremećeno, licu koje je teže duševno zaostalo ili licu koje se liječi od zavisnosti od opojnih droga, ili prema više lica, ili ko to djelo izvrši u vaspitnoj ili obrazovnoj ustanovi ili u njenoj neposrednoj blizini ili ustanovi za izvršenje krivičnih sankcija ili u javnom lokalu ili na javnoj priredbi, ili ako to djelo učini službeno lice, ljekar, socijalni radnik, sveštenik, nastavnik ili vaspitač iskorišćavanjem svog položaja, učinilac će se kazniti zatvorom od dvije do deset godina.
+									</p>
+								</content>
+							</point>
+                            <point eId="art_301_para_1_point_3">
+								<num>
+									3)
+								</num>
+								<content eId="art_301_para_1_point_3_content">
+									<p>
+                                        Opojne droge oduzeće se i uništiti.
+									</p>
+								</content>
+							</point>
+                        </paragraph>
+                    </article>
+                </section>
+            </chapter>
+        </body>
+    </act>
+</akomaNtoso>

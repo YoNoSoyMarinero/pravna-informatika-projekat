@@ -1,0 +1,341 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Akoma_Ntoso document -->
+<akomaNtoso xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://docs.oasis-open.org/legaldocml/ns/akn/3.0/WD17 ../schemas/akomantoso30.xsd " xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0/WD17" xmlns:mods="http://www.loc.gov/standards/mods/v3/mods-3-6.xsd">
+	<judgment>
+		<meta>
+			<identification source="#court">
+				<FRBRWork>
+					<FRBRauthor>
+						Viši sud u Bijelom Polju
+					</FRBRauthor>
+					<FRBRdate date="2015-05-18">
+						2015-05-18
+					</FRBRdate>
+					<FRBRtitle>
+						K 18/2015
+					</FRBRtitle>
+					<FRBRcountry>
+						CG
+					</FRBRcountry>
+				</FRBRWork>
+			</identification>
+			<references>
+				<TLCOrganization eId="vs" href="/ontology/organization/VisiSud.BijeloPolje" showAs="Visi sud u Bijelom Polju" />
+                <TLCOrganization eId="as" href="/ontology/organization/ApelacioniSud.CrneGore" showAs="Apelacioni sud Crne Gore" />
+				<TLCOrganization eId="vdt" href="/ontology/organization/ViseDrzavnoTuzilastvo" showAs="Vise drzavno tuzilastvo" />
+				<TLCPerson eId="sdjesevic" href="/ontology/person/sdjesevic" showAs="Šefkija Đešević" /> <!--sudija-->
+				<TLCPerson eId="rsmolovic" href="/ontology/person/rsmolovic" showAs="Rada Smolović" /> <!--zapisnicar-->
+				<TLCPerson eId="cm" href="/ontology/person/cm" showAs="Č.M" /> <!--optuzeni-->
+                <TLCPerson eId="mdj" href="/ontology/person/mdj" showAs="M.Dj" />
+                <TLCPerson eId="mr" href="/ontology/person/mr" showAs="M.R" />
+                <TLCPerson eId="cv" href="/ontology/person/cv" showAs="Č.V" />
+                <TLCPerson eId="rd" href="/ontology/person/rd" showAs="R.D" />
+				<TLCRole eId="defendant" href="/ontology/role/defendant" showAs="Defendant" />
+                <TLCRole eId="plaintiff" href="/ontology/role/plaintiff" showAs="Plaintiff" />
+				<TLCRole eId="judge" href="/ontology/role/judge" showAs="Judge" />
+				<TLCRole eId="advisor" href="/ontology/role/advisor" showAs="Advisor" />
+				<TLCRole eId="clerk" href="/ontology/role/clerk" showAs="Clerk" />
+			</references>
+		</meta>
+		<judgmentBody>
+			<p>
+				<organization id="vs" referesTo="#vs">
+					VIŠI SUD U B.P
+				</organization>
+                , kao prvostepeni krivični, sudija
+				<party id="sdjesevic" refersTo="#sdjesevic" as="#judge">
+					Šefkija Đešević
+				</party>
+				, uz učešće namještenika suda,
+				<party id="rsmolovic" refersTo="#rsmolovic" as="#clerk">
+					Rade Smolović
+				</party>
+				, kao zapisničara, u krivičnom predmetu protiv optuženih
+				<party id="cm" refersTo="#cm" as="#defendant">
+					Č.M.
+				</party>
+				i
+                <party id="mdj" refersTo="#mdj" as="#defendant">
+					M.Dj.
+				</party>
+                oba iz B.P, kao saizvršioca, zbog krivičnog djela neovlašćena proizvodnja, držanje i stavljanje u promet opojnih droga iz
+                <ref href="/krivicni#art_300">
+					čl. 300 st. 1
+				</ref>
+                u vezi
+                <ref href="/krivicni#art_23">
+					čl. 23 Krivičnog zakonika
+				</ref>
+                i optuženog
+                <party id="cm" refersTo="#cm" as="#defendant">
+					Č.M.
+				</party>
+				, iz B.P zbog krivičnog djela neovlašćena proizvodnja, držanje i stavljanje u promet opojnih droga iz
+                <ref href="/krivicni#art_300">
+					čl. 300 st. 1 Krivičnog zakonika
+				</ref>
+                , po optužnici
+                <organization id="vdt" referesTo="#vdt">
+					Višeg državnog tužilaštva
+				</organization>
+				u B.P. Kt.br. 78/14 od 10.03.2015 godine, nakon održanog usmenog, glavnog i javnog pretresa dana 15.05.2015 godine, u prisustvu zamjenika Višeg državnog tužioca u B.P.
+                <party id="mr" refersTo="#mr" as="#plaintiff">
+					M.R.
+				</party>
+                , optuženog
+                <party id="cm" refersTo="#cm" as="#defendant">
+					Č.M.
+				</party>
+                i njegovog branioca postavljenog po službenoj dužnosti adv.
+                <party id="cv" refersTo="#cv" as="#advisor">
+					Č.V.
+				</party>
+                iz B.P. i optuženog
+                <party id="mdj" refersTo="#mdj" as="#defendant">
+					M.Dj.
+				</party>
+                i njegovog branioca postavljenog po službenoj dužnosti adv. 
+                <party id="rd" refersTo="#rd" as="#advisor">
+					R.D.
+				</party>
+                iz M., donio je, a dana 18.05.2015. godine i javno objavio sledeću: PRESUDU 1. Optuženi
+                <party id="cm" refersTo="#cm" as="#defendant">
+					Č.M.
+				</party>
+                , JMBG:...... od oca Z. i majke J., rodjene F., rodjen 31.08.1984 godine u B. P., sa prebivališem u naselju B. B. B. P., državljanin CG, nezaposlen, oženjen, otac dvoje mldb.djece, pismen, završio srednju školu, lošeg imovnog stanja, osudjivan presudom
+                <organization id="vs" referesTo="#vs">
+					Višeg suda u B.P.
+				</organization>
+                K.br.89/09 od 10.12.2009 godine zbog krivičnog djela neovlašćena proizvodnja, držanje i stavljanje u promet opojnih droga iz
+                <ref href="/krivicni#art_300">
+					čl.300 st.1 Krivičnog zakonika
+				</ref>
+                a koja je preinačena presudom
+                <organization id="as" referesTo="#as">
+					Apelacionog suda Crne Gore
+				</organization>
+                Kž.br.308/10 od 18.06. 2010 godine i osudjen na kaznu zatvora u trajanju od 6 mjeseci, presudom
+                <organization id="vs" referesTo="#vs">
+					Višeg suda u B.P.
+				</organization>
+                K.br.58/10 od 17.09.2010 godine zbog krivičnog djela neovlašćena proizvodnja, držanje i stavljanje u promet opojnih droga iz 
+                <ref href="/krivicni#art_300">
+					čl.300 st.1 Krivičnog zakonika 
+				</ref>
+                i osudjen na kaznu zatvora u trajanju od 2 (dvije) godine a koje su presudom
+                <organization id="vs" referesTo="#vs">
+					Višeg suda u B.P.
+				</organization>
+                Kv.br.5/12 od 30.01.2012 godine, preinačene u pogledu odluke o kazni, tako što je optuženi 
+                <party id="cm" refersTo="#cm" as="#defendant">
+					Č.M.
+				</party>
+                osudjen na jedinstvenu kaznu zatvora u trajanju od 2 (dvije) godine i 3 (tri) mjeseca, nalazio se u pritvoru od 27.12.2014 do 27.01.2015 godine.2. Optuženi
+                <party id="mdj" refersTo="#mdj" as="#defendant">
+					M.Dj.
+				</party>
+                JMBG:........, od oca P. i majke S., rodjene C., rodjen 15.11.1992 godine u B. P. gdje i živi u naselje B. B., državljanin CG, neoženjen, nezaposlen, pismen, završio osnovnu školu, lošeg imovnog stanja, neosudjivan, nalazio se u pritvoru od 27.12.2014 do 27.01.2015 godine. KRIVI SU Što su: Optuženi
+                <party id="cm" refersTo="#cm" as="#defendant">
+					Č.M.
+				</party>
+                i
+                <party id="mdj" refersTo="#mdj" as="#defendant">
+                    M. Dj.
+				</party>
+                1. Dana 18.11.2014 godine, u B. P., sposobni da shvate značaj svojih djela i upravljaju svojim postupcima, svjesni zabranjenosti svojih radnji, htjeli njihovo izvršenje, optuženi
+                <party id="cm" refersTo="#cm" as="#defendant">
+					Č.M.
+				</party>
+                , neovlašćeno prodao, a optuženi 
+                <party id="mdj" refersTo="#mdj" as="#defendant">
+                    M. Dj.
+				</party>
+                neovlašćeno prenosio NN licu 0,28 grama opojne droge heroin upakovane u 2 ručno pravljena zamotuljka, supsancu koja se po Pravilniku o utvrdjivanju spiska droga, psihotropnih supstanci i bilja, može koristiti za proizvodnju droga (Sl.list CG br.56/2012), na način što je optuženi 
+                <party id="cm" refersTo="#cm" as="#defendant">
+					Č.M.
+				</party>
+                , putem telefona ugovorio sa NN licem da mu proda opojnu drogu heroin, nakon čega je drogu predao optuženom 
+                <party id="mdj" refersTo="#mdj" as="#defendant">
+                    M. Dj.
+				</party>
+                i dao mu svoje putničko vozila da od mjesta B. B. do benzinske pumpe koja se nalazi u ul.S. P., prenese i preda NN licu, koja droga je od strane ovlašćenih službenih lica Uprave policije -Grupe za suzbijanje droga Bjelo Polje, Berane i Pljevlja, pronadjena kod optuženog 
+                <party id="mdj" refersTo="#mdj" as="#defendant">
+                    M. Dj.
+				</party>
+                i oduzeta, čime su kao saizvršioci izvršili krivično djelo neovlašćena proizvodnja, držanje i stavljanje u promet opojnih droga iz
+                <ref href="/krivicni#art_300">
+					čl.300 st.1 
+				</ref>
+                u vezi
+                <ref href="/krivicni#art_23">
+					čl.23 Krivičnog zakonika CG
+				</ref>
+                . Optuženi
+                <party id="cm" refersTo="#cm" as="#defendant">
+					Č.M.
+				</party>
+                2. U periodu od 18.11.2014 godine do 28.12.2014 godine, u mjestu B. B., opština B. P., sposoban da shvati značaj svojih djela i upravlja svojim postupcima, svjestan zabranjenosti svojih radnji, htio njihovo izvršenje, u blizini svoje kuće zakopano u zemlji neovlašćeno, radi prodaje držao 2,59 grama opojne droge heroin, upakovanu u 19 ručno pravljenih zamotuljaka, supsancu koja se po Pravilniku o utvrdjivanju spiska droga, psihotropnih supstanci i bilja, može koristiti za proizvodnju droga (Sl.list CG br.56/2012), koju drogu su ovlašćeni službenici l Uprave policije -Grupe za suzbijanje droga Bjelo Polje, Berane i Pljevlja, pronašli dana 28.12.2014 godine i oduzeli, čime je izvršio krivično djelo neovlašćena proizvodnja, držanje i stavljanje u promet opojnih droga iz
+                <ref href="/krivicni#art_300">
+					čl.300 st.1 Krivičnog zakonika CG
+				</ref>
+                .
+			</p>
+			<conclusions>
+				<p>
+					<organization id="vs" referesTo="#vs">
+					    Sud
+                    </organization>
+                    optuženom
+                    <party id="cm" refersTo="#cm" as="#defendant">
+                        Č.M.
+                    </party>
+                    na osnovu
+                    <ref href="/krivicni#art_4">
+                        člana 4
+                    </ref>
+                    ,
+                    <ref href="/krivicni#art_5">
+                        5
+                    </ref>
+                    ,
+                    <ref href="/krivicni#art_13">
+                        13 st.1
+                    </ref>
+                    ,
+                    <ref href="/krivicni#art_15">
+                        15
+                    </ref>
+                    ,
+                    <ref href="/krivicni#art_32">
+                        32
+                    </ref>
+                    ,
+                    <ref href="/krivicni#art_36">
+                        36
+                    </ref>
+                    ,
+                    <ref href="/krivicni#art_42">
+                        42
+                    </ref>
+                    i
+                    <ref href="/krivicni#art_48">
+                        čl.48 st.1 KZ CG
+                    </ref>
+                    prethodno u t v r đ u j e i to: za krivično djelo neovlašćena proizvodnja, držanje i stavljanje u promet opojnih droga iz
+                    <ref href="/krivicni#art_300">
+					    čl.300 st.1 
+				    </ref>
+                    u vezi
+                    <ref href="/krivicni#art_23">
+					    čl.23 Krivičnog zakonika Crne Gore
+				    </ref>
+                    , u saizvršilaštvu, bliže opisano pod tač.1. izreke presude , kaznu zatvora u trajanju od 2 (dvije) godine, a krivično djelo nedozvoljeno držanje oružja i eksplozivnih materija iz
+                    <ref href="/krivicni#art_403">
+					    čl.403 st.1 Krivičnog zakonika Crne Gore
+				    </ref>
+                    , bliže opisano pod tač.2. izreke presude , kaznu zatvora u trajanju od 2 (dvije) godine, Pa
+					<organization id="vs" referesTo="#vs">
+						sud
+					</organization>
+                    optuženog
+					<party id="cm" refersTo="#cm" as="#defendant">
+                        Č.M. 
+				    </party>
+                    na osnovu naprijed citiranih zakonskih propisa te
+					<ref href="/krivicni#art_48">
+						čl.48 st.2 tač.2
+					</ref>
+					i
+                    <ref href="/krivicni#art_300">
+						čl.300 st.7. KZ
+					</ref>
+                    , a optuženog
+                    <party id="mdj" refersTo="#mdj" as="#defendant">
+                        M. Dj.
+				    </party>
+                    primjenom
+                    <ref href="/krivicni#art_4">
+						čl.4
+					</ref>
+                    ,
+                    <ref href="/krivicni#art_5">
+						5
+					</ref>
+                    ,
+                    <ref href="/krivicni#art_13">
+						13 st.1
+					</ref>
+                    ,
+                    <ref href="/krivicni#art_15">
+						15
+					</ref>
+                    ,
+                    <ref href="/krivicni#art_32">
+						čl.32 
+					</ref>
+                    ,
+                    <ref href="/krivicni#art_36">
+						čl.36
+					</ref>
+                    ,
+                    <ref href="/krivicni#art_42">
+						čl.42
+					</ref>
+                    ,
+                    <ref href="/krivicni#art_45">
+						čl.45 st.3
+					</ref>
+                    ,
+                    <ref href="/krivicni#art_46">
+						čl.46 st.1 tač.3
+					</ref>
+                    ,
+                    <ref href="/krivicni#art_48">
+						čl.48
+					</ref>
+                    i
+                    <ref href="/krivicni#art_300">
+						čl.300 st.7 KZ
+					</ref>
+                    , te primjenom odredbe
+					<ref href="/postupak#art_226">
+						čl.226
+					</ref>
+					,
+					<ref href="/postupak#art_229">
+						čl.229
+					</ref>
+					i
+					<ref href="/postupak#art_374">
+						374. Zakonika o krivičnom postupku (Zkp-a)
+					</ref>
+					, O S U DJ U J E optuženog
+                    <party id="cm" refersTo="#cm" as="#defendant">
+                        Č.M. 
+				    </party>
+                    na jedinstvenu kaznu zatvora u trajanju od 3 (tri) godine i 6 (šest) mjeseci u koju mu se ima uračunati vrijeme provedeno u pritvoru od 27.12.2014 godine do 27.01.2015 godine, tako da ostatak kazne ima izdržati po pravosnažnosti ove presude. Optuženog
+                    <party id="mdj" refersTo="#mdj" as="#defendant">
+                        M.Dj. 
+				    </party>
+                    na kaznu zatvora u trajanju od 6 (šest) mjeseci u koju mu se ima uračunati vrijeme provedeno u pritvoru od 27.12.2014 godine do 27.01.2015 godine, tako da ostatak kazne ima izdržati po pravosnažnosti ove presude. Optuženi se obavezuju da pojedinačno na ime paušala plate iznos od po 50,00 €, kao i na ime troškova krivičnog postupka optuženi
+                    <party id="cm" refersTo="#cm" as="#defendant">
+                        Č.M. 
+				    </party>
+                    iznos od 900,00 € i optuženi
+                    <party id="mdj" refersTo="#mdj" as="#defendant">
+                        M.Dj. 
+				    </party>
+                    iznos od 900,00 € u korist budžeta CG, u roku od 15 dana po pravosnažnosti presude pod prijetnjom prinudnog izvršenja, dok će se posebno odlučiti u odnosu na troškove krivičnog postupka koji se odnose na nagrade postavljeniom braniocima po službenoj dužnosti u krivičnom postupku. Privremeno oduzeta opojna droga heroin u količini od 0,28 grama od optuženog 
+                    <party id="mdj" refersTo="#mdj" as="#defendant">
+                        M.Dj. 
+				    </party>
+                    i privremeno oduzeta opojna droga heroin u količini od 2,59 grama od optuženog
+                    <party id="cm" refersTo="#cm" as="#defendant">
+                        Č.M. 
+				    </party>
+                    , trajno se oduzima iz razloga bezbjednosti i zaštite zdravlja ljudi i ista se ima uništiti po pravosnažnosti ove presude.
+                </p>
+			</conclusions>
+		</judgmentBody>
+	</judgment>
+</akomaNtoso>

@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Akoma_Ntoso document -->
+<akomaNtoso xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://docs.oasis-open.org/legaldocml/ns/akn/3.0/WD17 ../schemas/akomantoso30.xsd " xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0/WD17" xmlns:mods="http://www.loc.gov/standards/mods/v3/mods-3-6.xsd">
+	<judgment>
+		<meta>
+			<identification source="#court">
+				<FRBRWork>
+					<FRBRauthor>
+						Osnovni sud u Podgorici
+					</FRBRauthor>
+					<FRBRdate date="2020-05-11">
+						2020-05-11
+					</FRBRdate>
+					<FRBRtitle>
+						K 377/2020
+					</FRBRtitle>
+					<FRBRcountry>
+						CG
+					</FRBRcountry>
+				</FRBRWork>
+			</identification>
+			<references>
+				<TLCOrganization eId="os" href="/ontology/organization/OsnovniSud.Podgorica" showAs="Osnovni sud u Podgorici" />
+				<TLCOrganization eId="vdt" href="/ontology/organization/ViseDrzavnoTuzilastvo" showAs="Više državno tužilaštvo" />
+				<TLCPerson eId="nvujanovic" href="/ontology/person/nvujanovic" showAs="Nenad Vujanovic" />
+                <TLCPerson eId="npaunović" href="/ontology/person/npaunović" showAs="Nataše Paunović" />
+				<TLCPerson eId="lr" href="/ontology/person/lr" showAs="L.R." />
+                <TLCPerson eId="mz" href="/ontology/person/mz" showAs="M.Z." />
+                <TLCPerson eId="ssisevic" href="/ontology/person/ssisevic" showAs="Snežana Šišević" />  
+				<TLCRole eId="defendant" href="/ontology/role/defendant" showAs="Defendant" />
+				<TLCRole eId="judge" href="/ontology/role/judge" showAs="Judge" />
+				<TLCRole eId="advisor" href="/ontology/role/advisor" showAs="Advisor" />
+				<TLCRole eId="clerk" href="/ontology/role/clerk" showAs="Clerk" />
+                <TLCRole eId="plaintiff" href="/ontology/role/plaintiff" showAs="Plaintiff" />
+			</references>
+		</meta>
+		<judgmentBody>
+			<p>
+				<organization id="os" referesTo="#os">
+					OSNOVNI SUD U PODGORICI
+				</organization>
+                , sudija
+				<party id="nvujanovic" refersTo="#nvujanovic" as="#judge">
+					Nenad Vujanović
+				</party>
+				, uz učešće
+                <party id="npaunovic" refersTo="#npaunovic" as="#clerk">
+					Nataše Paunović
+				</party>
+				, kao zapisničara, u krivičnom predmetu protiv okrivljenog
+				<party id="lr" refersTo="#lr" as="#defendant">
+					L.R.
+				</party>
+				, koga brani
+                <party id="mz" refersTo="#mz" as="#advisor">
+					M.Z.
+				</party>
+                , advokat iz P., zbog krivičnog djela omogućavanje uživanja opojnih droga iz
+                <ref href="/krivicni#art_301">
+					čl. 301 st. 1 Krivičnog zakonika Crne Gore
+				</ref>
+				, rješavajući po optužnom predlogu
+                <organization id="odt" referesTo="#odt">
+					Osnovnog državnog tužilaštva
+				</organization>
+                u Podgorici Kt.br. 368/20 od 20.05.2020. godine, nakon održanog glavnog i javnog pretresa dana 11.05.2021. godine, u prisustvu zastupnika optužbe 
+                <party id="ssisevic" refersTo="#ssisevic" as="#plaintiff">
+					Snežane Šišević
+				</party>
+                , državnog tužioca u
+                <organization id="odt" referesTo="#odt">
+					Osnovnom državnom tužilaštvu
+				</organization>
+                u Podgorici,
+                <party id="lr" refersTo="#lr" as="#defendant">
+					okrivljenog
+				</party>
+				i njegovog
+                <party id="mz" refersTo="#mz" as="#advisor">
+					branioca
+				</party>
+                donio je i istog dana objavio, P R E S U D U Okrivljeni:
+                <party id="lr" refersTo="#lr" as="#defendant">
+					L.R.
+				</party>
+                , JMB ..., od oca M. i majke B., rođene M., rođen .... godine u P., sa prebivalištem u M., L. broj ., državljanin Crne Gore, završio srednju školu, po zanimanju serviser građevinskih mašina, oženjen, otac jednog maloljetnog djeteta, lošeg imovnog stanja, osuđivan presudom 
+                <organization id="os" referesTo="#os">
+					Osnovnog suda u Podgorici
+				</organization>
+                K.br. 333/19 od 27.01.2020. godine, koja je postala pravosnažna dana 05.06.2020. godine, zbog krivičnog djela nasilje u porodici ili u porodičnoj zajednici iz 
+                <ref href="/krivicni#art_220">
+					čl.220 st.1 Krivičnog zakonika Crne Gore
+				</ref>
+                , izrečena uslovna osuda 6 (šest) mjeseci zatvora, uslovno na 2 (dvije) godine, u pritvoru od 22.04.2021. godine do 11.05.2021. godine. K r i v j e Što je: U julu i avgustu 2019. godine, u Podgorici, svjestan svog djela, čije je izvršenje htio, znajući da je isto zabranjeno, nakon što je u Domu zdravlja Konik dobio terapiju Buprenorfina, D. K. dao opojnu drogu da je uživa, na način što mu je, iz dva navrata, radi uživanja dao po jednu tabletu od 2 mg Buprenorfina, koja supstanca je psihotropna i shodno čl. 2 Zakona o sprječavanju zloupotrebe droga (Službeni list Crne Gore, broj 35/13) i Pravilnika o utvđivanju spiska droga, psihotropnih supstanci i bilja koje se može koristiti za proizvodnju droga (Službeni list Crne Gore, broj 41/2018 i 57/2018), utvrđena kao opojna droga. -čime je učinio krivično djelo omogućavanje uživanja opojnih droga iz
+                <ref href="/krivicni#art_301">
+					čl. 301 st. 1 Krivičnog zakonika Crne Gore
+				</ref>
+                .
+			</p>
+			<conclusions>
+				<p>
+					Pa mu
+					<organization id="vs" referesTo="#vs">
+						sud
+					</organization>
+					primjenom citirane zakonske odredbe, te odredbe
+					<ref href="/krivicni#art_4">
+                        čl. 4 st. 2
+                    </ref>
+                    ,
+                    <ref href="/krivicni#art_42">
+                        čl. 4 st. 1
+                    </ref>
+                    ,
+                    <ref href="/krivicni#art_51">
+                        čl. 51
+                    </ref>
+                    ,
+                    <ref href="/krivicni#art_52">
+                        čl. 52 st. 2
+                    </ref>
+                    ,
+                    <ref href="/krivicni#art_53">
+                        čl. 53
+                    </ref>
+                    i
+                    <ref href="/krivicni#art_54">
+                        54 Krivičnog zakonika Crne Gore
+                    </ref>
+                    , te odredbe
+					<ref href="/postupak#art_226">
+						čl. 226
+					</ref>
+                    ,
+                    <ref href="/postupak#art_229">
+						229
+					</ref>
+                    i
+                    <ref href="/postupak#art_374">
+						374 Zakonika o krivičnom postupku
+					</ref>
+					i z r i č e USLOVNU OSUDU Kojom mu utvrđuje kaznu zatvora u trajanju od 6 (šest) mjeseci i istovremeno određuje da se ista neće izvršiti, ako okrivljeni u roku od 2 (dvije) godine po pravosnažnosti presude, ne učini novo krivično djelo. Ukoliko dođe do opoziva uslovne osude, okrivljenom se u utvrđenu kaznu zatvora ima uračunati vrijeme provedeno u pritvoru od 22.04.2021. godine do 11.05.2021. godine. Obavezuje se okrivljeni da u korist budžeta Crne Gore plati troškove krivičnog postupka u iznosu od 30,00 eura, u roku od 15 dana po pravosnažnosti presude, pod prijetnjom izvršenja, kao i troškove postavljenog branioca po službenoj dužnosti advokata
+                    <party id="mz" refersTo="#mz" as="#advisor">
+						M.Z.
+					</party>
+                    iz Podgorice, o kojima će sud odlučiti posebnim rješenjem, shodno
+                    <ref href="/postupak#art_227">
+						čl. 227 st. 2 Zakonika o krivičnom postupku
+					</ref>
+                    , kada se podaci o navedenim troškovima pribave.
+                </p>
+			</conclusions>
+		</judgmentBody>
+	</judgment>
+</akomaNtoso>

@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Akoma_Ntoso document -->
+<akomaNtoso xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://docs.oasis-open.org/legaldocml/ns/akn/3.0/WD17 ../schemas/akomantoso30.xsd " xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0/WD17" xmlns:mods="http://www.loc.gov/standards/mods/v3/mods-3-6.xsd">
+	<judgment>
+		<meta>
+			<identification source="#court">
+				<FRBRWork>
+					<FRBRauthor>
+						Viši sud u Bijelom Polju
+					</FRBRauthor>
+					<FRBRdate date="2015-06-26">
+						2015-06-26
+					</FRBRdate>
+					<FRBRtitle>
+						K 30/2015
+					</FRBRtitle>
+					<FRBRcountry>
+						CG
+					</FRBRcountry>
+				</FRBRWork>
+			</identification>
+			<references>
+                <TLCOrganization eId="os" href="/ontology/organization/OsnovniSud.Berane" showAs="Osnovni sud u Beranama" />
+				<TLCOrganization eId="vs" href="/ontology/organization/VisiSud.BijeloPolje" showAs="Visi sud u Bijelom Polju" />
+				<TLCOrganization eId="vdt" href="/ontology/organization/ViseDrzavnoTuzilastvo" showAs="Vise drzavno tuzilastvo" />
+				<TLCPerson eId="vboskovic" href="/ontology/person/vboskovic" showAs="Vidomir Boskovic" /> <!--sudija--> 
+				<TLCPerson eId="mgacevic" href="/ontology/person/mgacevic" showAs="Mirjana Gacevic" /> <!--zapisnicar-->
+				<TLCPerson eId="nb" href="/ontology/person/nb" showAs="N.B." /> <!--tuzilac-->
+				<TLCPerson eId="dd" href="/ontology/person/dd" showAs="D.D." /> <!--optuzeni-->
+				<TLCPerson eId="mr" href="/ontology/person/mr" showAs="M.R." />
+                <TLCRole eId="plaintiff" href="/ontology/role/plaintiff" showAs="Plaintiff" />
+				<TLCRole eId="defendant" href="/ontology/role/defendant" showAs="Defendant" />
+				<TLCRole eId="judge" href="/ontology/role/judge" showAs="Judge" />
+				<TLCRole eId="advisor" href="/ontology/role/advisor" showAs="Advisor" />
+				<TLCRole eId="clerk" href="/ontology/role/clerk" showAs="Clerk" />
+			</references>
+		</meta>
+		<judgmentBody>
+			<p>
+				<organization id="vs" referesTo="#vs">
+					VIŠI SUD U BIJELOM POLJU
+				</organization>
+                ,
+				<party id="skonatar" refersTo="#skonatar" as="#judge">
+					sudija Vidomir Bošković
+				</party>
+				, sa zapisničarem
+				<party id="mgacevic" refersTo="#mgacevic" as="#clerk">
+					Mirjanom Gačević
+				</party>
+				u postupku po optužnici
+                <organization id="vdt" referesTo="#vdt">
+					Višeg državnog tužilaštva
+				</organization>
+                Kt.br.21/15 od 12.06.2015.godine, protiv optuženog
+				<party id="dd" refersTo="#dd" as="#defendant">
+					D . D .
+				</party>
+				, iz Berana, zbog krivičnog djela neovlašćena proizvodnja, držanje i stavljanje u promet opojnih droga iz
+				<ref href="/krivicni#art_300">
+					čl . 300 st . 1 Krivičnog zakonika Crne Gore
+				</ref>
+				, nakon održanog glavnog, javnog pretresa dana 26.06.2015.godine, u prisustvu zamjenika iz
+				<organization id="vdt" referesTo="#vdt">
+					Višeg državnog tužilaštva
+				</organization>
+				<party id="vsavovic" refersTo="#vsavovic" as="#plaintiff">
+					N. B.
+				</party>
+				,
+				<party id="dd" refersTo="#dd" as="#defendant">
+					optuženog
+				</party>
+                i njegovog
+                <party id="dd" refersTo="#dd" as="#advisor">
+					branioca M.R.
+				</party>
+                advokata iz Berana, istog dana donio je i javno objavio P R E S U D U Optuženi D.D. JMBG ................, od oca V. i majke Š. rodjene G., rodjen .............godine, u B., sa prebivalištem u mjestu rodjenja ul. ..n. br.., konobar, sa završenom srednjom ugostiteljskom školom, neoženjen, državljanin Crne Gore, osudjivan, presudom
+                <organization id="os" referesTo="#os">
+					Osnovnog suda u Beranama
+				</organization>
+                K.br.541/07, zbog krivičnog djela teška kradja iz
+				<ref href="/krivicni#art_240">
+					čl. 240 KZ CG
+				</ref>
+				, na kaznu zatvora u trajanju od tri mjeseca, u pritvoru od 24.04.2015.godine do 26.06.2015.godine K R I V J E Što je: Dana 24.04.2015.godine, u Beranama u ul. ..n. br. .. u stanu vlasništvo I. R., sposoban da shvati značaj svog djela i upravlja svojim postupcima, svjestan svog djela i htjenjem njegovog izvršenja, neovlašćeno radi prodaje držao 779,84 grama opojne droge marihuane i 7,24 grama opojne droge heroin, supstance koja je Pravilnikom o utvrdjivanju spiska droga, psihotropnih supstanci i bilja koje se može koristiti za proizvodnju droga (Sl.list CG br. 56/2012) proglašene za opojnu drogu, od kojih marihuanu u količini od 749,28 grama zapakovanu u šest pakovanja oblijepljenih pvc kesama različite boje i stavljenih u jednu pvc kesu sive boje, a količinu od 29,53 grama u jednom pakovanju od pvc kese crvene boje i 0,71 gram u jednom ručno pravljnom džointu, a heroin u pvc kesi bijele boje, koju drogu su službenici Grupe za suzbijanje droga B.P., B. i P. istog dana oko 18,30 časova, pronašli sakrivenu prilikom pretresanja stana i istu oduzeli, čime je izvršio krivično djelo neovlašćena proizvodnja, držanje i stavljanje u promet opojnih droga iz
+                <ref href="/krivicni#art_300">
+					čl. 300 st. 1 Krivičnog zakonika Crne Gore
+				</ref>
+                ,
+			</p>
+			<conclusions>
+				<p>
+					pa ga
+					<organization id="vs" referesTo="#vs">
+						sud
+					</organization>
+					primjenom tog zakonskog propisa, te
+					<ref href="/krivicni#art_15">
+						čl.15				
+                    </ref>
+					,
+					<ref href="/krivicni#art_32">
+						32
+					</ref>
+					,
+					<ref href="/krivicni#art_36">
+						36
+					</ref>
+                    ,
+					<ref href="/krivicni#art_42">
+						42
+					</ref>
+					,
+					<ref href="/krivicni#art_45">
+						45
+					</ref>
+                    i
+                    <ref href="/krivicni#art_46">
+						46 st. 1 tač.3, 51, 75 i 300 st.7 KZ CG
+					</ref>
+					i
+                    <ref href="/postupak#art_226">
+						čl.226
+					</ref>
+					,
+                    <ref href="/postupak#art_229">
+						229
+					</ref>
+					i
+                    <ref href="/postupak#art_374">
+						374 Zakonika o krivičnom postupku (Zkp)
+					</ref>
+					, O S U DJ U J E Na kaznu zatvora u trajanju od 1/jedne/godine i/šest/ smejesi u koju mu se ima uračunati vrijeme provedeno u pritvoru u periodu od 24.04.2015.godine pa do 26.06.2015. Opojna droga marihuana neto mase od 779,84 grama upakovane u šest pakovanja oblijepljenim u pvc kesama i opojna droga heroin neto mase 7,24 grama upakovana u pvc kesi bijele boje, privremeno oduzeta od optuženog, trajno se oduzima i odredjuje da se po pravnosnažnosti ove presude ima uništiti, na osnovu
+                    <ref href="/krivicni#art_66">
+					    čl. 66
+				    </ref>
+                    i
+                    <ref href="/krivicni#art_75">
+					    75
+				    </ref>
+                    , a u vezi
+                    <ref href="/krivicni#art_300">
+					    čl. 300 st. 7 KZ
+				    </ref>
+                    .
+                    <party id="dd" refersTo="#dd" as="#defendant">
+						Optuženi
+					</party>
+                    se obavezuje da plati na ime paušala iznos od 50,00 € /pedeset eura/ i troškova krivičnog postupka 1.810,00 € /jedna hiljada i osam stotina i deset eura/, u korist budžeta Crne Gore na žiro račun br. 832-7114-98, u roku od 15 /petnaeset/ dana od dana pravnosnažnosti.
+				</p>
+			</conclusions>
+		</judgmentBody>
+	</judgment>
+</akomaNtoso>
