@@ -12,5 +12,6 @@ CORS(app)
 app.register_blueprint(rule_based_reasoning.rule_based_reasoning_bp)
 load_dotenv('.env')
 
+
 if (__name__ == '__main__'):
     app.run(debug=False, host=os.getenv("HOST"), port=os.getenv("PORT"))

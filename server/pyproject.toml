@@ -13,6 +13,8 @@ config = "^0.5.1"
 python-dotenv = "^1.0.1"
 marshmallow = "^3.21.1"
 rdflib = "^7.0.0"
+pypdf2 = "^3.0.1"
+openai = "0.28"
 
 
 [build-system]

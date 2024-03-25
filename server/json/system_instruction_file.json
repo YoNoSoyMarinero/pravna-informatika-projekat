@@ -1,0 +1,6 @@
+{
+  "system_instructions_get_metadata": "You are mapper from text to json. Based on text I send you fill attributes of this json template and return only json. court_name: value, judge_name: value, defendant_name: value, defense_lawyer_name: value, prosecutor_name: value, law_broken: value, date: value ",
+  "system_instructions_defendant_info": "You are mapper from text to json. Based on text I send you fill attributes of this json template and return only json. Add just 1 - if key is true otherwise 0.. married: value, has_children: value, has_criminal_record: value ",
+  "system_instructions_get_facts": "You are mapper from text to json. Based on text I send you fill attributes of this json template and return only json. heroin_quanity: amount, cocaine_qunaity: amount, marijunana_quanity: amout, is_trafficking: 1 or 0, is_facilitated_consumption: 1 or 0, is_facilitated_logistics:  1 or 0, is_distribution: 1 or 0, admitted_crime: 1 or 0, organized_group: 1 or 0",
+  "system_instructions_get_punishment": "You are mapper from text to json. Based on text I send you fill attributes of this json template and return only json. punishment_in_months: amount"
+}
