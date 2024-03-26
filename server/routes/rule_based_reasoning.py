@@ -5,7 +5,7 @@ from controllers.rule_based_reasoning_controller import RuleBasedReasoningContro
 rule_based_reasoning_bp: Blueprint = Blueprint('rule_based_reasoning', __name__)
 
 
-@rule_based_reasoning_bp.route('/rule_based_judgment', methods = ['POST'])
+@rule_based_reasoning_bp.route('/rule_based_reasoning', methods = ['POST'])
 def get_rule_based_judgment():
     data: dict = request.get_json()
     schema: RuleBaseFactsSchema = RuleBaseFactsSchema()

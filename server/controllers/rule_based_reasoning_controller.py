@@ -1,5 +1,5 @@
 from schemas.RuleBaseFactsSchema import RuleBaseFacts
-from services.rule_base_reasoning_service import RuleBaseReasoningService
+from services.rule_based_reasoning_service import RuleBaseReasoningService
 
 class RuleBasedReasoningController:
 
