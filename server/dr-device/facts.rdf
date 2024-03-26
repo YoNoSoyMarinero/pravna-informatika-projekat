@@ -6,7 +6,7 @@
             <lc:case rdf:about="http://informatika.ftn.uns.ac.rs/legal-case.rdf#case01">
                 <lc:name>case 01</lc:name>
                 <lc:defendant>John</lc:defendant>
-                <lc:drug_posession>no</lc:drug_posession>
+                <lc:drug_posession>yes</lc:drug_posession>
                 <lc:allowing_usage>no</lc:allowing_usage>        
                 <lc:marginalized_group>no</lc:marginalized_group>       
                 <lc:providing_logistics>no</lc:providing_logistics>       
