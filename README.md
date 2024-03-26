@@ -10,7 +10,7 @@ This application serves as a platform for retrieving legal documents, including 
 
 ## Server-Side Documentation
 
-For detailed documentation on the server-side functionality and API endpoints, please refer to the [Server-Side Documentation](server\README.md).
+For detailed documentation on the server-side functionality and API endpoints, please refer to the [Server-Side Documentation](server/README.md).
 
 ## Client-Side Documentation
 
@@ -26,12 +26,4 @@ The client-side of the application interacts with the server to retrieve legal d
 
 ## Installation
 
-To install and set up the application, please follow the instructions provided in the [Server-Side Documentation](server\README.md).
-
-## Usage
-
-Once the server-side application is set up, users can interact with it through the provided API endpoints to retrieve legal documents. Detailed usage instructions are available in the [Server-Side Documentation](server_documentation.md).
-
----
-
-This README provides an overview of the Legal Document Retrieval Application, its features, technologies used, and links to detailed documentation for both the server-side and client-side applications.
+To install and set up the application, please follow the instructions provided in the [Server-Side Documentation](server/README.md).
