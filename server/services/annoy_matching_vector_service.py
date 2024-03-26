@@ -7,6 +7,7 @@ class AnnoyMatchingVectorService:
         self.vector_dimension = vector_dimension
         self.annoy_index = AnnoyIndex(vector_dimension, 'angular')
         self.vectors = vectors
+        self.weights = np.array([0.9, 1, 1, 1, 0.1, 1, 1, 0.7, 1, 1, 1, 1, 0.7, 0.7, 0.7, 0.8])
         self.__create_database()
 
     def __create_database(self):
@@ -18,5 +19,5 @@ class AnnoyMatchingVectorService:
         return 1 / (1 + distance)  
 
     def get_most_similar_vectors(self, vector: np.array):
-        similar_indices_with_distances = self.annoy_index.get_nns_by_vector(vector, 3, include_distances=True)
+        similar_indices_with_distances = self.annoy_index.get_nns_by_vector(vector*self.weights, 3, include_distances=True)
         return [(index, self.__distance_to_similarity(distance)) for index, distance in zip(*similar_indices_with_distances)] 

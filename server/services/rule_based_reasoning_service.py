@@ -1,5 +1,6 @@
 import os
 from schemas.RuleBaseFactsSchema import RuleBaseFacts
+from lookup.xml_shemes import XMLShemes
 import xml.etree.ElementTree as ET
 import subprocess
 
@@ -11,33 +12,16 @@ class RuleBaseReasoningService:
     def __init__(self, rule_base_facts: RuleBaseFacts) -> None:
         print(os.getcwd())
         self.facts: RuleBaseFacts = rule_base_facts
-        self.rdf_data: str = f"""<?xml version="1.0" encoding="UTF-8" standalone="no"?>
-        <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-                xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
-                xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
-                xmlns:lc="http://informatika.ftn.uns.ac.rs/legal-case.rdf#">
-            <lc:case rdf:about="http://informatika.ftn.uns.ac.rs/legal-case.rdf#case01">
-                <lc:name>case 01</lc:name>
-                <lc:defendant>John</lc:defendant>
-                <lc:drug_posession>{self.facts.drug_posession}</lc:drug_posession>
-                <lc:allowing_usage>{self.facts.allowing_usage}</lc:allowing_usage>        
-                <lc:marginalized_group>{self.facts.marginalized_group}</lc:marginalized_group>       
-                <lc:providing_logistics>{self.facts.providing_logistics}</lc:providing_logistics>       
-                <lc:drug_trafficking>{self.facts.drug_trafficking}</lc:drug_trafficking>       
-                <lc:smuggling>{self.facts.smuggling}</lc:smuggling>       
-                <lc:organized_group>{self.facts.organized_group}</lc:organized_group>
-                <lc:article_52_violation>{self.facts.article_52_violation}</lc:article_52_violation>     
-                <lc:estimated_drug_price rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">{self.facts.estimated_drug_price}</lc:estimated_drug_price>
-            </lc:case>
-        </rdf:RDF>
-        """
-        self.namespaces: dict = {
-            'rdf': 'http://www.w3.org/1999/02/22-rdf-syntax-ns#',
-            'rdfs': 'http://www.w3.org/2000/01/rdf-schema#',
-            'defeasible': 'http://lpis.csd.auth.gr/systems/dr-device/defeasible.rdfs#',
-            'export': 'http://startrek.csd.auth.gr/dr-device/export/export.rdf#'
-            }
-
+        self.rdf_data: str = XMLShemes.rdf_facts_template.format(self.facts.drug_posession,
+                            self.facts.allowing_usage,
+                            self.facts.marginalized_group,
+                            self.facts.providing_logistics,
+                            self.facts.drug_trafficking, 
+                            self.facts.smuggling, 
+                            self.facts.organized_group, 
+                            self.facts.article_52_violation, 
+                            self.facts.estimated_drug_price)
+        self.namespaces: dict = XMLShemes.namespaces
 
     def set_facts_rdf(self):
         file_path = self.__path_to_facts_rdf

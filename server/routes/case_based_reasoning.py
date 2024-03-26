@@ -4,7 +4,6 @@ from controllers.case_based_reasoning_controller import CaseBasedReasoningContro
 
 case_based_reasoning_bp: Blueprint = Blueprint('case_based_reasoning', __name__)
 
-
 @case_based_reasoning_bp.route('/case_based_reasoning', methods = ['POST'])
 def get_rule_based_judgment():
     data: dict = request.get_json()

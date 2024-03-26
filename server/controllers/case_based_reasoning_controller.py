@@ -9,6 +9,6 @@ class CaseBasedReasoningController:
         self.case_based_reasoning_service = CaseBasedReasoningService()
     
 
-    def get_most_similar_cases(self):
+    def get_most_similar_cases(self) -> dict:
         vectorized_facts: np.array = self.facts.get_vectorized_case()
         return self.case_based_reasoning_service.get_most_similar_cases(vectorized_facts)

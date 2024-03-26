@@ -1,13 +1,13 @@
 import xml.etree.ElementTree as ET
 
-class DocumentParser:
+class DocumentParserService:
 
     def __init__(self, document_name) -> None:
         self.document_name: str = document_name
 
     def load_document(self) -> str:
         
-        path = f'server\\akoma-ntoso\\presude\\{self.document_name}'
+        path = f'akoma-ntoso\\presude\\{self.document_name}.xml'
         tree = ET.parse(path)
         root = tree.getroot()
         return root
@@ -103,6 +103,3 @@ class DocumentParser:
 
         return self.html_str
     
-parser  = DocumentParser('K 6 2014.xml')
-html_string = parser.get_parsed_judgment()
-print(html_string)
