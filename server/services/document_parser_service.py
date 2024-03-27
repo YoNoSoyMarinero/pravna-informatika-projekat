@@ -254,7 +254,3 @@ class DocumentParserService:
         self.iterate_through_elements(self.p_tag_conclusions)
 
         return self.html_str
-    
-parser = DocumentParserService('zakon_o_sprecavanju_zloupotrebi_droga')
-htmlString = parser.get_parsed_law()
-print(htmlString)
