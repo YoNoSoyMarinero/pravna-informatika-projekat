@@ -7,7 +7,7 @@ class DocumentParserService:
 
     def load_document_law(self) -> str:
 
-        path = f'server\\akoma-ntoso\\zakoni\\{self.document_name}.xml'
+        path = f'akoma-ntoso\\zakoni\\{self.document_name}.xml'
         tree = ET.parse(path)
         root = tree.getroot()
         return root
@@ -141,8 +141,8 @@ class DocumentParserService:
                     self.section_article = self.chapter_section[k]
                     section_article_num = self.section_article[0].text.strip()
                     num_of_article_paragraphs = self.get_num_of_article_paragraphs()
-
-                    section_article_id = f'/#{self.section_article.attrib['eId']}'
+                    key = self.section_article.attrib["eId"]
+                    section_article_id = f'/#{key}'
 
                     self.html_str += f"\t<h5><a href={section_article_id}, id={section_article_id}>{section_article_num}</a></h5>\n"
 
@@ -254,7 +254,3 @@ class DocumentParserService:
         self.iterate_through_elements(self.p_tag_conclusions)
 
         return self.html_str
-    
-parser = DocumentParserService('zakon_o_sprecavanju_zloupotrebi_droga')
-html_string = parser.get_parsed_law()
-print(html_string)
