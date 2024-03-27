@@ -28,7 +28,7 @@ class DocumentParserService:
                 if 'chapter' in potential_chapter.tag:
                     i += 1
             except:
-                num_of_chapters = i-1
+                num_of_chapters = i
                 break
 
         return num_of_chapters
@@ -254,7 +254,3 @@ class DocumentParserService:
         self.iterate_through_elements(self.p_tag_conclusions)
 
         return self.html_str
-    
-parser = DocumentParserService('krivicni_zakonik_droga')
-html_string = parser.get_parsed_law()
-print(html_string)
