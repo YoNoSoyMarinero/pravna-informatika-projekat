@@ -28,7 +28,7 @@ class DocumentParserService:
                 if 'chapter' in potential_chapter.tag:
                     i += 1
             except:
-                num_of_chapters = i-1
+                num_of_chapters = i
                 break
 
         return num_of_chapters
@@ -42,7 +42,7 @@ class DocumentParserService:
                 if 'section' in potential_section.tag:
                     i += 1
             except:
-                num_of_sections = i-1
+                num_of_sections = i
                 break
 
         return num_of_sections
@@ -56,7 +56,7 @@ class DocumentParserService:
                 if 'article' in potential_article.tag:
                     i += 1
             except:
-                num_of_articles = i-1
+                num_of_articles = i
                 break
 
         return num_of_articles
@@ -70,7 +70,7 @@ class DocumentParserService:
                 if 'paragraph' in potential_paragraph.tag:
                     i += 1
             except:
-                num_of_paragraphs = i-1
+                num_of_paragraphs = i
                 break
 
         return num_of_paragraphs
@@ -128,7 +128,7 @@ class DocumentParserService:
             self.html_str += f"\t<h3>{chapter_num}</h3>\n"
             self.html_str += f"\t<h3>{chapter_heading}</h3>\n"
 
-            for j in range(2, num_of_chapter_sections+1):
+            for j in range(2, num_of_chapter_sections):
 
                 self.chapter_section = self.chapter[j]
                 chapter_section_heading = self.chapter_section[0].text.strip()
@@ -136,7 +136,7 @@ class DocumentParserService:
                 
                 self.html_str += f"\t<h4>{chapter_section_heading}</h4>\n"
 
-                for k in range(1, num_of_section_articles+1):
+                for k in range(1, num_of_section_articles):
                     
                     self.section_article = self.chapter_section[k]
                     section_article_num = self.section_article[0].text.strip()
@@ -146,7 +146,7 @@ class DocumentParserService:
 
                     self.html_str += f"\t<h5><a href={section_article_id}, id={section_article_id}>{section_article_num}</a></h5>\n"
 
-                    for z in range(1, num_of_article_paragraphs+1):
+                    for z in range(1, num_of_article_paragraphs):
 
                         self.article_paragraph = self.section_article[z]
                         num_of_paragraph_points = self.get_num_of_paragraph_points()
@@ -253,4 +253,5 @@ class DocumentParserService:
         self.iterate_through_elements(self.p_tag)
         self.iterate_through_elements(self.p_tag_conclusions)
 
+        return self.html_str
         return self.html_str
