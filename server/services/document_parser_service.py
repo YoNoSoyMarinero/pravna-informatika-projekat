@@ -5,7 +5,14 @@ class DocumentParserService:
     def __init__(self, document_name) -> None:
         self.document_name: str = document_name
 
-    def load_document(self) -> str:
+    def load_document_law(self) -> str:
+
+        path = f'server\\akoma-ntoso\\zakoni\\{self.document_name}.xml'
+        tree = ET.parse(path)
+        root = tree.getroot()
+        return root
+
+    def load_document_judgement(self) -> str:
         
         path = f'akoma-ntoso\\presude\\{self.document_name}.xml'
         tree = ET.parse(path)
@@ -13,8 +20,153 @@ class DocumentParserService:
         return root
 
     def get_parsed_law(self) -> str:
-        #TODO
-        pass
+        
+        root = self.load_document_law()
+
+        self.html_str = "<!DOCTYPE html>\n<html lang='en'>\n<head>\n\t<meta charset='UTF-8'>\n\t<meta name='viewport' content='width=device-width, initial-scale=1.0'>\n\t<title>XML to HTML</title>\n</head>\n<body>\n"
+        
+        # headings
+        title_name = root[0].attrib['name']
+        title_date = root[0][0][0][0][2].attrib['date']
+        publication_name = root[0][0][1].attrib['showAs']
+        publication_date = root[0][0][1].attrib['date']
+
+        self.html_str += f"\t<h1>{title_name} ({title_date})</h1>\n"
+        self.html_str += f"\t<h2>{publication_name} ({publication_date})</h2>\n"
+    
+        # body
+        self.body = root[0][1]
+
+        num_of_chapters = self.get_num_of_existing_chapters()
+
+        for i in range(1, num_of_chapters):
+
+            self.chapter = self.body[i]
+            chapter_num = self.chapter[0].text.strip()
+            chapter_heading = self.chapter[1].text.strip()
+            num_of_chapter_sections = self.get_num_of_chapter_sections()
+
+            self.html_str += f"\t<h3>{chapter_num}</h3>\n"
+            self.html_str += f"\t<h3>{chapter_heading}</h3>\n"
+
+            for j in range(2, num_of_chapter_sections+1):
+
+                self.chapter_section = self.chapter[j]
+                chapter_section_heading = self.chapter_section[0].text.strip()
+                num_of_section_articles = self.get_num_of_section_articles()
+                
+                self.html_str += f"\t<h4>{chapter_section_heading}</h4>\n"
+
+                for k in range(1, num_of_section_articles+1):
+                    
+                    self.section_article = self.chapter_section[k]
+                    section_article_num = self.section_article[0].text.strip()
+                    num_of_article_paragraphs = self.get_num_of_article_paragraphs()
+
+                    section_article_id = f'/#{self.section_article.attrib['eId']}'
+
+                    self.html_str += f"\t<h5><a href=section_article_id, id=section_article_id>{section_article_num}</a></h5>\n"
+
+                    for z in range(1, num_of_article_paragraphs+1):
+
+                        self.article_paragraph = self.section_article[z]
+                        num_of_paragraph_points = self.get_num_of_paragraph_points()
+
+                        if num_of_paragraph_points == 0:
+                            paragraph_content = self.article_paragraph[0][0].text.strip()
+                            self.html_str += f"\t<p>{paragraph_content}</p>\n"
+                        else:
+                            for t in range(self.start, num_of_paragraph_points):
+
+                                self.paragraph_point = self.article_paragraph[t]
+                                paragraph_point_num = self.paragraph_point[0].text.strip()
+                                paragraph_point_content = self.paragraph_point[1]
+                                p_text = paragraph_point_content[0].text.strip()
+
+                                self.html_str += f"\t<p>{paragraph_point_num} {p_text}</p>\n"
+
+        self.html_str += "\n</body>\n</html>"
+
+        return self.html_str
+
+    def get_num_of_existing_chapters(self) -> int:
+        i = 1
+
+        while True:
+            try:
+                potential_chapter = self.body[i]
+                if 'chapter' in potential_chapter.tag:
+                    i += 1
+            except:
+                num_of_chapters = i-1
+                break
+
+        return num_of_chapters
+    
+    def get_num_of_chapter_sections(self) -> int:
+        i = 2
+
+        while True:
+            try:
+                potential_section = self.chapter[i]
+                if 'section' in potential_section.tag:
+                    i += 1
+            except:
+                num_of_sections = i-1
+                break
+
+        return num_of_sections
+    
+    def get_num_of_section_articles(self) -> int:
+        i = 1
+
+        while True:
+            try:
+                potential_article = self.chapter_section[i]
+                if 'article' in potential_article.tag:
+                    i += 1
+            except:
+                num_of_articles = i-1
+                break
+
+        return num_of_articles
+    
+    def get_num_of_article_paragraphs(self) -> int:
+        i = 1
+
+        while True:
+            try:
+                potential_paragraph = self.section_article[i]
+                if 'paragraph' in potential_paragraph.tag:
+                    i += 1
+            except:
+                num_of_paragraphs = i-1
+                break
+
+        return num_of_paragraphs
+    
+    def get_num_of_paragraph_points(self) -> int:
+
+        if 'intro' in self.article_paragraph[0].tag:
+            self.r = 1
+        else:
+            self.r = 0
+
+        self.start = self.r
+
+        while True:
+            try:
+                potential_point = self.article_paragraph[self.r]
+                if 'point' in potential_point.tag:
+                    self.r += 1
+                elif 'content' in potential_point.tag:
+                    self.r = 0
+                    raise IndexError
+            except:
+                num_of_points = self.r
+                break
+
+        return num_of_points
 
     def clean_whole_text(self, tag_element) -> str:
 
@@ -79,9 +231,9 @@ class DocumentParserService:
         else:
             self.html_str += "\n\t</p>\n"
     
-    def get_parsed_judgment(self) -> str:
+    def get_parsed_judgement(self) -> str:
         
-        root = self.load_document()
+        root = self.load_document_judgement()
 
         author = root[0][0][0][0][0].text.strip()
         date = root[0][0][0][0][1].text.strip()
@@ -103,3 +255,6 @@ class DocumentParserService:
 
         return self.html_str
     
+parser = DocumentParserService('zakon_o_sprecavanju_zloupotrebi_droga')
+htmlString = parser.get_parsed_law()
+print(htmlString)
