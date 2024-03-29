@@ -102,7 +102,7 @@ class DocumentParserService:
         
         root = self.load_document_law()
 
-        self.html_str = "<!DOCTYPE html>\n<html lang='en'>\n<head>\n\t<meta charset='UTF-8'>\n\t<meta name='viewport' content='width=device-width, initial-scale=1.0'>\n\t<title>XML to HTML</title>\n</head>\n<body>\n"
+        self.html_str = f"<!DOCTYPE html>\n<html lang='en'>\n<head>\n\t<meta charset='UTF-8'>\n\t<meta name='viewport' content='width=device-width, initial-scale=1.0'>\n\t<title>{self.document_name[1:]}</title>\n</head>\n<body>\n"
         
         # headings
         title_name = root[0].attrib['name']
@@ -142,9 +142,9 @@ class DocumentParserService:
                     section_article_num = self.section_article[0].text.strip()
                     num_of_article_paragraphs = self.get_num_of_article_paragraphs()
                     key = self.section_article.attrib["eId"]
-                    section_article_id = f'/#{key}'
+                    section_article_id = f'?legal_document_name={self.document_name}#{key}'
 
-                    self.html_str += f"\t<h5><a href={section_article_id}, id={section_article_id}>{section_article_num}</a></h5>\n"
+                    self.html_str += f"\t<h5><a href={section_article_id} id={key} target='_blank'>{section_article_num}</a></h5>\n"
 
                     for z in range(1, num_of_article_paragraphs):
 
@@ -211,14 +211,14 @@ class DocumentParserService:
                     cleaned_text = cleaned_text.replace(cleaned_element_text, '', 1)
                     if 'ref' in element.tag and any(keyword in element.attrib.get('href', '') for keyword in self.keywords):
                         href = element.attrib.get('href', '')
-                        self.html_str += f"<a href='{href}', id='{href}'>{element.text.strip()}</a>"
+                        self.html_str += f"<a href='law?legal_document_name={href[1:]}' id='{href}' target='_blank'>{element.text.strip()}</a>"
                     else:
                         self.html_str += element.text.strip() if element.text.strip() else ''
                 elif cleaned_text.find(cleaned_element_text) != -1:
                     undefined_text = cleaned_text[:cleaned_text.find(cleaned_element_text)]
                     if 'ref' in element.tag and any(keyword in element.attrib.get('href', '') for keyword in self.keywords):
                         href = element.attrib.get('href', '')
-                        a_element_text = f"<a href='{href}', id='{href}'>{element.text.strip()}</a>"
+                        a_element_text = f"<a href='law?legal_document_name={href[1:]}' id='{href}' target='_blank'>{element.text.strip()}</a>"
                         self.html_str += undefined_text + a_element_text
                     else:
                         self.html_str += undefined_text + cleaned_element_text
@@ -243,7 +243,7 @@ class DocumentParserService:
         conclusions = judgement_body[1]
         self.p_tag_conclusions = conclusions[0]
 
-        self.html_str = "<!DOCTYPE html>\n<html lang='en'>\n<head>\n\t<meta charset='UTF-8'>\n\t<meta name='viewport' content='width=device-width, initial-scale=1.0'>\n\t<title>XML to HTML</title>\n</head>\n<body>\n"
+        self.html_str = f"<!DOCTYPE html>\n<html lang='en'>\n<head>\n\t<meta charset='UTF-8'>\n\t<meta name='viewport' content='width=device-width, initial-scale=1.0'>\n\t<title>{self.document_name}</title>\n</head>\n<body>\n"
         self.html_str += f"\t<h1>{author}</h1>\n"
         self.html_str += f"\t<h2>{name}</h2>\n"
         self.html_str += f"\t<h3>{date}</h3>\n"
