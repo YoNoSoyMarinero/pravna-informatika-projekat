@@ -6,7 +6,7 @@ class LegalDocumentsController:
         self.parser = DocumentParserService(legal_document)
 
     def get_judgment(self):
-        return self.parser.get_parsed_judgment()
+        return self.parser.get_parsed_judgement()
     
     def get_law(self):
         return self.parser.get_parsed_law()

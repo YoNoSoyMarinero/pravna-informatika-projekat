@@ -1,25 +1,17 @@
 import { React, useState } from "react";
 import { Container, Form, Button } from "react-bootstrap";
 
-export const CaseBasedPage = () => {
+export const RuleBasedPage = () => {
   const [formData, setFormData] = useState({
-    convicted: false,
-    self_usage: false,
+    drug_posession: false,
+    allowing_usage: false,
     marginalized_group: false,
     providing_logistics: false,
-    married: false,
+    drug_trafficking: false,
     smuggling: false,
     organized_group: false,
-    trafficking: false,
-    snitched: false,
-    admited: false,
-    great_amount_without_trafficking: false,
-    small_amount_without_trafficking: false,
-    allowed_usage: false,
-    has_children: false,
-    amount_of_cocaine: 0,
-    amount_of_heroine: 0,
-    amount_of_marijuana: 0,
+    article_52_violation: false,
+    estimated_drug_price: 0
   });
   const [showPenalties, setShowPenalties] = useState("none");
   const [penalties, setPeanlties] = useState([]);
@@ -30,7 +22,7 @@ export const CaseBasedPage = () => {
     let headers = new Headers();
     headers.append("Content-type", "application/json");
     console.log(formData);
-    fetch("http://localhost:5000/case_based_reasoning", {
+    fetch("http://localhost:5000/rule_based_reasoning", {
       method: "POST",
       headers: headers,
       body: JSON.stringify(formData),
@@ -39,6 +31,12 @@ export const CaseBasedPage = () => {
         return response.json();
       })
       .then((data) => {
+        const penalties = Array.from({ length: data.max_pen.length }, (_, i) => ({
+            max_pen: data.max_pen[i],
+            min_pen: data.min_pen[i],
+            offenses: data.offenses[i]
+           }));
+        console.log(penalties)
         setPeanlties(data.similar_cases);
       })
       .catch((e) => {
@@ -71,12 +69,12 @@ export const CaseBasedPage = () => {
         }}
         onClick={() => setShowPenalties("none")}
       >
-        <h4>Најсличнији случајеви Вашем</h4>
+        <h4>Kривична дела и казне за изнето чињенично стање</h4>
         <h6>Кликни те овде да изађете</h6>
         {penalties.map((penalty) => (
           <p style={{ color: "green" }}>
-            ИД случаја: {penalty.case_id} Сличност: {penalty.case_similarity}{" "}
-            Казна: {penalty.case_punishments} месеци
+            Кривично дело: {penalty.offenses} Минмална казна: {penalty.min_pen}{" "} месеци
+            Максимална казна: {penalty.max_pen} месеци
           </p>
         ))}
       </div>
@@ -95,14 +93,14 @@ export const CaseBasedPage = () => {
           }}
         >
           <h1>Oдлучивање на основу праксе</h1>
-          <Form.Group controlId="convicted">
+          <Form.Group controlId="drug_posession">
             <Form.Check
               type="checkbox"
               label="Осуђиван"
               onChange={handleChange}
             />
           </Form.Group>
-          <Form.Group controlId="self_usage">
+          <Form.Group controlId="allowing_usage">
             <Form.Check
               type="checkbox"
               label="Властита употреба"
@@ -123,7 +121,7 @@ export const CaseBasedPage = () => {
               onChange={handleChange}
             />
           </Form.Group>
-          <Form.Group controlId="married">
+          <Form.Group controlId="drug_trafficking">
             <Form.Check
               type="checkbox"
               label="Ожењен"
@@ -144,76 +142,18 @@ export const CaseBasedPage = () => {
               onChange={handleChange}
             />
           </Form.Group>
-          <Form.Group controlId="trafficking">
+          <Form.Group controlId="article_52_violation">
             <Form.Check
               type="checkbox"
-              label="Стављање у промет"
+              label="Прекршен неки од прописа из закона о злоупотреби дрога члан 52"
               onChange={handleChange}
             />
           </Form.Group>
-          <Form.Group controlId="snitched">
-            <Form.Check
-              type="checkbox"
-              label="Дао информације о групи"
-              onChange={handleChange}
-            />
-          </Form.Group>
-          <Form.Group controlId="admited">
-            <Form.Check
-              type="checkbox"
-              label="Признао кривично дело"
-              onChange={handleChange}
-            />
-          </Form.Group>
-          <Form.Group controlId="great_amount_without_trafficking">
-            <Form.Check
-              type="checkbox"
-              label="Поседовао малу количину без стављања у промет"
-              onChange={handleChange}
-            />
-          </Form.Group>
-          <Form.Group controlId="small_amount_without_trafficking">
-            <Form.Check
-              type="checkbox"
-              label="Поседовао велику количину без стављања у промет"
-              onChange={handleChange}
-            />
-          </Form.Group>
-          <Form.Group controlId="allowed_usage">
-            <Form.Check
-              type="checkbox"
-              label="Омогућио уживање"
-              onChange={handleChange}
-            />
-          </Form.Group>
-          <Form.Group controlId="has_children">
-            <Form.Check
-              type="checkbox"
-              label="Окривљени има децу"
-              onChange={handleChange}
-            />
-          </Form.Group>
-          <Form.Group controlId="amount_of_cocaine">
-            <Form.Label>Koличина кокаина у грамима</Form.Label>
+          <Form.Group controlId="estimated_drug_price">
+            <Form.Label>Процењена цена дроге у еврима</Form.Label>
             <Form.Control
               type="number"
-              placeholder="Koличина кокаина у грамима"
-              onChange={handleChange}
-            />
-          </Form.Group>
-          <Form.Group controlId="amount_of_heroine">
-            <Form.Label>Количина хероина у грамима</Form.Label>
-            <Form.Control
-              type="number"
-              placeholder="Количина хероина у грамима"
-              onChange={handleChange}
-            />
-          </Form.Group>
-          <Form.Group controlId="amount_of_marijuana">
-            <Form.Label>Количина марихуане у грамима</Form.Label>
-            <Form.Control
-              type="number"
-              placeholder="Количина марихуане у грамима"
+              placeholder="Процењена цена дроге у еврима"
               onChange={handleChange}
             />
           </Form.Group>
@@ -234,4 +174,4 @@ export const CaseBasedPage = () => {
   );
 };
 
-export default CaseBasedPage;
+export default RuleBasedPage;
