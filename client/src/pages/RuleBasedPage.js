@@ -11,7 +11,7 @@ export const RuleBasedPage = () => {
     smuggling: false,
     organized_group: false,
     article_52_violation: false,
-    estimated_drug_price: 0
+    estimated_drug_price: 0,
   });
   const [showPenalties, setShowPenalties] = useState("none");
   const [penalties, setPeanlties] = useState([]);
@@ -31,13 +31,22 @@ export const RuleBasedPage = () => {
         return response.json();
       })
       .then((data) => {
-        const penalties = Array.from({ length: data.max_pen.length }, (_, i) => ({
+        const penalties = Array.from(
+          { length: data.max_pen.length },
+          (_, i) => ({
             max_pen: data.max_pen[i],
             min_pen: data.min_pen[i],
-            offenses: data.offenses[i]
-           }));
-        console.log(penalties)
-        setPeanlties(data.similar_cases);
+            offenses: data.offenses[i],
+          })
+        );
+        if (penalties.length === 0) {
+          penalties[0] = {
+            max_pen: 0,
+            min_pen: 0,
+            offenses: "Оптужени није крив ни за једно кривично дело!",
+          };
+        }
+        setPeanlties(penalties);
       })
       .catch((e) => {
         console.log("Error: ", e);
@@ -48,7 +57,7 @@ export const RuleBasedPage = () => {
     const { id, checked, value } = event.target;
     setFormData((prevData) => ({
       ...prevData,
-      [id]: id.includes("amount_of") ? parseInt(value) : checked,
+      [id]: id.includes("price") ? parseInt(value) : checked,
     }));
   };
 
@@ -73,8 +82,8 @@ export const RuleBasedPage = () => {
         <h6>Кликни те овде да изађете</h6>
         {penalties.map((penalty) => (
           <p style={{ color: "green" }}>
-            Кривично дело: {penalty.offenses} Минмална казна: {penalty.min_pen}{" "} месеци
-            Максимална казна: {penalty.max_pen} месеци
+            Кривично дело: {penalty.offenses} Минмална казна: {penalty.min_pen}{" "}
+            месеци Максимална казна: {penalty.max_pen} месеци
           </p>
         ))}
       </div>
@@ -96,21 +105,21 @@ export const RuleBasedPage = () => {
           <Form.Group controlId="drug_posession">
             <Form.Check
               type="checkbox"
-              label="Осуђиван"
+              label="Поседовање дроге"
               onChange={handleChange}
             />
           </Form.Group>
           <Form.Group controlId="allowing_usage">
             <Form.Check
               type="checkbox"
-              label="Властита употреба"
+              label="Омогућио уживање"
               onChange={handleChange}
             />
           </Form.Group>
           <Form.Group controlId="marginalized_group">
             <Form.Check
               type="checkbox"
-              label="Наводио или продавао угроженим групама"
+              label="Случај укључује и маргинализоване групе"
               onChange={handleChange}
             />
           </Form.Group>
@@ -124,14 +133,14 @@ export const RuleBasedPage = () => {
           <Form.Group controlId="drug_trafficking">
             <Form.Check
               type="checkbox"
-              label="Ожењен"
+              label="Стављање у промет"
               onChange={handleChange}
             />
           </Form.Group>
           <Form.Group controlId="smuggling">
             <Form.Check
               type="checkbox"
-              label="Шверцовао"
+              label="Кријумчарењес"
               onChange={handleChange}
             />
           </Form.Group>
@@ -149,7 +158,10 @@ export const RuleBasedPage = () => {
               onChange={handleChange}
             />
           </Form.Group>
-          <Form.Group controlId="estimated_drug_price">
+          <Form.Group
+            controlId="estimated_drug_price"
+            id="estimated_drug_price"
+          >
             <Form.Label>Процењена цена дроге у еврима</Form.Label>
             <Form.Control
               type="number"

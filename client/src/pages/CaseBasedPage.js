@@ -75,8 +75,16 @@ export const CaseBasedPage = () => {
         <h6>Кликни те овде да изађете</h6>
         {penalties.map((penalty) => (
           <p style={{ color: "green" }}>
-            ИД случаја: {penalty.case_id} Сличност: {penalty.case_similarity}{" "}
-            Казна: {penalty.case_punishments} месеци
+            ИД случаја:
+            <a
+              href={`http://localhost:5000/judgment?legal_document_name=${penalty.case_id}`}
+              target="_blank"
+              rel="noreferrer"
+            >
+              {penalty.case_id}
+            </a>
+            Сличност: {Math.floor(100 * penalty.case_similarity)} % Казна:{" "}
+            {penalty.case_punishments} месеци
           </p>
         ))}
       </div>

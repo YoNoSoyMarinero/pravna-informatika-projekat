@@ -14,7 +14,7 @@
                 <lc:smuggling>no</lc:smuggling>       
                 <lc:organized_group>no</lc:organized_group>
                 <lc:article_52_violation>no</lc:article_52_violation>     
-                <lc:estimated_drug_price rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</lc:estimated_drug_price>
+                <lc:estimated_drug_price rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">100</lc:estimated_drug_price>
             </lc:case>
         </rdf:RDF>
         

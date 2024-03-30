@@ -15,6 +15,13 @@ def get_judgment():
     
     return "Document not found", 404
 
+@legal_document_bp.route('/judgment_name', methods = ['GET'])
+def get_judgment_name():
+   names: list[str] = LegalDocumentsController.get_judgment_names()
+   if len(names) == 0:
+      return "Document not found", 404
+   return jsonify(names), 200
+
 @legal_document_bp.route('/law', methods = ['GET'])
 def get_law():
     legal_document_name = request.args.get('legal_document_name')

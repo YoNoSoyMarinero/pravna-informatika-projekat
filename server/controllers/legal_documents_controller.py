@@ -1,4 +1,5 @@
 from services.document_parser_service import DocumentParserService
+from repository.CaseRepository import CaseRepository
 
 class LegalDocumentsController:
 
@@ -10,3 +11,7 @@ class LegalDocumentsController:
     
     def get_law(self):
         return self.parser.get_parsed_law()
+    
+    @staticmethod
+    def get_judgment_names():
+        return {'legal_document_names': list(CaseRepository().get_names_cases())}

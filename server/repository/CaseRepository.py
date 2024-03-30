@@ -8,3 +8,6 @@ class CaseRepository:
 
     def get_vectorized_cases(self):
         return self.df.values
+
+    def get_names_cases(self):
+        return self.df['Id:']
