@@ -14,7 +14,7 @@ For detailed documentation on the server-side functionality and API endpoints, p
 
 ## Client-Side Documentation
 
-The client-side of the application interacts with the server to retrieve legal documents. For information on how to use the client-side application, please refer to its documentation.
+The client-side of the application interacts with the server to retrieve legal documents. For information on how to use the client-side application, please refer to its documentation.[Client-Side Documentation](client/README.md)
 
 ## Technologies Used
 

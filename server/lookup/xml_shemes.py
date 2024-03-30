@@ -54,10 +54,12 @@ class XMLShemes:
 		</meta>
 		<judgmentBody>
 			<p>
+            Odluka. 
             {}
 			</p>
 			<conclusions>
             <p>
+            Zakljucak. 
             {}
             </p>
 			</conclusions>

@@ -169,3 +169,44 @@ This API endpoint allows users to perform case-based reasoning for legal judgmen
   - `200 OK`: Returns the requested law document.
   - `400 Bad Request`: If the `legal_document_name` parameter is missing.
   - `404 Not Found`: If the requested document is not found.
+
+### Endpoint
+
+#### Get Judgment names
+
+- **URL:** `/judgment_name`
+- **Method:** `GET`
+- **Response:**
+  - `200 OK`: Returns the requested law names.
+
+## Generate judgment
+
+### Endpoint
+
+- `/create_judgment` - Automaticly transfer your input to simplyfied AkomaNtoso format.
+
+### Request Method
+
+- **POST**
+
+### Request Body
+
+#### Parameters
+
+- `court_name`: str (required)
+- `date`: str (required)
+- `title`: str (required)
+- `judgment_body`: str (required)
+- `conclusion`: str (required)
+
+#### Example
+
+```json
+{
+  "court_name": "Court name",
+  "date": "01/01/2002",
+  "title": "Title",
+  "judgment_body": "Judgment body",
+  "conclusion": "Conclusion"
+}
+```
