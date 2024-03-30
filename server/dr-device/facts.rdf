@@ -7,14 +7,14 @@
                 <lc:name>case 01</lc:name>
                 <lc:defendant>John</lc:defendant>
                 <lc:drug_posession>yes</lc:drug_posession>
-                <lc:allowing_usage>no</lc:allowing_usage>        
-                <lc:marginalized_group>no</lc:marginalized_group>       
+                <lc:allowing_usage>yes</lc:allowing_usage>        
+                <lc:marginalized_group>yes</lc:marginalized_group>       
                 <lc:providing_logistics>no</lc:providing_logistics>       
                 <lc:drug_trafficking>no</lc:drug_trafficking>       
                 <lc:smuggling>no</lc:smuggling>       
                 <lc:organized_group>no</lc:organized_group>
                 <lc:article_52_violation>no</lc:article_52_violation>     
-                <lc:estimated_drug_price rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">100</lc:estimated_drug_price>
+                <lc:estimated_drug_price rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">50</lc:estimated_drug_price>
             </lc:case>
         </rdf:RDF>
         

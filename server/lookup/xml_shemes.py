@@ -26,3 +26,42 @@ class XMLShemes:
             'defeasible': 'http://lpis.csd.auth.gr/systems/dr-device/defeasible.rdfs#',
             'export': 'http://startrek.csd.auth.gr/dr-device/export/export.rdf#'
             }
+    
+    judgment_template = """<?xml version="1.0" encoding="UTF-8"?>
+<!-- Akoma_Ntoso document -->
+<akomaNtoso xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://docs.oasis-open.org/legaldocml/ns/akn/3.0/WD17 ../schemas/akomantoso30.xsd " xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0/WD17" xmlns:mods="http://www.loc.gov/standards/mods/v3/mods-3-6.xsd">
+	<judgment>
+		<meta>
+			<identification source="#court">
+				<FRBRWork>
+					<FRBRauthor>
+						{}
+					</FRBRauthor>
+					<FRBRdate date="{}">
+						{}
+					</FRBRdate>
+					<FRBRtitle>
+						{}
+					</FRBRtitle>
+					<FRBRcountry>
+						CG
+					</FRBRcountry>
+				</FRBRWork>
+			</identification>
+			<references>
+				<TLCOrganization eId="vs" href="/ontology/organization/VisiSud.BijeloPolje" showAs="{}" />
+			</references>
+		</meta>
+		<judgmentBody>
+			<p>
+            {}
+			</p>
+			<conclusions>
+            <p>
+            {}
+            </p>
+			</conclusions>
+		</judgmentBody>
+	</judgment>
+</akomaNtoso>
+"""

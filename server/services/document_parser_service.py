@@ -1,4 +1,6 @@
 import xml.etree.ElementTree as ET
+from schemas.JudgmentSchema import Judgment
+from lookup.xml_shemes import XMLShemes
 
 class DocumentParserService:
 
@@ -255,3 +257,14 @@ class DocumentParserService:
 
         return self.html_str
         return self.html_str
+    
+    def create_judgment(judgment: Judgment):
+        return XMLShemes.judgment_template.format(
+            judgment.court_name,
+            judgment.date,
+            judgment.date,
+            judgment.title,
+            judgment.court_name,
+            judgment.judgment_body,
+            judgment.conclusion
+        )

@@ -1,5 +1,5 @@
 import { React, useState } from "react";
-import { Container, Form, Button } from "react-bootstrap";
+import { Container, Form, Button, Spinner } from "react-bootstrap";
 
 export const RuleBasedPage = () => {
   const [formData, setFormData] = useState({
@@ -15,9 +15,11 @@ export const RuleBasedPage = () => {
   });
   const [showPenalties, setShowPenalties] = useState("none");
   const [penalties, setPeanlties] = useState([]);
+  const [loading, setLoading] = useState(false);
 
   const handleSubmit = (event) => {
     event.preventDefault();
+    setLoading(true);
     setShowPenalties("block");
     let headers = new Headers();
     headers.append("Content-type", "application/json");
@@ -47,9 +49,11 @@ export const RuleBasedPage = () => {
           };
         }
         setPeanlties(penalties);
+        setLoading(false);
       })
       .catch((e) => {
         console.log("Error: ", e);
+        setLoading(false);
       });
   };
 
@@ -80,12 +84,17 @@ export const RuleBasedPage = () => {
       >
         <h4>Kривична дела и казне за изнето чињенично стање</h4>
         <h6>Кликни те овде да изађете</h6>
-        {penalties.map((penalty) => (
-          <p style={{ color: "green" }}>
-            Кривично дело: {penalty.offenses} Минмална казна: {penalty.min_pen}{" "}
-            месеци Максимална казна: {penalty.max_pen} месеци
-          </p>
-        ))}
+        {!loading ? (
+          penalties.map((penalty) => (
+            <p style={{ color: "green" }}>
+              Кривично дело: {penalty.offenses} Минмална казна:{" "}
+              {penalty.min_pen} месеци Максимална казна: {penalty.max_pen}{" "}
+              месеци
+            </p>
+          ))
+        ) : (
+          <Spinner />
+        )}
       </div>
       <Container
         style={{ height: "100vh", color: "white" }}

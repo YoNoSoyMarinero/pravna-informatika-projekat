@@ -1,5 +1,6 @@
 from flask import Blueprint, request, Response, jsonify
 from controllers.legal_documents_controller import LegalDocumentsController
+from schemas.JudgmentSchema import JudgmentSchema, Judgment
 
 legal_document_bp: Blueprint = Blueprint('legal_document', __name__)
 
@@ -21,6 +22,18 @@ def get_judgment_name():
    if len(names) == 0:
       return "Document not found", 404
    return jsonify(names), 200
+
+@legal_document_bp.route('/create_judgment', methods = ['POST'])
+def create_judgment():
+    data: dict = request.get_json()
+    schema: JudgmentSchema = JudgmentSchema()
+    try:
+        judgment: Judgment = schema.load(data)
+        LegalDocumentsController.create_judgment(judgment)
+    except:
+        return jsonify({"Error message": "Invalid request body format!"}), 400
+    
+    return jsonify({"message": "Successfully added"}), 200
 
 @legal_document_bp.route('/law', methods = ['GET'])
 def get_law():

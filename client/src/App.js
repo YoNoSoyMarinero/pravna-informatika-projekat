@@ -5,6 +5,7 @@ import { CaseBasedPage } from "./pages/CaseBasedPage.js";
 import { RuleBasedPage } from "./pages/RuleBasedPage.js";
 import { JudgmentPage } from "./pages/JudgmentPage.js";
 import { LawPage } from "./pages/LawPage.js";
+import { GenerateDecisionPage } from "./pages/GenerateDecisionPage.js";
 import "bootstrap/dist/css/bootstrap.min.css";
 
 function App() {
@@ -18,6 +19,7 @@ function App() {
           <Route element={<CaseBasedPage />} path="/case-based" />
           <Route element={<JudgmentPage />} path="/judgments" />
           <Route element={<LawPage />} path="/laws" />
+          <Route element={<GenerateDecisionPage />} path="/generate_decision" />
         </Routes>
       </BrowserRouter>
     </div>

@@ -1,5 +1,5 @@
 import { React, useState } from "react";
-import { Container, Form, Button } from "react-bootstrap";
+import { Container, Form, Button, Spinner } from "react-bootstrap";
 
 export const CaseBasedPage = () => {
   const [formData, setFormData] = useState({
@@ -23,9 +23,11 @@ export const CaseBasedPage = () => {
   });
   const [showPenalties, setShowPenalties] = useState("none");
   const [penalties, setPeanlties] = useState([]);
+  const [loading, setLoading] = useState(false);
 
   const handleSubmit = (event) => {
     event.preventDefault();
+    setLoading(true);
     setShowPenalties("block");
     let headers = new Headers();
     headers.append("Content-type", "application/json");
@@ -40,9 +42,11 @@ export const CaseBasedPage = () => {
       })
       .then((data) => {
         setPeanlties(data.similar_cases);
+        setLoading(false);
       })
       .catch((e) => {
         console.log("Error: ", e);
+        setLoading(false);
       });
   };
 
@@ -73,20 +77,24 @@ export const CaseBasedPage = () => {
       >
         <h4>Најсличнији случајеви Вашем</h4>
         <h6>Кликни те овде да изађете</h6>
-        {penalties.map((penalty) => (
-          <p style={{ color: "green" }}>
-            ИД случаја:
-            <a
-              href={`http://localhost:5000/judgment?legal_document_name=${penalty.case_id}`}
-              target="_blank"
-              rel="noreferrer"
-            >
-              {penalty.case_id}
-            </a>
-            Сличност: {Math.floor(100 * penalty.case_similarity)} % Казна:{" "}
-            {penalty.case_punishments} месеци
-          </p>
-        ))}
+        {!loading ? (
+          penalties.map((penalty) => (
+            <p style={{ color: "green" }}>
+              ИД случаја:
+              <a
+                href={`http://localhost:5000/judgment?legal_document_name=${penalty.case_id}`}
+                target="_blank"
+                rel="noreferrer"
+              >
+                {penalty.case_id}
+              </a>
+              Сличност: {Math.floor(100 * penalty.case_similarity)} % Казна:{" "}
+              {penalty.case_punishments} месеци
+            </p>
+          ))
+        ) : (
+          <Spinner />
+        )}
       </div>
       <Container
         style={{ height: "100vh", color: "white" }}

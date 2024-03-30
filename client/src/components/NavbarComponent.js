@@ -1,10 +1,10 @@
-import Container from 'react-bootstrap/Container';
-import Nav from 'react-bootstrap/Nav';
-import Navbar from 'react-bootstrap/Navbar';
+import Container from "react-bootstrap/Container";
+import Nav from "react-bootstrap/Nav";
+import Navbar from "react-bootstrap/Navbar";
 import React from "react";
 
 export const NavbarComponent = () => {
-  return(
+  return (
     <>
       <Navbar bg="dark" data-bs-theme="dark">
         <Container>
@@ -14,12 +14,12 @@ export const NavbarComponent = () => {
             <Nav.Link href="case-based">Одлучивање на основу праксе</Nav.Link>
             <Nav.Link href="judgments">Пресуде</Nav.Link>
             <Nav.Link href="laws">Закони</Nav.Link>
+            <Nav.Link href="generate_decision">Генерисање одлуке</Nav.Link>
           </Nav>
         </Container>
       </Navbar>
     </>
-  )
-}
+  );
+};
 
 export default NavbarComponent;
-
